@@ -11,6 +11,7 @@
 #include <rtdevice.h>
 #include "linesensor.h"
 #include "hal_adc.h"
+#include "huaweiCloudApp.h"  /* global ADC variables for cloud upload */
 
 #define DBG_TAG "LineSensor"
 #define DBG_LVL DBG_LOG
@@ -28,14 +29,21 @@ static void adc_read_thread_entry(void *parameter)
 
     while (1)
     {
-        /* 使用 HAL 直接读取所有5个通道的ADC值 */
+        /* 使用 HAL 直接读取全部5个通道的ADC值 */
         adc_ch0 = ADC1_Read_Channel0();
         adc_ch1 = ADC1_Read_Channel1();
         adc_ch3 = ADC1_Read_Channel3();
         adc_ch4 = ADC1_Read_Channel4();
         adc_ch5 = ADC1_Read_Channel5();
 
-        /* 串口输出ADC信息 */
+        /* Update global variables for cloud upload */
+        g_adc_ch0 = adc_ch0;
+        g_adc_ch1 = adc_ch1;
+        g_adc_ch3 = adc_ch3;
+        g_adc_ch4 = adc_ch4;
+        g_adc_ch5 = adc_ch5;
+
+        /* 打印所有ADC信息 */
         rt_kprintf("ADC CH0: %u  CH1: %u  CH3: %u  CH4: %u  CH5: %u\r\n",
                    (unsigned int)adc_ch0,
                    (unsigned int)adc_ch1,
@@ -51,7 +59,7 @@ static void adc_read_thread_entry(void *parameter)
 }
 
 /**
- * @brief 初始化ADC1并启动读取线程
+ * @brief 初始化ADC1并创建读取线程
  *
  * @return rt_err_t RT_EOK表示成功，其他值表示失败
  */

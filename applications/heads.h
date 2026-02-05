@@ -26,5 +26,6 @@
 #include "MethaneSensorApp.h"
 #include "NodeApp.h"
 #include "linesensor.h"
+#include "huaweiCloudApp.h"
 
 #endif /* APPLICATIONS_HEADS_H_ */
