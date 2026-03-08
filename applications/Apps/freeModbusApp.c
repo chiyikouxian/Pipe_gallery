@@ -48,6 +48,7 @@ static float registers_to_float(uint16_t reg1, uint16_t reg2)
 /* 电表请求报文 电压:49 03 01 00 00 06 CB BC */
 /* 电表请求报文 电流:49 03 01 0E 00 06 AA 7F */
 /* 水表请求报文 流量:01 03 00 01 00 02 95 CB */
+//(水表信号线 棕线A 蓝线B)
 
 void send_thread_entry(void *parameter)
 {

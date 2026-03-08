@@ -23,8 +23,8 @@
 
 
 /* WiFi config */
-#define HW_WIFI_SSID           "CMCC-Vm3m"
-#define HW_WIFI_PASSWORD       "w3wegscf"
+#define HW_WIFI_SSID           "cdut-yb"
+#define HW_WIFI_PASSWORD       "cdutyb218"
 
 /* MQTT server config */
 #define HW_MQTT_HOST           "c8496a111b.st1.iotda-device.cn-east-3.myhuaweicloud.com"
@@ -53,6 +53,15 @@ extern rt_uint32_t g_adc_ch1;   /* ADC channel 1 value */
 extern rt_uint32_t g_adc_ch3;   /* ADC channel 3 value */
 extern rt_uint32_t g_adc_ch4;   /* ADC channel 4 value */
 extern rt_uint32_t g_adc_ch5;   /* ADC channel 5 value */
+
+/* Methane sensor data - updated by MethaneSensorApp.c */
+extern rt_uint16_t g_methane_ppm;   /* Methane concentration (ppm) */
+extern rt_uint8_t  g_methane_lel;   /* Lower explosive limit (LEL%) */
+
+/* Modbus sensor data - updated by freeModbusApp.c */
+extern float Voltage[3];   /* 3-phase voltage (V) */
+extern float Current[3];   /* 3-phase current (A) */
+extern float Flow;          /* Water flow (m3/h) */
 
 /*============================================================================
  * Function declarations

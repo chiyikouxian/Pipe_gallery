@@ -29,12 +29,25 @@ rt_uint32_t g_adc_ch5 = 0;
  * Private variables
  *============================================================================*/
 static rt_uint8_t cloud_task_step = 0;      /* current task step */
-static char at_cmd_buf[600];                /* AT command buffer */
-static char json_buf[256];                  /* JSON data buffer */
+static char at_cmd_buf[256];                /* AT command buffer */
+static char json_buf[600];                  /* JSON data buffer */
 
 /*============================================================================
  * Private functions
  *============================================================================*/
+
+/**
+ * @brief Append a float value as "key":int.dec to buf (2 decimal places)
+ *        RT-Thread rt_snprintf does not support %f, so we format manually.
+ * @return number of chars written
+ */
+static int append_float_field(char *buf, int buf_size, const char *key, float val)
+{
+    int int_part = (int)val;
+    int dec_part = (int)((val - int_part) * 100);
+    if (dec_part < 0) dec_part = -dec_part;
+    return rt_snprintf(buf, buf_size, "\"%s\":%d.%02d", key, int_part, dec_part);
+}
 
 /**
  * @brief Send AT command and wait for response
@@ -341,46 +354,87 @@ void huawei_cloud_thread_entry(void *parameter)
             }
             break;
 
-        case 7:  /* Report ADC data */
-            /* Build AT+MQTTPUB command with properly escaped JSON */
-            /* ESP8266 AT requires: \" for quotes, \, for commas inside the data field */
-            rt_snprintf(at_cmd_buf, sizeof(at_cmd_buf),
-                "AT+MQTTPUB=0,\"%s\","
-                "\"{\\\"services\\\":[{\\\"service_id\\\":\\\"%s\\\"\\,"
-                "\\\"properties\\\":{\\\"ch0\\\":%u\\,"
-                "\\\"ch1\\\":%u\\,"
-                "\\\"ch3\\\":%u\\,"
-                "\\\"ch4\\\":%u\\,"
-                "\\\"ch5\\\":%u}}]}\",0,0",
-                HW_MQTT_TOPIC_REPORT,
+        case 7:  /* Report all sensor data using MQTTPUBRAW */
+        {
+            int json_len;
+            int pos;
+
+            /* Step 1: Build plain JSON with all sensor data */
+            pos = rt_snprintf(json_buf, sizeof(json_buf),
+                "{\"services\":[{\"service_id\":\"%s\","
+                "\"properties\":{"
+                "\"ch0\":%u,\"ch1\":%u,\"ch3\":%u,\"ch4\":%u,\"ch5\":%u,"
+                "\"methane_ppm\":%u,\"methane_lel\":%u,",
                 SERVICE_ID_ADC,
                 (unsigned int)g_adc_ch0,
                 (unsigned int)g_adc_ch1,
                 (unsigned int)g_adc_ch3,
                 (unsigned int)g_adc_ch4,
-                (unsigned int)g_adc_ch5);
+                (unsigned int)g_adc_ch5,
+                (unsigned int)g_methane_ppm,
+                (unsigned int)g_methane_lel);
 
-            if (send_at_cmd(at_cmd_buf, "OK", 5000))
+            /* Append float fields (voltage, current, flow) */
+            pos += append_float_field(json_buf + pos, sizeof(json_buf) - pos, "voltage_a", Voltage[0]);
+            pos += rt_snprintf(json_buf + pos, sizeof(json_buf) - pos, ",");
+            pos += append_float_field(json_buf + pos, sizeof(json_buf) - pos, "voltage_b", Voltage[1]);
+            pos += rt_snprintf(json_buf + pos, sizeof(json_buf) - pos, ",");
+            pos += append_float_field(json_buf + pos, sizeof(json_buf) - pos, "voltage_c", Voltage[2]);
+            pos += rt_snprintf(json_buf + pos, sizeof(json_buf) - pos, ",");
+            pos += append_float_field(json_buf + pos, sizeof(json_buf) - pos, "current_a", Current[0]);
+            pos += rt_snprintf(json_buf + pos, sizeof(json_buf) - pos, ",");
+            pos += append_float_field(json_buf + pos, sizeof(json_buf) - pos, "current_b", Current[1]);
+            pos += rt_snprintf(json_buf + pos, sizeof(json_buf) - pos, ",");
+            pos += append_float_field(json_buf + pos, sizeof(json_buf) - pos, "current_c", Current[2]);
+            pos += rt_snprintf(json_buf + pos, sizeof(json_buf) - pos, ",");
+            pos += append_float_field(json_buf + pos, sizeof(json_buf) - pos, "flow", Flow);
+
+            /* Close JSON */
+            pos += rt_snprintf(json_buf + pos, sizeof(json_buf) - pos, "}}]}");
+            json_len = pos;
+
+            /* Step 2: Send AT+MQTTPUBRAW=0,topic,length,0,0 */
+            rt_snprintf(at_cmd_buf, sizeof(at_cmd_buf),
+                "AT+MQTTPUBRAW=0,\"%s\",%d,0,0",
+                HW_MQTT_TOPIC_REPORT, json_len);
+
+            uart4_buffer_clear();
+            uart4_send(at_cmd_buf);
+            uart4_send("\r\n");
+
+            /* Step 3: Wait for '>' prompt, then send raw JSON data */
+            if (wait_response(">", 3000))
             {
-                LOG_I("Data reported: ch0=%u, ch1=%u, ch3=%u, ch4=%u, ch5=%u",
-                    (unsigned int)g_adc_ch0, (unsigned int)g_adc_ch1,
-                    (unsigned int)g_adc_ch3, (unsigned int)g_adc_ch4,
-                    (unsigned int)g_adc_ch5);
+                uart4_send(json_buf);
+
+                if (wait_response("+MQTTPUB:OK", 5000))
+                {
+                    LOG_I("All data reported OK (json_len=%d)", json_len);
+                }
+                else
+                {
+                    LOG_W("MQTTPUBRAW publish timeout.");
+                    if (strstr(uart4_recived_data, "MQTTDISCONNECTED") != RT_NULL)
+                    {
+                        LOG_E("MQTT disconnected! Reconnecting...");
+                        cloud_task_step = 3;
+                    }
+                }
             }
             else
             {
-                LOG_W("Data report failed, checking connection...");
-                /* Check if disconnected */
+                LOG_E("MQTTPUBRAW no '>' prompt, checking connection...");
                 if (strstr(uart4_recived_data, "MQTTDISCONNECTED") != RT_NULL)
                 {
                     LOG_E("MQTT disconnected! Reconnecting...");
-                    cloud_task_step = 3;  /* Reconnect */
+                    cloud_task_step = 3;
                 }
             }
 
             /* Wait for report interval */
             rt_thread_mdelay(CLOUD_REPORT_INTERVAL);
             break;
+        }
 
         default:
             cloud_task_step = 0;

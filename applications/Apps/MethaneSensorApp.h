@@ -12,7 +12,10 @@
 
 #include "heads.h"
 
-extern float Methane;           //¼×ÍéÅ¨¶È
+extern float Methane;           //ï¿½ï¿½ï¿½ï¿½Å¨ï¿½ï¿½
+
+extern rt_uint16_t g_methane_ppm;   /* methane ppm for cloud report */
+extern rt_uint8_t  g_methane_lel;   /* methane LEL% for cloud report */
 
 rt_err_t uart2_receive_and_print(rt_int32_t timeout);
 
