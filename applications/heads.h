@@ -27,5 +27,6 @@
 #include "NodeApp.h"
 #include "linesensor.h"
 #include "huaweiCloudApp.h"
+#include "loraApp.h"
 
 #endif /* APPLICATIONS_HEADS_H_ */

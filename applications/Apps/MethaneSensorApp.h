@@ -12,7 +12,7 @@
 
 #include "heads.h"
 
-extern float Methane;           //����Ũ��
+extern float Methane;           /* methane concentration */
 
 extern rt_uint16_t g_methane_ppm;   /* methane ppm for cloud report */
 extern rt_uint8_t  g_methane_lel;   /* methane LEL% for cloud report */

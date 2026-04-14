@@ -10,45 +10,44 @@
 
 #include "freeModbusApp.h"
 
-// 全局变量定义
-float Voltage[3] = {0};     // 三相电压
-float Current[3] = {0};     // 三相电流
-float Flow = 0;             // 流量
+/* global variables */
+float Voltage[3] = {0};     /* three-phase voltage */
+float Current[3] = {0};     /* three-phase current */
+float Flow = 0;             /* water flow */
 
 /**
- * @brief 将两个16位寄存器转换为IEEE 754单精度浮点数
+ * @brief Convert two 16-bit registers to an IEEE 754 float
  *
- * @param reg1 高16位寄存器值
- * @param reg2 低16位寄存器值
- * @return float 转换后的浮点数
+ * @param reg1 high 16-bit register value
+ * @param reg2 low 16-bit register value
+ * @return float converted float value
  *
- * 转换步骤：
- * 1. 将reg2作16位无符号化处理
- * 2. 将reg1左移16位与reg2低位合并，得到32位整数
- * 3. 将该整数按IEEE 754格式解释为浮点数
+ * Conversion steps:
+ * 1. treat reg2 as unsigned 16-bit value
+ * 2. combine reg1 as high 16 bits and reg2 as low 16 bits into one 32-bit value
+ * 3. reinterpret the 32-bit bit pattern as IEEE 754 float
  */
 static float registers_to_float(uint16_t reg1, uint16_t reg2)
 {
     uint32_t combined;
     float result;
 
-    // 步骤1：reg2无符号化处理
+    /* step 1: make reg2 unsigned */
     uint16_t reg2_unsigned = reg2 & 0xFFFF;
 
-    // 步骤2：合并成32位整数（大端序：高位在前）
+    /* step 2: combine into one 32-bit value, high word first */
     combined = ((uint32_t)reg1 << 16) | reg2_unsigned;
 
-    // 步骤3：将32位整数按位模式直接解释为IEEE 754浮点数
+    /* step 3: reinterpret as IEEE 754 float */
     memcpy(&result, &combined, sizeof(float));
 
     return result;
 }
 
-
-/* 电表请求报文 电压:49 03 01 00 00 06 CB BC */
-/* 电表请求报文 电流:49 03 01 0E 00 06 AA 7F */
-/* 水表请求报文 流量:01 03 00 01 00 02 95 CB */
-//(水表信号线 棕线A 蓝线B)
+/* Ammeter voltage query: 49 03 01 00 00 06 CB BC */
+/* Ammeter current query: 49 03 01 0E 00 06 AA 7F */
+/* Water meter flow query: 01 03 00 01 00 02 95 CB */
+/* (water meter signal line: A and B) */
 
 void send_thread_entry(void *parameter)
 {
@@ -57,7 +56,7 @@ void send_thread_entry(void *parameter)
 
     while (1)
     {
-        /* ==================== 读取水表流量 ==================== */
+        /* ==================== Read water meter flow ==================== */
         error_code = eMBMasterReqReadHoldingRegister(WATERMETER_SLAVE_ADDR,
                                                     FLOW_REG_START,
                                                     FLOW_REG_NUM,
@@ -65,14 +64,14 @@ void send_thread_entry(void *parameter)
 
         if (error_code == MB_MRE_NO_ERR)
         {
-            // 从缓冲区读取寄存器值（注意：从站地址1对应数组索引0）
+            /* read registers from buffer: slave address 1 corresponds to buffer index 0 */
             reg_high = usMRegHoldBuf[WATERMETER_SLAVE_ADDR - 1][FLOW_REG_START];
             reg_low  = usMRegHoldBuf[WATERMETER_SLAVE_ADDR - 1][FLOW_REG_START + 1];
 
-            // 转换为浮点数
+            /* convert to float */
             Flow = registers_to_float(reg_high, reg_low);
 
-            // 更新节点数据
+            /* update node data */
             node[0].Flow = Flow;
 
             int flow_int = (int)Flow;
@@ -88,7 +87,7 @@ void send_thread_entry(void *parameter)
 
         rt_thread_mdelay(500);
 
-        /* ==================== 读取电表电压 ==================== */
+        /* ==================== Read ammeter voltage ==================== */
         error_code = eMBMasterReqReadHoldingRegister(AMMETER_SLAVE_ADDR,
                                                     VOLTAGE_REG_START,
                                                     VOLTAGE_REG_NUM,
@@ -96,10 +95,7 @@ void send_thread_entry(void *parameter)
 
         if (error_code == MB_MRE_NO_ERR)
         {
-            // 注意：从站地址73需要确保缓冲区数组范围足够
-            // MB_MASTER_TOTAL_SLAVE_NUM 默认是16，需要修改或使用额外处理
-            // 此处假设已经修改为MB_MASTER_TOTAL_SLAVE_NUM >= 73
-
+            /* slave address 73 requires MB_MASTER_TOTAL_SLAVE_NUM >= 73 */
             for (int i = 0; i < 3; i++)
             {
                 reg_high = usMRegHoldBuf[AMMETER_SLAVE_ADDR - 1][VOLTAGE_REG_START + i * 2];
@@ -123,7 +119,7 @@ void send_thread_entry(void *parameter)
 
         rt_thread_mdelay(500);
 
-        /* ==================== 读取电表电流 ==================== */
+        /* ==================== Read ammeter current ==================== */
         error_code = eMBMasterReqReadHoldingRegister(AMMETER_SLAVE_ADDR,
                                                     CURRENT_REG_START,
                                                     CURRENT_REG_NUM,
@@ -147,7 +143,7 @@ void send_thread_entry(void *parameter)
                            CURRENT_REG_START + i*2 + 1, reg_low);
             }
 
-            // 更新节点数据（将电流值拷贝到node结构体的CH1_A字段）
+            /* update node current field */
             memcpy(node[0].CH1_A, Current, sizeof(Current));
         }
         else
@@ -155,7 +151,7 @@ void send_thread_entry(void *parameter)
             rt_kprintf("[Ammeter Current] Error: %d\n", error_code);
         }
 
-        rt_kprintf("\n");  // 打印空行分隔
+        rt_kprintf("\n");  /* print separator line */
         rt_thread_mdelay(500);
     }
 }
