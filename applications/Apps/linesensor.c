@@ -22,7 +22,13 @@
  *
  * @param parameter 线程参数（未使用）
  */
-/* 引脚配置参考linesensor.h */
+/* Five-channel flame sensor analog output mapping:
+ * A1 -> PA0_C
+ * A2 -> PA1_C
+ * A3 -> PA6
+ * A4 -> PC4
+ * A5 -> PB1
+ */
 static void adc_read_thread_entry(void *parameter)
 {
     rt_uint32_t adc_ch0, adc_ch1, adc_ch3, adc_ch4, adc_ch5;
@@ -43,8 +49,8 @@ static void adc_read_thread_entry(void *parameter)
         g_adc_ch4 = adc_ch4;
         g_adc_ch5 = adc_ch5;
 
-        /* 打印所有ADC信息 */
-        rt_kprintf("ADC CH0: %u  CH1: %u  CH3: %u  CH4: %u  CH5: %u\r\n",
+        /* Print all five flame sensor analog channels */
+        rt_kprintf("Flame A1(PA0_C): %u  A2(PA1_C): %u  A3(PA6): %u  A4(PC4): %u  A5(PB1): %u\r\n",
                    (unsigned int)adc_ch0,
                    (unsigned int)adc_ch1,
                    (unsigned int)adc_ch3,
@@ -81,7 +87,7 @@ rt_err_t line_sensor_init(void)
     if (adc_thread != RT_NULL)
     {
         rt_thread_startup(adc_thread);
-        LOG_I("ADC read thread started (5 channels, HAL mode).");
+        LOG_I("Five-channel flame sensor ADC read thread started (A1-A5, HAL mode).");
     }
     else
     {

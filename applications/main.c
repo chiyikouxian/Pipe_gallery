@@ -14,6 +14,7 @@
 #include "linesensor.h"
 #include "huaweiCloudApp.h"
 #include "loraApp.h"
+#include "sht30App.h"
 #include <rtdbg.h>
 
 #define DBG_TAG "main"
@@ -26,7 +27,7 @@ static void uart2_receive_thread_entry(void *parameter)
 }
 
 /* Gas sensor: 3.3V power, USART2 */
-/* Line sensor: 5V power, ADC */
+/* Five-channel flame sensor: analog outputs A1-A5, ADC */
 /* MODBUS: fixed data frame (CRC cannot be changed), USART3 as signal bus */
 
 int main(void)
@@ -36,7 +37,7 @@ int main(void)
      * UART2 (PA2/PA3)    - Gas sensor (19200 baud)
      * UART3 (PB10/PB11)  - MODBUS RTU master (9600 baud, water meter + ammeter)
      * UART4 (PA11/PA12)  - ESP8266 WiFi module (115200 baud)
-     * UART5 (PD2/PD5)    - ATK-LORA-01 LoRa module (115200 baud)
+     * UART5 (PC12/PD2)   - ATK-LORA-01 LoRa module (115200 baud)
      * ============================================================ */
 
     /* UART4 receive thread - for ESP8266 communication */
@@ -83,14 +84,24 @@ int main(void)
         rt_kprintf("Failed to create MODBUS main site thread!\n");
     }
 
-    /* Line sensor ADC init and read thread (5V power) */
+    /* Five-channel flame sensor ADC init and read thread (A1-A5) */
     if (line_sensor_init() != RT_EOK)
     {
-        rt_kprintf("Failed to initialize line sensor ADC!\n");
+        rt_kprintf("Failed to initialize five-channel flame sensor ADC!\n");
     }
     else
     {
-        rt_kprintf("Line sensor ADC initialized successfully.\n");
+        rt_kprintf("Five-channel flame sensor ADC initialized successfully.\n");
+    }
+
+    /* SHT30 temperature/humidity sensor (I2C1: PB6 SCL, PB7 SDA) */
+    if (sht30_init() != RT_EOK)
+    {
+        rt_kprintf("Failed to initialize SHT30 sensor!\n");
+    }
+    else
+    {
+        rt_kprintf("SHT30 sensor initialized successfully.\n");
     }
 
     /* Old WiFi code - replaced by huaweiCloudApp.c */

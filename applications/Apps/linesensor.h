@@ -12,14 +12,16 @@
 
 #include <heads.h>
 
-/* ADC设备名称  */
+/* ADC device name */
 #define ADC1_DEVICE_NAME    "adc1"
 
-//#define ADC_CHANNEL_0        0  /* PA0_C,  ADC12_INP0 */
-//#define ADC_CHANNEL_1        1  /* PA1_C,  ADC12_INP1 */
-//#define ADC_CHANNEL_3        3  /* PA6,    ADC12_INP3 */
-//#define ADC_CHANNEL_4        4  /* PC4,    ADC12_INP4 */
-//#define ADC_CHANNEL_5        5  /* PB1,    ADC12_INP5 */
+/* Five-channel flame sensor analog output mapping:
+ * A1 -> PA0_C (ADC1_INP0)
+ * A2 -> PA1_C (ADC1_INP1)
+ * A3 -> PA6   (ADC1_INP3)
+ * A4 -> PC4   (ADC1_INP4)
+ * A5 -> PB1   (ADC1_INP5)
+ */
 
 extern BOOL Flame;          //火焰传感器 1有火 0无火
 
@@ -30,7 +32,7 @@ rt_uint32_t adc1_read_channel4(void);
 rt_uint32_t adc1_read_channel5(void);
 
 /**
- * @brief 初始化ADC1并启动读取线程
+ * @brief Initialize ADC1 and start the five-channel flame sensor read thread
  *
  * @return rt_err_t RT_EOK表示成功，其他值表示失败
  */

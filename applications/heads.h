@@ -28,5 +28,6 @@
 #include "linesensor.h"
 #include "huaweiCloudApp.h"
 #include "loraApp.h"
+#include "sht30App.h"
 
 #endif /* APPLICATIONS_HEADS_H_ */
