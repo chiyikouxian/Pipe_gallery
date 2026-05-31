@@ -29,5 +29,6 @@
 #include "huaweiCloudApp.h"
 #include "loraApp.h"
 #include "sht30App.h"
+#include "o2SensorApp.h"
 
 #endif /* APPLICATIONS_HEADS_H_ */

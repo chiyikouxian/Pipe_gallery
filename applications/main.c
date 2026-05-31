@@ -15,6 +15,7 @@
 #include "huaweiCloudApp.h"
 #include "loraApp.h"
 #include "sht30App.h"
+#include "o2SensorApp.h"
 #include <rtdbg.h>
 
 #define DBG_TAG "main"
@@ -102,6 +103,16 @@ int main(void)
     else
     {
         rt_kprintf("SHT30 sensor initialized successfully.\n");
+    }
+
+    /* O2 sensor (ADC1 channel 8, PC5) */
+    if (o2_sensor_init() != RT_EOK)
+    {
+        rt_kprintf("Failed to initialize O2 sensor!\n");
+    }
+    else
+    {
+        rt_kprintf("O2 sensor initialized successfully.\n");
     }
 
     /* Old WiFi code - replaced by huaweiCloudApp.c */
