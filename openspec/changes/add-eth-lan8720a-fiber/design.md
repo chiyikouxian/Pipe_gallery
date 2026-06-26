@@ -188,6 +188,8 @@ From `drivers/include/drv_eth.h` (already defined):
 - Verified this point-to-point setup must use static IPv4. Leaving `RT_LWIP_DHCP` enabled caused `e0` to stay at `0.0.0.0` with `DHCP_ENABLE`, which blocked ping and TCP connect.
 - Verified ETH RX path required explicitly enabling `ETH_IRQn` in `HAL_ETH_MspInit()`. Before NVIC enable, ARP entries appeared on the PC and the MCU could transmit, but ping replies and TCP connect failed because RX complete interrupts never fired.
 - Verified final end-to-end behavior on hardware:
+  - Direct copper path `MCU -> Ethernet cable -> PC` succeeds
+  - Fiber path `MCU -> cable -> Converter A -> fiber -> Converter B -> cable -> PC` succeeds
   - PC `ping 192.168.1.30` succeeds
   - MCU `ping 192.168.1.100` succeeds
   - `EthApp` logs `connected to 192.168.1.100:8080`
