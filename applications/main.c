@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2006-2025, RT-Thread Development Team
  *
  * SPDX-License-Identifier: Apache-2.0
@@ -6,7 +6,9 @@
  * Change Logs:
  * Date           Author       Notes
  * 2025-01-13     RT-Thread    first version
+ #include <rtdbg.h>
  * 2026-02-04     ideapad15s   add Huawei Cloud IoT
+ #define DBG_TAG "main"
  * 2026-04-13     ideapad15s   add LoRa ATK-LORA-01
  */
 
@@ -16,9 +18,8 @@
 #include "loraApp.h"
 #include "sht30App.h"
 #include "o2SensorApp.h"
-#include <rtdbg.h>
+#include "ethApp.h"
 
-#define DBG_TAG "main"
 #define DBG_LVL DBG_LOG
 
 static void uart2_receive_thread_entry(void *parameter)
@@ -44,109 +45,45 @@ int main(void)
     /* UART4 receive thread - for ESP8266 communication */
     rt_thread_t uart4_thread = rt_thread_create("uart4_rx", uart4_thread_entry, RT_NULL, 1024, 25, 10);
     if (uart4_thread != RT_NULL)
-    {
         rt_thread_startup(uart4_thread);
-        rt_kprintf("UART4 thread started for ESP8266.\n");
-    }
-    else
-    {
-        rt_kprintf("Failed to create UART4 thread!\n");
-    }
 
     /* Huawei Cloud thread - report sensor data */
-    if (huawei_cloud_init() != RT_EOK)
-    {
-        rt_kprintf("Failed to initialize Huawei Cloud!\n");
-    }
-    else
-    {
-        rt_kprintf("Huawei Cloud initialized successfully.\n");
-    }
+    huawei_cloud_init();
 
     /* MODBUS poll thread (UART3) */
     rt_thread_t tid1 = rt_thread_create("md_m_poll", mb_master_poll, RT_NULL, 512, MB_POLL_THREAD_PRIORITY, 10);
     if (tid1 != RT_NULL)
-    {
         rt_thread_startup(tid1);
-    }
-    else
-    {
-        rt_kprintf("Failed to create MODBUS Looping thread!\n");
-    }
 
     /* MODBUS master send thread (UART3) */
     rt_thread_t tid2 = rt_thread_create("md_m_send", send_thread_entry, RT_NULL, 1024, MB_SEND_THREAD_PRIORITY - 2, 10);
     if (tid2 != RT_NULL)
-    {
         rt_thread_startup(tid2);
-    }
-    else
-    {
-        rt_kprintf("Failed to create MODBUS main site thread!\n");
-    }
 
     /* Five-channel flame sensor ADC init and read thread (A1-A5) */
-    if (line_sensor_init() != RT_EOK)
-    {
-        rt_kprintf("Failed to initialize five-channel flame sensor ADC!\n");
-    }
-    else
-    {
-        rt_kprintf("Five-channel flame sensor ADC initialized successfully.\n");
-    }
+    line_sensor_init();
 
     /* SHT30 temperature/humidity sensor (I2C1: PB6 SCL, PB7 SDA) */
-    if (sht30_init() != RT_EOK)
-    {
-        rt_kprintf("Failed to initialize SHT30 sensor!\n");
-    }
-    else
-    {
-        rt_kprintf("SHT30 sensor initialized successfully.\n");
-    }
+    sht30_init();
 
-    /* O2 sensor (ADC1 channel 8, PC5) */
-    if (o2_sensor_init() != RT_EOK)
-    {
-        rt_kprintf("Failed to initialize O2 sensor!\n");
-    }
-    else
-    {
-        rt_kprintf("O2 sensor initialized successfully.\n");
-    }
+    /* O2 sensor (ADC1 channel 10, PC0) */
+    o2_sensor_init();
 
-    /* Old WiFi code - replaced by huaweiCloudApp.c */
-    /*
-    // rt_thread_t uart4_thread = rt_thread_create("uart4_thread", uart4_thread_entry, RT_NULL, 1024, 25, 10);
-    // rt_thread_t wifi_thread = rt_thread_create("wifi_thread", wifi_thread_entry, RT_NULL, 2048, 25, 10);
-    */
+    /* Ethernet TCP client - fiber optic main link */
+    if (eth_app_init() != RT_EOK)
+        rt_kprintf("[ETH] Failed to initialize Ethernet TCP client!\n");
+    else
+        rt_kprintf("[ETH] Ethernet TCP client initialized.\n");
 
     /* LoRa send thread (UART5) - ATK-LORA-01 transparent mode */
     rt_thread_t lora_thread = rt_thread_create("lora_tx", lora_thread_entry, RT_NULL, 1024, 25, 10);
     if (lora_thread != RT_NULL)
-    {
         rt_thread_startup(lora_thread);
-        rt_kprintf("LoRa thread started for ATK-LORA-01.\n");
-    }
-    else
-    {
-        rt_kprintf("Failed to create LoRa thread!\n");
-    }
 
     /* UART2 receive thread - gas sensor (3.3V power) */
     rt_thread_t uart2_thread = rt_thread_create("uart2_rx",uart2_receive_thread_entry,RT_NULL,1024,25,10);
-
     if (uart2_thread != RT_NULL)
-    {
         rt_thread_startup(uart2_thread);
-        rt_kprintf("UART2 receive thread started.\n");
-    }
-    else
-    {
-        rt_kprintf("Failed to create UART2 receive thread!\n");
-        /* if thread creation failed, call receive directly in main thread */
-        uart2_receive_and_print(-1);
-    }
 
     return RT_EOK;
 }

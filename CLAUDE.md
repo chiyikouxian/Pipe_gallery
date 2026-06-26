@@ -1,3 +1,22 @@
+<!-- OPENSPEC:START -->
+# OpenSpec Instructions
+
+These instructions are for AI assistants working in this project.
+
+Always open `@/openspec/AGENTS.md` when the request:
+- Mentions planning or proposals (words like proposal, spec, change, plan)
+- Introduces new capabilities, breaking changes, architecture shifts, or big performance/security work
+- Sounds ambiguous and you need the authoritative spec before coding
+
+Use `@/openspec/AGENTS.md` to learn:
+- How to create and apply change proposals
+- Spec format and conventions
+- Project structure and guidelines
+
+Keep this managed block so 'openspec update' can refresh the instructions.
+
+<!-- OPENSPEC:END -->
+
 # CLAUDE.md
 
 本文件为 Claude Code (claude.ai/code) 在本仓库中处理代码时提供指导。
@@ -218,3 +237,13 @@ WiFi/MQTT 功能已实现但在 main.c 中被注释掉：
 - **生成代码：** cubemx/Src/ 和 cubemx/Inc/
 
 修改 .ioc 文件后，重新生成代码并确保驱动集成保持完整。
+## Ethernet / LAN8720A Notes
+
+- Current validated wired link is `STM32H743 RMII -> LAN8720A -> media converter -> PC`.
+- The active LAN8720A module is detected at PHY address `0x01`.
+- This setup is validated with static IPv4:
+  - MCU: `192.168.1.30/24`
+  - PC: `192.168.1.100/24`
+  - TCP server port: `8080`
+- Do not enable `RT_LWIP_DHCP` for this direct PC link unless a DHCP server is intentionally added.
+- `drivers/board.c` must enable `ETH_IRQn`; otherwise transmit may appear normal while RX silently fails, causing `arp` to learn the MCU MAC but `ping` and TCP connect to fail.

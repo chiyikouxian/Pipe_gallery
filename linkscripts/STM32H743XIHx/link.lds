@@ -6,7 +6,8 @@
 MEMORY
 {
     ROM (rx) : ORIGIN = 0x08000000, LENGTH =  1024k /* 1024K flash */
-    RAM (rw) : ORIGIN = 0x20000000, LENGTH =  128k /* 128K sram */
+    RAM (rw) : ORIGIN = 0x24000000, LENGTH =  512k /* 512K AXI SRAM */
+    RAM_D2 (rw) : ORIGIN = 0x30040000, LENGTH = 32k /* D2 SRAM3 for ETH DMA */
 }
 ENTRY(Reset_Handler)
 _system_stack_size = 0x400;
@@ -133,6 +134,25 @@ SECTIONS
     __bss_end = .;
 
     _end = .;
+
+    /* ETH DMA descriptors and RX buffers in D2 SRAM3 (non-cacheable) */
+    .RxDecripSection (NOLOAD) :
+    {
+        . = ALIGN(4);
+        *(.RxDecripSection)
+    } > RAM_D2
+
+    .TxDecripSection (NOLOAD) :
+    {
+        . = ALIGN(4);
+        *(.TxDecripSection)
+    } > RAM_D2
+
+    .RxArraySection (NOLOAD) :
+    {
+        . = ALIGN(4);
+        *(.RxArraySection)
+    } > RAM_D2
 
     /* Stabs debugging sections.  */
     .stab          0 : { *(.stab) }

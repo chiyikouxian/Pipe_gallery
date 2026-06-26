@@ -33,8 +33,8 @@ extern "C"
 #define ROM_SIZE               (1024 * 1024)
 #define ROM_END                ((uint32_t)(ROM_START + ROM_SIZE))
 
-#define RAM_START              (0x20000000)
-#define RAM_SIZE               (128 * 1024)
+#define RAM_START              (0x24000000)
+#define RAM_SIZE               (512 * 1024)
 #define RAM_END                (RAM_START + RAM_SIZE)
 
 /*-------------------------- ROM/RAM CONFIG END --------------------------*/
@@ -70,8 +70,8 @@ extern "C"
 #define BSP_UART1_TX_PIN       "PA9"
 #define BSP_UART1_RX_PIN       "PA10"
 #define BSP_USING_UART2
-#define BSP_UART2_TX_PIN       "PA2"
-#define BSP_UART2_RX_PIN       "PA3"
+#define BSP_UART2_TX_PIN       "PD5"
+#define BSP_UART2_RX_PIN       "PD6"
 #define BSP_USING_UART3
 #define BSP_UART3_TX_PIN       "PB10"
 #define BSP_UART3_RX_PIN       "PB11"
@@ -307,8 +307,10 @@ extern "C"
  */
 
 /*#define BSP_USING_ETH*/
+#define BSP_USING_ETH
 #ifdef BSP_USING_ETH
-/*#define PHY_USING_LAN8720A*/
+#define PHY_USING_LAN8720A
+#define ETH_RESET_PIN    "PD3"  /* unused — LAN8720A module has no nRST pin; software reset via MDIO */
 /*#define PHY_USING_DM9161CEP*/
 /*#define PHY_USING_DP83848C*/
 #endif
