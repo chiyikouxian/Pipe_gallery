@@ -110,7 +110,7 @@
 | UART1 | `PA9/PA10` | 控制台 | 串口终端 |
 | UART2 | `PD5/PD6` | 甲烷传感器 | 原来为 `PA2/PA3`，已因以太网复用调整 |
 | UART3 | `PB10/PB11` | Modbus RTU | 电流表/水表 |
-| UART4 | `PA11/PA12` | ESP8266 | 华为云 MQTT |
+| UART4 | `PA12/PA11` | ESP8266 | 华为云 MQTT（TX/RX） |
 | UART5 | `PC12/PD2` | LoRa | ATK-LORA-01 |
 
 ### 6.2 Modbus 控制
@@ -136,7 +136,7 @@
 | Flame A3 | `PA6` | `ADC1_INP3` | |
 | Flame A4 | `PA5` | `ADC1_INP19` | 从 `PC4` 迁移 |
 | Flame A5 | `PB1` | `ADC1_INP5` | |
-| O2 Sensor | `PC0` | `ADC1_INP10` | 从 `PC5` 迁移 |
+| O2 Sensor | `PA4` | `ADC1_INP18` | 从 `PC5` 迁移；核心板 J1-35 引出 |
 
 ### 6.5 Ethernet RMII 分配
 
