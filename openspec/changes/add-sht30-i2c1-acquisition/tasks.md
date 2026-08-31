@@ -29,15 +29,15 @@
 ## 4. Integrate into System Startup
 - [x] 4.1 Add `#include "sht30App.h"` to `applications/heads.h`.
 - [x] 4.2 In `applications/main.c`, call `sht30_init()` after line_sensor_init() and before LoRa thread.
-- [x] 4.3 Log init success/failure to serial console via `rt_kprintf`.
+- [ ] 4.3 Check the `sht30_init()` return value in `main.c` and emit a visible success/failure log.
 
 ## 5. Build Verification
 - [ ] 5.1 Run `scons` (or RT-Thread Studio build) and confirm zero errors.
 - [ ] 5.2 Confirm no new warnings introduced.
 
 ## 6. Board-Level Verification
-- [x] 6.1 Confirm serial log shows "SHT30 initialized on i2c1" at boot.
-- [x] 6.2 Confirm periodic log output: `[SHT30] T=XX.X C, RH=XX.X %` (scaled int format).
+- [ ] 6.1 Enable an appropriate SHT30 log level and confirm the boot log shows initialization on `i2c1`.
+- [ ] 6.2 Add/enable periodic scaled-integer output and confirm temperature/humidity values on the serial console.
 - [ ] 6.3 Disconnect SHT30 and confirm I2C error log appears without crash.
 - [ ] 6.4 Confirm all existing threads (Modbus, LoRa, MQTT, ADC, UART) continue to run normally.
 
@@ -47,3 +47,6 @@
 
 ## 8. (Future Task, Blocked) LoRa Reporting Integration
 - [ ] 8.1 Add temperature/humidity fields to LoRa text payload in `loraApp.c`.
+
+## 9. Ethernet Reporting Integration
+- [x] 9.1 Include temperature and humidity in the Ethernet TCP JSON payload in `ethApp.c`.

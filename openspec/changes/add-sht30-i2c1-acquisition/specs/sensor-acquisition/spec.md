@@ -5,8 +5,8 @@
 
 #### Scenario: I2C1 bus initialization success
 - **WHEN** 系统启动且 `sht30_init()` 被调用
-- **AND** `RT_USING_I2C`、`RT_USING_I2C_BITOPS`、`RT_USING_I2C1` 已在 rtconfig.h 中启用
-- **AND** `drivers/board.h` 中 `BSP_USING_I2C1` 已定义且 SCK/SDA 引脚配置为 PB6/PB7
+- **AND** `RT_USING_I2C`、`RT_USING_I2C_BITOPS` 已在 `rtconfig.h` 中启用
+- **AND** `drivers/board.h` 中 `BSP_USING_I2C1` 已定义且 SCL/SDA 引脚配置为 PB6/PB7
 - **THEN** `rt_i2c_bus_device_find("i2c1")` 返回有效设备句柄
 - **AND** 串口日志输出 "SHT30 initialized on i2c1"
 
@@ -21,7 +21,7 @@
 - **AND** 更新全局变量 `g_temperature_c` 和 `g_humidity_rh`
 
 #### Scenario: I2C read failure — retain last valid value
-- **WHEN** `rt_i2c_transfer` 返回非零错误码
+- **WHEN** `rt_i2c_transfer` 返回值不是预期的 1 条已完成消息
 - **OR** 读取的 6 字节数据中任一 CRC8 校验失败
 - **THEN** 不更新 `g_temperature_c` 和 `g_humidity_rh`
 - **AND** 保留上一次有效采样值

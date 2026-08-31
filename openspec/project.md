@@ -8,6 +8,7 @@ Current valid reporting/communication paths in repository code are:
 - Modbus RTU (meter polling over UART3)
 - Huawei Cloud IoTDA MQTT (ESP8266 AT command path over UART4)
 - LoRa reporting (ATK-LORA-01 over UART5)
+- Ethernet TCP JSON reporting (LAN8720A RMII + LWIP, static IPv4)
 
 No external HTTP reporting feature is active in current implementation baseline.
 
@@ -20,6 +21,7 @@ No external HTTP reporting feature is active in current implementation baseline.
 - Modbus RTU
 - MQTT over ESP8266 AT commands
 - LoRa (UART5)
+- Ethernet TCP/IP over LAN8720A RMII
 
 ## Project Conventions
 
@@ -37,6 +39,7 @@ No external HTTP reporting feature is active in current implementation baseline.
 - `rt-thread/`: RTOS kernel/components
 - Multi-threaded runtime with separate threads for acquisition and reporting paths.
 - Shared data model through global values and structures consumed by reporting threads.
+- Ethernet is the primary wired reporting path; MQTT and LoRa remain independent parallel paths.
 
 ### Testing Strategy
 - Primary validation is on real hardware.
@@ -49,22 +52,27 @@ No external HTTP reporting feature is active in current implementation baseline.
 
 ### Hardware/Ports
 - UART1: console (`PA9` TX, `PA10` RX)
-- UART2: methane sensor (`PA2` TX, `PA3` RX)
+- UART2: methane sensor (`PD5` TX, `PD6` RX)
 - UART3: Modbus RTU master (`PB10` TX, `PB11` RX)
 - Modbus direction control: `PA15`
-- UART4: ESP8266 (Huawei MQTT path, `PA11` TX, `PA12` RX)
+- UART4: ESP8266 (Huawei MQTT path, `PA12` TX, `PA11` RX)
 - UART5: LoRa module (ATK-LORA-01, `PC12` TX, `PD2` RX)
-- ADC1: multi-channel analog acquisition (`PA0`, `PA1`, `PA6`, `PC4`, `PB1`)
+- ADC1 flame acquisition: `PA0_C/INP0`, `PA3/INP15`, `PA6/INP3`, `PA5/INP19`, `PB1/INP5`
+- ADC1 oxygen acquisition: `PA4/INP18` (core-board header J1-35)
 
 ### Data Sources
 - Methane (PPM / LEL)
-- ADC channels
+- Five-channel flame ADC values
+- Oxygen concentration (ADC1 channel 18 / PA4)
+- SHT30 temperature and humidity (software I2C1)
 - Three-phase voltage/current
 - Water flow
 
 ### Reporting Baseline
 - Huawei Cloud IoTDA MQTT path is present in current code.
 - LoRa reporting path is present in current code.
+- Ethernet TCP reporting to `192.168.1.100:8080` is implemented and hardware-verified over direct copper and fiber media converters.
+- Ethernet JSON includes temperature, humidity, and oxygen; Huawei Cloud and LoRa payloads do not yet include these fields.
 - No active external HTTP reporting module in code baseline.
 
 ## Important Constraints

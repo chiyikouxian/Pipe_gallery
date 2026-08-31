@@ -25,7 +25,8 @@ SHT30 is a digital temperature/humidity sensor with I2C interface. This project 
 ```
 SHT30 ──I2C1──> sht30App.c ──> g_temperature_c / g_humidity_rh
                                    │
-                                   └── (future) Huawei / LoRa reporting threads
+                                   ├── Ethernet TCP JSON (implemented)
+                                   └── Huawei / LoRa reporting (future)
 ```
 
 ## Goals / Non-Goals
@@ -39,7 +40,7 @@ SHT30 ──I2C1──> sht30App.c ──> g_temperature_c / g_humidity_rh
 
 ### Non-Goals
 - No dynamic device enumeration or multi-device I2C bus scanning.
-- No reporting-thread integration in this change (Huawei payload, LoRa text payload).
+- No Huawei Cloud or LoRa payload integration in this change; Ethernet TCP reporting consumes the shared globals through the separate Ethernet capability.
 - No SHT30 heater control, alert mode, or periodic mode—only single-shot read.
 - No HAL I2C migration or hardware I2C1 configuration.
 - No persistent storage or calibration.
@@ -90,7 +91,7 @@ In `drivers/board.h`, uncomment and modify the I2C1 template:
 #define BSP_I2C1_SDA_PIN    GET_PIN(B, 7)
 ```
 
-The RT-Thread I2C device framework must also be enabled in RT-Thread Settings (`RT_USING_I2C`, `RT_USING_I2C_BITOPS`), and the software I2C driver (`RT_USING_I2C1`) must be enabled. This is typically done via `menuconfig` or by directly editing `rtconfig.h`.
+The RT-Thread I2C device framework must be enabled in RT-Thread Settings (`RT_USING_I2C`, `RT_USING_I2C_BITOPS`). In this BSP, the software I2C1 driver instance is selected by `BSP_USING_I2C1` in `drivers/board.h`; there is no separate `RT_USING_I2C1` switch.
 
 ## Risks / Mitigations
 

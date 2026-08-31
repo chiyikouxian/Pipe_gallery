@@ -47,7 +47,7 @@ This change formalizes the existing LAN8720A RMII Ethernet implementation as an 
 | PA7 | CRS_DV | CRS_DV (Pin 10) | |
 | PC1 | MDC | MDC (Pin 15) | |
 | PC4 | RXD0 | RXD0 (Pin 11) | ADC A4 relocated to PA5 |
-| PC5 | RXD1 | RXD1 (Pin 12) | O2 sensor relocated to PC0 (ADC1 CH10) |
+| PC5 | RXD1 | RXD1 (Pin 12) | O2 sensor relocated to PA4 (ADC1 CH18) |
 | PG11 | TX_EN | TX_EN (Pin 2) | |
 | PG13 | TXD0 | TXD0 (Pin 3) | |
 | PG14 | TXD1 | TXD1 (Pin 4) | |

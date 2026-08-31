@@ -4,8 +4,8 @@ The oxygen sensor is an analog-output module. Its output voltage is proportional
 
 ### Constraints
 - Must use **RT-Thread ADC device framework** (`rt_device_find`, `rt_adc_enable`, `rt_adc_read`), not HAL direct calls.
-- Must use pin **PC5 = ADC12_INP8** (channel 8).
-- Must not modify CubeMX HAL ADC init path (the existing flame sensor ADC1 init is left intact).
+- Must use pin **PA4 = ADC1_INP18** (channel 18), exposed on core-board header J1-35.
+- Must coexist with the existing flame sensor ADC1 channels and Ethernet RMII pin allocation.
 - Must avoid `%f` in `rt_kprintf`; O₂ values are printed as scaled integers (×10).
 - Must not touch existing UART, Modbus, LoRa, MQTT, SHT30 I2C, or flame sensor ADC modules.
 
@@ -13,7 +13,7 @@ The oxygen sensor is an analog-output module. Its output voltage is proportional
 | Parameter | F103 Example | H743 Adaptation |
 |-----------|-------------|-----------------|
 | ADC instance | ADC1 | ADC1 (shared) |
-| Channel | Channel 9 (PB1) | Channel 8 (PC5) |
+| Channel | Channel 9 (PB1) | Channel 18 (PA4) |
 | Resolution | 12-bit | 12-bit |
 | Vref | 3.3V | 3.3V |
 | Full-scale voltage | ~2.41V | ~2.41V (same sensor) |
@@ -24,15 +24,16 @@ The oxygen sensor is an analog-output module. Its output voltage is proportional
 
 ### Data Flow
 ```
-O2 Sensor ──ADC1 Ch8(PC5)──> o2SensorApp.c ──> g_o2_concentration (float)
+O2 Sensor ──ADC1 Ch18(PA4)──> o2SensorApp.c ──> g_o2_concentration (float)
                                rt_adc_read()      │
-                                                  └── (future) Huawei / LoRa reporting
+                                                  ├── Ethernet TCP JSON (implemented)
+                                                  └── Huawei / LoRa reporting (future)
 ```
 
 ## Goals / Non-Goals
 
 ### Goals
-- Read O₂ sensor via RT-Thread ADC device framework on ADC1 channel 8 (PC5).
+- Read O₂ sensor via RT-Thread ADC device framework on ADC1 channel 18 (PA4).
 - Apply conversion formula and air-stabilize logic from reference example.
 - Export `g_o2_concentration` (float, O₂%) as shared global.
 - Run periodic acquisition in a dedicated RT-Thread thread.
@@ -42,7 +43,7 @@ O2 Sensor ──ADC1 Ch8(PC5)──> o2SensorApp.c ──> g_o2_concentration (f
 - No CubeMX re-generation or HAL ADC layer modification.
 - No calibration persistence — calibration values are compile-time macros.
 - No multi-sample averaging with bubble sort (simpler single-read per cycle).
-- No reporting-thread integration in this change (Huawei payload, LoRa text payload).
+- No Huawei Cloud or LoRa payload integration in this change; Ethernet TCP reporting consumes the shared global through the separate Ethernet capability.
 - No modification to existing flame sensor ADC path.
 
 ## Design Decisions
@@ -55,9 +56,9 @@ O2 Sensor ──ADC1 Ch8(PC5)──> o2SensorApp.c ──> g_o2_concentration (f
 - **Rationale**: The F103 example uses 100-sample averaging because it has a fast loop with no RTOS delay. In our RT-Thread model with a 2000ms cycle, single readings are sufficient. If noise becomes an issue on real hardware, a simple moving average can be added later.
 - **Trade-off**: Slightly noisier than the 100-sample approach, but acceptable for environmental monitoring at 2-second intervals.
 
-### Decision 3: PC5 = ADC12_INP8 (channel 8)
-- **Rationale**: PB1 is already occupied by the flame sensor (CH5). PC5 is physically near PC4 (flame sensor CH4), is free, and maps to ADC1 channel 8.
-- **Trade-off**: None. This channel is unused.
+### Decision 3: PA4 = ADC1_INP18 (channel 18)
+- **Rationale**: PC5 is required by Ethernet RMII as RXD1. PA4 is exposed on core-board header J1-35, maps to ADC1_INP18, and does not conflict with the migrated flame channels or RMII signals.
+- **Trade-off**: The board-level ADC GPIO initialization must explicitly configure PA4 in analog mode.
 
 ### Decision 4: Separate `o2SensorApp.c/h` module
 - **Rationale**: Follows project convention of one App module per sensor type (MethaneSensorApp, linesensor, sht30App). Keeps scope isolated and reviewable.
@@ -104,14 +105,14 @@ g_o2_concentration = (float)o2_x10 / 10.0f;
 No board.h or rtconfig.h changes needed:
 - `RT_USING_ADC` is already enabled in `rtconfig.h`.
 - `BSP_USING_ADC1` is already enabled in `drivers/board.h`.
-- The new channel 8 is accessed at application level via `rt_adc_read(adc_dev, 8, &raw)`.
-- The existing HAL ADC init in `board.c` / CubeMX already configures ADC1; no modification required.
+- Channel 18 is accessed at application level via `rt_adc_read(adc_dev, 18)`.
+- `drivers/board.c` configures PA4 as ADC1_INP18 while retaining the existing flame ADC channels.
 
 ## Risks / Mitigations
 
 | Risk | Mitigation |
 |------|-----------|
-| ADC1 channel 8 not enabled in CubeMX HAL init | If read fails, log clear error; user re-generates CubeMX to add channel 8 |
+| PA4/ADC1 channel 18 not configured in board MSP init | Keep `drivers/board.c` pin mapping synchronized with the board wiring and README |
 | ADC device "adc1" not found | Check `rt_device_find` return value; log error |
 | Calibration values differ per sensor unit | Expose as macros in header; user adjusts before compile |
 | Float formatting in `rt_kprintf` | Print as `X.X` via integer math: `(int)val` and `(int)((val-int_val)*10)` |

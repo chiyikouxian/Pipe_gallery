@@ -11,7 +11,7 @@ The monitoring node currently lacks ambient temperature and humidity data. Addin
 - Create a periodic acquisition thread in `main.c`: read every defined interval and update globals.
 - Reserve CRCs/error-handling so that on I2C failure the last valid reading is preserved and an error is logged.
 - No changes to existing UART, Modbus, LoRa, MQTT, or ADC paths.
-- Huawei Cloud and LoRa reporting integration for the new data is marked as a **future task**; this change only covers acquisition.
+- Ethernet TCP reporting already consumes the exported temperature/humidity globals. Huawei Cloud and LoRa integration remain future tasks; this change primarily covers acquisition.
 
 ## Impact
 - Affected specs: `sensor-acquisition` (new requirement for SHT30 I2C1 acquisition)
