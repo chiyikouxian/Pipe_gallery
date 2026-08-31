@@ -23,8 +23,8 @@
 
 
 /* WiFi config */
-#define HW_WIFI_SSID           "cdut-yb"
-#define HW_WIFI_PASSWORD       "cdutyb218"
+#define HW_WIFI_SSID           "esp826601S"
+#define HW_WIFI_PASSWORD       "wenjie01"
 
 /* MQTT server config */
 #define HW_MQTT_HOST           "c8496a111b.st1.iotda-device.cn-east-3.myhuaweicloud.com"

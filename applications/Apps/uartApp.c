@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2006-2021, RT-Thread Development Team
  *
  * SPDX-License-Identifier: Apache-2.0
@@ -52,7 +52,7 @@ void uart4_init()
     uart4_device = rt_device_find(UART4_DEVICE_NAME);  /* find UART4 device */
     if (uart4_device == RT_NULL)
     {
-        rt_kprintf("UART4 device not found!\n");
+        /* rt_kprintf("UART4 device not found!\n"); */
         return;
     }
 
@@ -73,7 +73,7 @@ void uart5_init()
     uart5_device = rt_device_find(UART5_DEVICE_NAME);  /* find UART5 device */
     if (uart5_device == RT_NULL)
     {
-        rt_kprintf("UART5 device not found!\n");
+        /* rt_kprintf("UART5 device not found!\n"); */
         return;
     }
 
@@ -146,7 +146,7 @@ void uart5_thread_entry(void *parameter)
         {
             uart5_recived_data[uart5_recived_data_index++] = uart5_buffer;
         }
-        rt_kprintf("uart5_recived_data:%s\n", uart5_recived_data);
+        /* rt_kprintf("uart5_recived_data:%s\n", uart5_recived_data); */
     }
 }
 

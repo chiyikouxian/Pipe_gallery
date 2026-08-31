@@ -6,6 +6,8 @@
  * Change Logs:
  * Date           Author       Notes
  * 2026-04-22     ideapad15s   O2 sensor via ADC1 channel 8 (PC5)
+ * 2026-06-18     ideapad15s   migrate from PC5 for ETH RMII
+ * 2026-07-11     ideapad15s   use ADC1 channel 18 (PA4), exposed on core-board header
  */
 #ifndef APPLICATIONS_APPS_O2SENSORAPP_H_
 #define APPLICATIONS_APPS_O2SENSORAPP_H_
@@ -14,7 +16,7 @@
 
 /* ADC config */
 #define O2_ADC_DEVICE_NAME          "adc1"
-#define O2_ADC_CHANNEL              8
+#define O2_ADC_CHANNEL              18
 
 /* Read interval (ms) — same as SHT30 */
 #define O2_READ_INTERVAL_MS         2000

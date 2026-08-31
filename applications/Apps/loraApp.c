@@ -15,7 +15,7 @@
 #include "uartApp.h"
 
 #define DBG_TAG "LoRa"
-#define DBG_LVL DBG_LOG
+#define DBG_LVL DBG_ERROR
 #include <rtdbg.h>
 
 #define LORA_TEXT_BUF_SIZE 256
@@ -87,11 +87,6 @@ void lora_thread_entry(void *parameter)
     {
         lora_build_text(text_buf, sizeof(text_buf));
         uart5_send(text_buf);
-
-        LOG_I("Sent text payload, ppm=%u, flow=%d.%03d",
-              (unsigned int)g_methane_ppm,
-              (int)Flow,
-              abs_int((int)((Flow - (int)Flow) * 1000)));
 
         rt_thread_mdelay(LORA_SEND_INTERVAL);
     }

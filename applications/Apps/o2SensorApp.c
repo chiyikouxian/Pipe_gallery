@@ -5,13 +5,14 @@
  *
  * Change Logs:
  * Date           Author       Notes
- * 2026-04-22     ideapad15s   O2 sensor via ADC1 channel 8 (PC5)
+ * 2026-04-22     ideapad15s   O2 sensor via ADC1
+ * 2026-07-11     ideapad15s   use ADC1 channel 18 (PA4)
  */
 #include "heads.h"
 #include "o2SensorApp.h"
 
 #define DBG_TAG "O2"
-#define DBG_LVL DBG_LOG
+#define DBG_LVL DBG_ERROR
 #include <rtdbg.h>
 
 /* Global sensor data */
@@ -63,17 +64,6 @@ void o2_thread_entry(void *parameter)
         if (o2_read_once(&o2) == RT_EOK)
         {
             g_o2_concentration = o2;
-
-            /* Print as scaled integer to avoid %f:
-             * e.g. 209 → "20.9" */
-            LOG_I("O2=%d.%d %%",
-                  (int)o2, (int)((o2 - (int)o2) * 10));
-        }
-        else
-        {
-            LOG_W("Read failed, keeping last valid: O2=%d.%d %%",
-                  (int)g_o2_concentration,
-                  (int)((g_o2_concentration - (int)g_o2_concentration) * 10));
         }
 
         rt_thread_mdelay(O2_READ_INTERVAL_MS);

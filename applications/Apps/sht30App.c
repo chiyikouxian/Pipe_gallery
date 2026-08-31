@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2006-2026, RT-Thread Development Team
  *
  * SPDX-License-Identifier: Apache-2.0
@@ -11,7 +11,7 @@
 #include "sht30App.h"
 
 #define DBG_TAG "SHT30"
-#define DBG_LVL DBG_LOG
+#define DBG_LVL (-1)
 #include <rtdbg.h>
 
 /* SHT30 CRC8: polynomial 0x31, init 0xFF */
@@ -123,19 +123,6 @@ void sht30_thread_entry(void *parameter)
         {
             g_temperature_c = temp;
             g_humidity_rh    = humi;
-
-            /* Print as scaled integers to avoid %f */
-            LOG_I("T=%d.%02d C, RH=%d.%02d %%",
-                  (int)temp, (int)((temp - (int)temp) * 100),
-                  (int)humi, (int)((humi - (int)humi) * 100));
-        }
-        else
-        {
-            LOG_W("Read failed, keeping last valid: T=%d.%02d C, RH=%d.%02d %%",
-                  (int)g_temperature_c,
-                  (int)((g_temperature_c - (int)g_temperature_c) * 100),
-                  (int)g_humidity_rh,
-                  (int)((g_humidity_rh - (int)g_humidity_rh) * 100));
         }
 
         rt_thread_mdelay(SHT30_READ_INTERVAL_MS);

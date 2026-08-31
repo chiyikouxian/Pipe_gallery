@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2006-2021, RT-Thread Development Team
  *
  * SPDX-License-Identifier: Apache-2.0
@@ -13,7 +13,7 @@
 #include <stdio.h>
 
 #define DBG_TAG "HuaweiCloud"
-#define DBG_LVL DBG_LOG
+#define DBG_LVL (-1)
 #include <rtdbg.h>
 
 /*============================================================================
@@ -397,7 +397,6 @@ void huawei_cloud_thread_entry(void *parameter)
             rt_snprintf(at_cmd_buf, sizeof(at_cmd_buf),
                 "AT+MQTTPUBRAW=0,\"%s\",%d,0,0",
                 HW_MQTT_TOPIC_REPORT, json_len);
-
             uart4_buffer_clear();
             uart4_send(at_cmd_buf);
             uart4_send("\r\n");

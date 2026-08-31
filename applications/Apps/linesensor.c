@@ -13,14 +13,16 @@
 #include "hal_adc.h"
 #include "huaweiCloudApp.h"  /* global ADC variables for cloud upload */
 
+BOOL Flame = 0;
+
 #define DBG_TAG "LineSensor"
-#define DBG_LVL DBG_LOG
+#define DBG_LVL DBG_ERROR
 #include <rtdbg.h>
 
 /**
- * @brief ADC¶ÁÈ¡Ïß³ÌÈë¿Úº¯Êý
+ * @brief ADCï¿½ï¿½È¡ï¿½ß³ï¿½ï¿½ï¿½Úºï¿½ï¿½ï¿½
  *
- * @param parameter Ïß³Ì²ÎÊý£¨Î´Ê¹ÓÃ£©
+ * @param parameter ï¿½ß³Ì²ï¿½ï¿½ï¿½ï¿½ï¿½Î´Ê¹ï¿½Ã£ï¿½
  */
 /* Five-channel flame sensor analog output mapping:
  * A1 -> PA0_C
@@ -35,7 +37,7 @@ static void adc_read_thread_entry(void *parameter)
 
     while (1)
     {
-        /* Ê¹ÓÃ HAL Ö±½Ó¶ÁÈ¡È«²¿5¸öÍ¨µÀµÄADCÖµ */
+        /* Ê¹ï¿½ï¿½ HAL Ö±ï¿½Ó¶ï¿½È¡È«ï¿½ï¿½5ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½ADCÖµ */
         adc_ch0 = ADC1_Read_Channel0();
         adc_ch1 = ADC1_Read_Channel1();
         adc_ch3 = ADC1_Read_Channel3();
@@ -49,34 +51,24 @@ static void adc_read_thread_entry(void *parameter)
         g_adc_ch4 = adc_ch4;
         g_adc_ch5 = adc_ch5;
 
-        /* Print all five flame sensor analog channels */
-        rt_kprintf("Flame A1(PA0_C): %u  A2(PA1_C): %u  A3(PA6): %u  A4(PC4): %u  A5(PB1): %u\r\n",
-                   (unsigned int)adc_ch0,
-                   (unsigned int)adc_ch1,
-                   (unsigned int)adc_ch3,
-                   (unsigned int)adc_ch4,
-                   (unsigned int)adc_ch5);
-//         rt_kprintf("ADC CH5: %u\r\n",(unsigned int)adc_ch5);
-        rt_kprintf("------------------------------------------\r\n");
-
-        /* ÑÓÊ±500ms */
+        /* ï¿½ï¿½Ê±500ms */
         rt_thread_mdelay(500);
     }
 }
 
 /**
- * @brief ³õÊ¼»¯ADC1²¢´´½¨¶ÁÈ¡Ïß³Ì
+ * @brief ï¿½ï¿½Ê¼ï¿½ï¿½ADC1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¡ï¿½ß³ï¿½
  *
- * @return rt_err_t RT_EOK±íÊ¾³É¹¦£¬ÆäËûÖµ±íÊ¾Ê§°Ü
+ * @return rt_err_t RT_EOKï¿½ï¿½Ê¾ï¿½É¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½Ê¾Ê§ï¿½ï¿½
  */
 rt_err_t line_sensor_init(void)
 {
     rt_thread_t adc_thread;
 
-    /* ³õÊ¼»¯ HAL ADC1£¨µ×²ã MSP ÔÚ board.c ÖÐÊµÏÖ£© */
+    /* ï¿½ï¿½Ê¼ï¿½ï¿½ HAL ADC1ï¿½ï¿½ï¿½×²ï¿½ MSP ï¿½ï¿½ board.c ï¿½ï¿½Êµï¿½Ö£ï¿½ */
     ADC1_Init();
 
-    /* ´´½¨ADC¶ÁÈ¡Ïß³Ì */
+    /* ï¿½ï¿½ï¿½ï¿½ADCï¿½ï¿½È¡ï¿½ß³ï¿½ */
     adc_thread = rt_thread_create("adc_read",
                                    adc_read_thread_entry,
                                    RT_NULL,

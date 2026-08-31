@@ -1,4 +1,4 @@
-/*
+ï»¿/*
  * Copyright (c) 2006-2021, RT-Thread Development Team
  *
  * SPDX-License-Identifier: Apache-2.0
@@ -10,107 +10,107 @@
 
 #include "wifiApp.h"
 
-//ÉÏÔÆ±êÖ¾
+//ä¸Šäº‘æ ‡å¿—
 char task_flag = 0;
-//ÉÏ±¨ÏûÏ¢json
+//ä¸ŠæŠ¥æ¶ˆæ¯json
 char MQTT_json[128];
 
 void if_is_ok()
 {
     if (strstr((const char*)uart4_recived_data,"OK") != NULL) {
-        rt_kprintf("×Ö·û´®Æ¥Åä£ºOK\n");
+        /* rt_kprintf("å­—ç¬¦ä¸²åŒ¹é…ï¼šOK\n"); */
         task_flag++;
     } else if(strstr((const char*)uart4_recived_data,"ERROR") != NULL) {
-        rt_kprintf("³ö´í£¬ÖØÊÔ...\n");
-        rt_kprintf("×Ö·û´®£º%s\n", uart4_recived_data);
+        /* rt_kprintf("å‡ºé”™ï¼Œé‡è¯•...\n"); */
+        /* rt_kprintf("å­—ç¬¦ä¸²ï¼š%s\n", uart4_recived_data); */
         task_flag = 0;
     } else {
-        rt_kprintf("×Ö·û´®²»Æ¥Åä\n");
-        rt_kprintf("×Ö·û´®£º%s\n", uart4_recived_data);
+        /* rt_kprintf("å­—ç¬¦ä¸²ä¸åŒ¹é…\n"); */
+        /* rt_kprintf("å­—ç¬¦ä¸²ï¼š%s\n", uart4_recived_data); */
     }
     uart4_buffer_clear();
-    rt_kprintf("task_flag£º%d\n", task_flag);
+    /* rt_kprintf("task_flagï¼š%d\n", task_flag); */
 }
 
-// ´´½¨Ò»¸öÏß³ÌÀ´Ö´ĞĞÉÏÔÆ²Ù×÷
+// åˆ›å»ºä¸€ä¸ªçº¿ç¨‹æ¥æ‰§è¡Œä¸Šäº‘æ“ä½œ
 void wifi_thread_entry(void *parameter)
 {
     char command[512] = {0};
     while(task_flag == 0)
     {
-        while(task_flag == 0)       //0.ÖØÖÃ8266
+        while(task_flag == 0)       //0.é‡ç½®8266
         {
-            // ÖØÆôÉè±¸
+            // é‡å¯è®¾å¤‡
             uart4_send("AT+RST\r\n");
 
-            // µÈ´ıÒ»¶¨Ê±¼äÈÃ´®¿Ú½ÓÊÕÊı¾İ
+            // ç­‰å¾…ä¸€å®šæ—¶é—´è®©ä¸²å£æ¥æ”¶æ•°æ®
             rt_thread_mdelay(500);
             if_is_ok();
         }
-        while(task_flag == 1)       //1.ÉèÖÃstationÄ£Ê½
+        while(task_flag == 1)       //1.è®¾ç½®stationæ¨¡å¼
         {
-            // ÉèÖÃÎª Station Ä£Ê½
+            // è®¾ç½®ä¸º Station æ¨¡å¼
             uart4_send("AT+CWMODE=1\r\n");
 
-            // µÈ´ıÒ»¶¨Ê±¼äÈÃ´®¿Ú½ÓÊÕÊı¾İ
+            // ç­‰å¾…ä¸€å®šæ—¶é—´è®©ä¸²å£æ¥æ”¶æ•°æ®
             rt_thread_mdelay(500);
             if_is_ok();
         }
-        while(task_flag == 2)       //2.Á¬½Ówifi
+        while(task_flag == 2)       //2.è¿æ¥wifi
         {
-            // Á¬½ÓWiFi
+            // è¿æ¥WiFi
             memset(command, 0, sizeof(command));
             rt_sprintf(command, "AT+CWJAP=\"%s\",\"%s\"\r\n", WIFI_SSID, WIFI_PASSWORD);
-            rt_kprintf("command:%s\n", command);
+            /* rt_kprintf("command:%s\n", command); */
             uart4_send(command);
 
-            // µÈ´ıÒ»¶¨Ê±¼äÈÃ´®¿Ú½ÓÊÕÊı¾İ
+            // ç­‰å¾…ä¸€å®šæ—¶é—´è®©ä¸²å£æ¥æ”¶æ•°æ®
             rt_thread_mdelay(1000);
             if_is_ok();
         }
-        while(task_flag == 3)       //3.ÉèÖÃÈıÔª×éÓÃ»§ÃûºÍÃÜÂë
+        while(task_flag == 3)       //3.è®¾ç½®ä¸‰å…ƒç»„ç”¨æˆ·åå’Œå¯†ç 
         {
             memset(command, 0, sizeof(command));
             rt_sprintf(command, "AT+MQTTUSERCFG=0,1,\"NULL\",\"%s\",\"%s\",0,0,\"\"\r\n", MQTT_USERNAME, MQTT_PASSWORD);
             uart4_send(command);
-            rt_kprintf("command:%s\n", command);
+            /* rt_kprintf("command:%s\n", command); */
 
-            // µÈ´ıÒ»¶¨Ê±¼äÈÃ´®¿Ú½ÓÊÕÊı¾İ
+            // ç­‰å¾…ä¸€å®šæ—¶é—´è®©ä¸²å£æ¥æ”¶æ•°æ®
             rt_thread_mdelay(500);
             if_is_ok();
         }
-        while(task_flag == 4)       //4.ÉèÖÃClientID
+        while(task_flag == 4)       //4.è®¾ç½®ClientID
         {
             memset(command, 0, sizeof(command));
             rt_sprintf(command, "AT+MQTTCLIENTID=0,\"%s\"\r\n", MQTT_CLIENT_ID);
             uart4_send(command);
-            rt_kprintf("command:%s\n", command);
+            /* rt_kprintf("command:%s\n", command); */
 
-            // µÈ´ıÒ»¶¨Ê±¼äÈÃ´®¿Ú½ÓÊÕÊı¾İ
+            // ç­‰å¾…ä¸€å®šæ—¶é—´è®©ä¸²å£æ¥æ”¶æ•°æ®
             rt_thread_mdelay(1500);
             if_is_ok();
         }
-        while(task_flag == 5)       //5.°ó¶¨MQTT½ÓÈëµØÖ·
+        while(task_flag == 5)       //5.ç»‘å®šMQTTæ¥å…¥åœ°å€
         {
             memset(command, 0, sizeof(command));
             rt_sprintf(command, "AT+MQTTCONN=0,\"%s\",1883,1\r\n", MQTT_IP);
             uart4_send(command);
 
-            // µÈ´ıÒ»¶¨Ê±¼äÈÃ´®¿Ú½ÓÊÕÊı¾İ
+            // ç­‰å¾…ä¸€å®šæ—¶é—´è®©ä¸²å£æ¥æ”¶æ•°æ®
             rt_thread_mdelay(500);
             if_is_ok();
         }
-        while(task_flag == 6)       //6.¶©ÔÄÖ÷Ìâ
+        while(task_flag == 6)       //6.è®¢é˜…ä¸»é¢˜
         {
             memset(command, 0, sizeof(command));
             rt_sprintf(command, "AT+MQTTSUB=0,\"oc/devices/%s/sys/properties/report\",1\r\n", MQTT_USERNAME);
             uart4_send(command);
 
-            // µÈ´ıÒ»¶¨Ê±¼äÈÃ´®¿Ú½ÓÊÕÊı¾İ
+            // ç­‰å¾…ä¸€å®šæ—¶é—´è®©ä¸²å£æ¥æ”¶æ•°æ®
             rt_thread_mdelay(500);
             if_is_ok();
         }
-        while(task_flag == 7)       //7.ÏûÏ¢ÉÏ±¨
+        while(task_flag == 7)       //7.æ¶ˆæ¯ä¸ŠæŠ¥
         {
             memset(command, 0, sizeof(command));
             snprintf(command, sizeof(command), "AT+MQTTPUB=0,\"$oc/devices/%s/sys/properties/report\",\"{\\\"services\\\":[{\\\"service_id\\\":\\\"Node_1\\\"\\,\\\"properties\\\":{\\\"Flow\\\":%.2f\\,\\\"Flame\\\":%d\\,\\\"Methane\\\":%.2f}}]}\",0,0\r\n", MQTT_USERNAME, node[0].Flow, node[0].Flame, node[0].Methane);
@@ -129,9 +129,9 @@ void wifi_thread_entry(void *parameter)
 //            snprintf(command, sizeof(command), "AT+MQTTPUB=0,\"$oc/devices/%s/sys/properties/report\",\"{\\\"services\\\":[{\\\"service_id\\\":\\\"Node_2\\\"\\,\\\"properties\\\":{\\\"current_A\\\":%.2f\\,\\\"current_B\\\":%.2f\\,\\\"current_C\\\":%.2f}}]}\",0,0\r\n", MQTT_USERNAME, node[1].CH1_A[0], node[1].CH1_A[1], node[1].CH1_A[2]);
 //            uart4_send(command);
 
-            // µÈ´ıÒ»¶¨Ê±¼äÈÃ´®¿Ú½ÓÊÕÊı¾İ
+            // ç­‰å¾…ä¸€å®šæ—¶é—´è®©ä¸²å£æ¥æ”¶æ•°æ®
             rt_thread_mdelay(500);
-            rt_kprintf("upload data\n");
+            /* rt_kprintf("upload data\n"); */
 //            if_is_ok();
         }
     }

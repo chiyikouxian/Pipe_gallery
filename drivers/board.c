@@ -20,7 +20,6 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* hadc)
         __HAL_RCC_ADC12_CLK_ENABLE();
         __HAL_RCC_GPIOA_CLK_ENABLE();
         __HAL_RCC_GPIOB_CLK_ENABLE();
-        __HAL_RCC_GPIOC_CLK_ENABLE();
         __HAL_RCC_SYSCFG_CLK_ENABLE();
 
         /**ADC1 GPIO Configuration (ETH-safe mapping):
@@ -29,7 +28,7 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* hadc)
         PA6    ------> ADC1_INP3 (A3 flame)
         PA5    ------> ADC1_INP19 (A4 flame, moved from PC4)
         PB1    ------> ADC1_INP5 (A5 flame)
-        PC0    ------> ADC1_INP10 (O2 sensor, moved from PC5)
+        PA4    ------> ADC1_INP18 (O2 sensor)
         */
         GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
         GPIO_InitStruct.Pull = GPIO_NOPULL;
@@ -56,9 +55,9 @@ void HAL_ADC_MspInit(ADC_HandleTypeDef* hadc)
         GPIO_InitStruct.Pin = GPIO_PIN_1;
         HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
-        /* O2: PC0 (INP10) */
-        GPIO_InitStruct.Pin = GPIO_PIN_0;
-        HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+        /* O2: PA4 (INP18) */
+        GPIO_InitStruct.Pin = GPIO_PIN_4;
+        HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
         for (volatile int i = 0; i < 10000; i++);
     }
@@ -96,7 +95,7 @@ RT_WEAK void rt_hw_board_init()
  *   PA7  -> ETH_CRS_DV
  *   PC1  -> ETH_MDC
  *   PC4  -> ETH_RXD0 (ADC A4 moved to PA5)
- *   PC5  -> ETH_RXD1 (O2 moved to PC0)
+ *   PC5  -> ETH_RXD1 (O2 moved to PA4)
  *   PG11 -> ETH_TX_EN
  *   PG13 -> ETH_TXD0
  *   PG14 -> ETH_TXD1

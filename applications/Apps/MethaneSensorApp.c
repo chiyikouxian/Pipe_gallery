@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2006-2021, RT-Thread Development Team
  *
  * SPDX-License-Identifier: Apache-2.0
@@ -54,13 +54,13 @@ static void Response_FrameCheck_Uart(rt_uint8_t *buffer_in)
         g_methane_lel = lel;
 
         /* print parsed result */
-        rt_kprintf("gas:%d.%d ppm, levle: %d%%, alarm:0x%02X\n", methane/1000,methane%1000, lel, alarm);
+        /* rt_kprintf("gas:%d.%d ppm, levle: %d%%, alarm:0x%02X\n", methane/1000,methane%1000, lel, alarm); */
     }
     else
     {
         /* validation failed, print error info */
-        rt_kprintf("Validation failed: checksum=%02X (Expectation=%02X), buffer[3]=%02X\n",
-                   checksum, buffer_in[data_len - 1], buffer_in[3]);
+        /* rt_kprintf("Validation failed: checksum=%02X (Expectation=%02X), buffer[3]=%02X\n",
+                   checksum, buffer_in[data_len - 1], buffer_in[3]); */
     }
 }
 
@@ -85,14 +85,14 @@ rt_err_t uart2_receive_and_print(rt_int32_t timeout)
     serial = rt_device_find(UART2_DEVICE_NAME);
     if (serial == RT_NULL)
     {
-        rt_kprintf("Cannot find %s device!\n", UART2_DEVICE_NAME);
+        /* rt_kprintf("Cannot find %s device!\n", UART2_DEVICE_NAME); */
         return -RT_ERROR;
     }
 
     /* open device in read/write mode */
     if (rt_device_open(serial, RT_DEVICE_FLAG_RDWR | RT_DEVICE_FLAG_INT_RX) != RT_EOK)
     {
-        rt_kprintf("Failed to open %s device!\n", UART2_DEVICE_NAME);
+        /* rt_kprintf("Failed to open %s device!\n", UART2_DEVICE_NAME); */
         return -RT_ERROR;
     }
 
@@ -101,13 +101,13 @@ rt_err_t uart2_receive_and_print(rt_int32_t timeout)
     config.baud_rate = BAUD_RATE_19200;
     if (rt_device_control(serial, RT_DEVICE_CTRL_CONFIG, &config) != RT_EOK)
     {
-        rt_kprintf("Failed to configure UART2 baud rate!\n");
+        /* rt_kprintf("Failed to configure UART2 baud rate!\n"); */
         rt_device_close(serial);
         return -RT_ERROR;
     }
 
-    rt_kprintf("UART2 receive started (19200 baud), waiting for data...\n");
-    rt_kprintf("Received HEX data:\n");
+    /* rt_kprintf("UART2 receive started (19200 baud), waiting for data...\n"); */
+    /* rt_kprintf("Received HEX data:\n"); */
 
     /* receive loop */
     while (1)
@@ -126,12 +126,12 @@ rt_err_t uart2_receive_and_print(rt_int32_t timeout)
                     /* if there is previous data, start a new line */
                     if (byte_count > 0)
                     {
-                        rt_kprintf("\r\n");
+                        /* rt_kprintf("\r\n"); */
                         byte_count = 0;
                         data_index = 0;
                     }
                     /* AC AC starts a new packet */
-                    rt_kprintf("%02X %02X ", pending_ac, data);
+                    /* rt_kprintf("%02X %02X ", pending_ac, data); */
                     byte_count = 2;
                     in_packet = 1;
                     uart2_received_data[0] = pending_ac;
@@ -141,7 +141,7 @@ rt_err_t uart2_receive_and_print(rt_int32_t timeout)
                 else
                 {
                     /* not AC AC, output pending AC and current byte */
-                    rt_kprintf("%02X %02X ", pending_ac, data);
+                    /* rt_kprintf("%02X %02X ", pending_ac, data); */
                     byte_count += 2;
                     if (data_index < PACKET_SIZE)
                     {
@@ -164,7 +164,7 @@ rt_err_t uart2_receive_and_print(rt_int32_t timeout)
                 else
                 {
                     /* normal byte, print directly */
-                    rt_kprintf("%02X ", data);
+                    /* rt_kprintf("%02X ", data); */
                     byte_count++;
                     if (data_index < PACKET_SIZE)
                     {
@@ -176,7 +176,7 @@ rt_err_t uart2_receive_and_print(rt_int32_t timeout)
             /* once 19 bytes are received, parse one full packet */
             if (byte_count >= PACKET_SIZE)
             {
-                rt_kprintf("\r\n");
+                /* rt_kprintf("\r\n"); */
                 Response_FrameCheck_Uart(uart2_received_data);
                 byte_count = 0;
                 data_index = 0;
@@ -192,7 +192,7 @@ rt_err_t uart2_receive_and_print(rt_int32_t timeout)
             timeout -= 10;
             if (timeout <= 0)
             {
-                rt_kprintf("\nUART2 receive timeout!\n");
+                /* rt_kprintf("\nUART2 receive timeout!\n"); */
                 break;
             }
         }

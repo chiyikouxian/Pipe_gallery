@@ -75,7 +75,7 @@ uint32_t ADC1_Read_Channel0(void)
 
 uint32_t ADC1_Read_Channel1(void)
 {
-    return adc_read_channel(ADC_CHANNEL_1);
+    return adc_read_channel(ADC_CHANNEL_15);
 }
 
 uint32_t ADC1_Read_Channel3(void)
@@ -85,7 +85,7 @@ uint32_t ADC1_Read_Channel3(void)
 
 uint32_t ADC1_Read_Channel4(void)
 {
-    return adc_read_channel(ADC_CHANNEL_4);
+    return adc_read_channel(ADC_CHANNEL_19);
 }
 
 uint32_t ADC1_Read_Channel5(void)
