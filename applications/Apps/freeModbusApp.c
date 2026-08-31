@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2006-2021, RT-Thread Development Team
  *
  * SPDX-License-Identifier: Apache-2.0
@@ -14,6 +14,7 @@
 float Voltage[3] = {0};     /* three-phase voltage */
 float Current[3] = {0};     /* three-phase current */
 float Flow = 0;             /* water flow */
+float Displacement = 0;     /* displacement value (mm) */
 
 /**
  * @brief Convert two 16-bit registers to an IEEE 754 float
@@ -77,12 +78,45 @@ void send_thread_entry(void *parameter)
             int flow_int = (int)Flow;
             int flow_dec = (int)((Flow - flow_int) * 1000);
             if (flow_dec < 0) flow_dec = -flow_dec;
-            rt_kprintf("[Water] Flow: %d.%03d m3/h (Reg[%d]=0x%04X, Reg[%d]=0x%04X)\n",
-                       flow_int, flow_dec, FLOW_REG_START, reg_high, FLOW_REG_START+1, reg_low);
+            /* rt_kprintf("[Water] Flow: %d.%03d m3/h (Reg[%d]=0x%04X, Reg[%d]=0x%04X)\n",
+                       flow_int, flow_dec, FLOW_REG_START, reg_high, FLOW_REG_START+1, reg_low); */
         }
         else
         {
-            rt_kprintf("[Water] Error: %d\n", error_code);
+            /* rt_kprintf("[Water] Error: %d\n", error_code); */
+        }
+
+        rt_thread_mdelay(500);
+
+        /* ==================== Read displacement sensor ==================== */
+        error_code = eMBMasterReqReadHoldingRegister(DISPLACEMENT_SLAVE_ADDR,
+                                                    DISPLACEMENT_REG_START,
+                                                    DISPLACEMENT_REG_NUM,
+                                                    RT_WAITING_FOREVER);
+
+        if (error_code == MB_MRE_NO_ERR)
+        {
+            /* Displacement sensor data is in Reg[1] only */
+            uint16_t raw_value = usMRegHoldBuf[DISPLACEMENT_SLAVE_ADDR - 1][DISPLACEMENT_REG_START + 1];
+
+            /* Apply zero offset and convert to mm */
+            int32_t adjusted_raw = (int32_t)raw_value - 74;  /* Zero offset = 74 */
+            if (adjusted_raw < 0) adjusted_raw = 0;
+
+            Displacement = adjusted_raw * 0.025f;  /* Scale factor = 0.025 */
+
+            /* Update node data */
+            node[0].Displacement = Displacement;
+
+            /* Optional: print debug info */
+            // int disp_int = (int)Displacement;
+            // int disp_dec = (int)((Displacement - disp_int) * 1000);
+            // if (disp_dec < 0) disp_dec = -disp_dec;
+            // rt_kprintf("[Displacement] Value: %d.%03d mm (Raw: %d)\n", disp_int, disp_dec, raw_value);
+        }
+        else
+        {
+            /* rt_kprintf("[Displacement] Error: %d\n", error_code); */
         }
 
         rt_thread_mdelay(500);
@@ -106,15 +140,15 @@ void send_thread_entry(void *parameter)
                 int volt_int = (int)Voltage[i];
                 int volt_dec = (int)((Voltage[i] - volt_int) * 100);
                 if (volt_dec < 0) volt_dec = -volt_dec;
-                rt_kprintf("[Ammeter] Voltage[%d]: %d.%02d V (Reg[0x%03X]=0x%04X, Reg[0x%03X]=0x%04X)\n",
+                /* rt_kprintf("[Ammeter] Voltage[%d]: %d.%02d V (Reg[0x%03X]=0x%04X, Reg[0x%03X]=0x%04X)\n",
                            i, volt_int, volt_dec,
                            VOLTAGE_REG_START + i*2, reg_high,
-                           VOLTAGE_REG_START + i*2 + 1, reg_low);
+                           VOLTAGE_REG_START + i*2 + 1, reg_low); */
             }
         }
         else
         {
-            rt_kprintf("[Ammeter Voltage] Error: %d\n", error_code);
+            /* rt_kprintf("[Ammeter Voltage] Error: %d\n", error_code); */
         }
 
         rt_thread_mdelay(500);
@@ -137,10 +171,10 @@ void send_thread_entry(void *parameter)
                 int curr_int = (int)Current[i];
                 int curr_dec = (int)((Current[i] - curr_int) * 1000);
                 if (curr_dec < 0) curr_dec = -curr_dec;
-                rt_kprintf("[Ammeter] Current[%d]: %d.%03d A (Reg[0x%03X]=0x%04X, Reg[0x%03X]=0x%04X)\n",
+                /* rt_kprintf("[Ammeter] Current[%d]: %d.%03d A (Reg[0x%03X]=0x%04X, Reg[0x%03X]=0x%04X)\n",
                            i, curr_int, curr_dec,
                            CURRENT_REG_START + i*2, reg_high,
-                           CURRENT_REG_START + i*2 + 1, reg_low);
+                           CURRENT_REG_START + i*2 + 1, reg_low); */
             }
 
             /* update node current field */
@@ -148,10 +182,10 @@ void send_thread_entry(void *parameter)
         }
         else
         {
-            rt_kprintf("[Ammeter Current] Error: %d\n", error_code);
+            /* rt_kprintf("[Ammeter Current] Error: %d\n", error_code); */
         }
 
-        rt_kprintf("\n");  /* print separator line */
+        /* rt_kprintf("\n"); */  /* print separator line */
         rt_thread_mdelay(500);
     }
 }

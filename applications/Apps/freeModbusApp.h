@@ -49,6 +49,14 @@ extern float Current[3];        /* three-phase current: A, B, C */
 extern float Flow;              /* water flow */
 /*************************** Water meter MODBUS ************************/
 
+/*************************** Displacement Sensor MODBUS ****************/
+#define DISPLACEMENT_SLAVE_ADDR     2           /* displacement sensor slave address (changed from 1) */
+#define DISPLACEMENT_REG_START      0x0000      /* displacement value register */
+#define DISPLACEMENT_REG_NUM        2           /* 2 registers (only Reg[1] used) */
+
+extern float Displacement;      /* displacement value (mm) */
+/*************************** Displacement Sensor MODBUS ****************/
+
 #define MB_POLL_CYCLE_MS   500
 
 void send_thread_entry(void *parameter);

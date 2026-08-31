@@ -117,6 +117,10 @@ static int build_sensor_json(void)
         sizeof(eth_json_buf) - pos, ",");
     pos += append_float(eth_json_buf + pos,
         sizeof(eth_json_buf) - pos, "o2", g_o2_concentration);
+    pos += rt_snprintf(eth_json_buf + pos,
+        sizeof(eth_json_buf) - pos, ",");
+    pos += append_float(eth_json_buf + pos,
+        sizeof(eth_json_buf) - pos, "displacement", Displacement);
 
     pos += rt_snprintf(eth_json_buf + pos,
         sizeof(eth_json_buf) - pos,

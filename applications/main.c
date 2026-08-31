@@ -19,6 +19,7 @@
 #include "sht30App.h"
 #include "o2SensorApp.h"
 #include "ethApp.h"
+#include "displacementSensorApp.h"
 
 #define DBG_LVL DBG_LOG
 
@@ -36,9 +37,9 @@ int main(void)
 {
     /* ============================================================
      * UART assignment:
-     * UART2 (PA2/PA3)    - Gas sensor (19200 baud)
+     * UART2 (PD5/PD6)    - Gas sensor (19200 baud)
      * UART3 (PB10/PB11)  - MODBUS RTU master (9600 baud, water meter + ammeter)
-     * UART4 (PA11/PA12)  - ESP8266 WiFi module (115200 baud)
+     * UART4 (PA12/PA11)  - ESP8266 WiFi module (115200 baud)
      * UART5 (PC12/PD2)   - ATK-LORA-01 LoRa module (115200 baud)
      * ============================================================ */
 
@@ -66,7 +67,7 @@ int main(void)
     /* SHT30 temperature/humidity sensor (I2C1: PB6 SCL, PB7 SDA) */
     sht30_init();
 
-    /* O2 sensor (ADC1 channel 10, PC0) */
+    /* O2 sensor (ADC1 channel 18, PA4) */
     o2_sensor_init();
 
     /* Ethernet TCP client - fiber optic main link */
@@ -84,6 +85,26 @@ int main(void)
     rt_thread_t uart2_thread = rt_thread_create("uart2_rx",uart2_receive_thread_entry,RT_NULL,1024,25,10);
     if (uart2_thread != RT_NULL)
         rt_thread_startup(uart2_thread);
+
+    /* ============================================================
+     * Displacement sensor test thread (CN2 interface, RS485)
+     * 测试完成，已集成到 freeModbusApp.c 的主轮询中
+     * ============================================================ */
+    // rt_thread_t disp_test_thread = rt_thread_create("disp_test",
+    //                                                  displacement_sensor_test_thread_entry,
+    //                                                  RT_NULL,
+    //                                                  1024,
+    //                                                  26,
+    //                                                  10);
+    // if (disp_test_thread != RT_NULL)
+    // {
+    //     rt_thread_startup(disp_test_thread);
+    //     rt_kprintf("[DISP] Displacement sensor test thread started.\n");
+    // }
+    // else
+    // {
+    //     rt_kprintf("[DISP] Failed to create displacement sensor test thread!\n");
+    // }
 
     return RT_EOK;
 }

@@ -30,5 +30,7 @@
 #include "loraApp.h"
 #include "sht30App.h"
 #include "o2SensorApp.h"
+#include "ethApp.h"
+#include "displacementSensorApp.h"
 
 #endif /* APPLICATIONS_HEADS_H_ */

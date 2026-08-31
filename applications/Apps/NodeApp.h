@@ -12,10 +12,11 @@
 
 typedef struct Node
 {
-    float CH1_A[3];             //0£ºACµçÁ÷£»1£ºBCµçÁ÷£»2£ºCAµçÁ÷
-    float Flow;                 //Á÷Á¿
-    char Flame;                 //»ğÑæ´«¸ĞÆ÷ 1ÓĞ»ğ 0ÎŞ»ğ
-    float Methane;              //¼×ÍéÅ¨¶È
+    float CH1_A[3];             //0ä¸ºACç›¸ç”µæµï¼Œ1ä¸ºBCç›¸ç”µæµï¼Œ2ä¸ºCAç›¸ç”µæµ
+    float Flow;                 //æµé‡
+    char Flame;                 //ç«ç„°ä¼ æ„Ÿå™¨ 1æœ‰ç« 0æ— ç«
+    float Methane;              //ç”²çƒ·æµ“åº¦
+    float Displacement;         //ä½ç§»å€¼ (mm)
 } Node;
 
 #define NODENUM 2
