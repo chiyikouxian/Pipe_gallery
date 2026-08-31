@@ -5,7 +5,11 @@
       "Bash(xargs:*)",
       "Bash(git init:*)",
       "Bash(git remote add:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd innovation competition Q&A document and complete project files\n\n本次提交包含以下内容：\n- 新增创新创业大赛答辩问题预测文档 \\(answer.txt\\)\n- 管廊监测系统完整源代码\n  * STM32H743XI + RT-Thread RTOS架构\n  * Modbus RTU工业通信（电表、水表）\n  * 甲烷传感器数据采集\n  * ADC火焰传感器接口\n  * WiFi/MQTT云端通信框架\n\n主要特性：\n- 多传感器融合采集（甲烷、火焰、电流、流量）\n- 实时操作系统多线程调度\n- 工业级Modbus主站通信\n- 华为云IoT平台对接\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(node:*)"
     ]
   }
 }
