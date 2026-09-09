@@ -13,8 +13,8 @@
 #include <rtthread.h>
 
 /* TCP server config */
-#define ETH_SERVER_IP           "192.168.1.100"
-#define ETH_SERVER_PORT         8080
+#define ETH_SERVER_IP           "192.168.3.10"
+#define ETH_SERVER_PORT         19008
 
 /* Device identification */
 #define ETH_DEVICE_ID           "pipe_gallery_node_01"

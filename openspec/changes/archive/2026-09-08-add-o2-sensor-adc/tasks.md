@@ -20,28 +20,28 @@
 ## 2. Integrate into System Startup
 - [x] 2.1 Add `#include "o2SensorApp.h"` to `applications/heads.h`.
 - [x] 2.2 In `applications/main.c`, call `o2_sensor_init()` after SHT30 init and before LoRa thread.
-- [ ] 2.3 Check the `o2_sensor_init()` return value in `main.c` and emit a visible success/failure log.
+- [x] 2.3 Check the `o2_sensor_init()` return value in `main.c` and emit a visible success/failure log.
 
 ## 3. Board Pin Integration
 - [x] 3.1 Configure PA4 as ADC1_INP18 in `drivers/board.c`.
 - [x] 3.2 Keep PC5 reserved for Ethernet RMII RXD1.
 
 ## 4. Build Verification
-- [ ] 4.1 Run build (RT-Thread Studio/SCons with a configured ARM toolchain) and confirm zero errors.
-- [ ] 4.2 Confirm no new warnings introduced.
+- [ ] 4.1 Run build (RT-Thread Studio/SCons with a configured ARM toolchain) and confirm zero errors. *(requires ARM toolchain / hardware)*
+- [ ] 4.2 Confirm no new warnings introduced. *(requires ARM toolchain / hardware)*
 
 ## 5. Board-Level Verification
-- [ ] 5.1 Confirm serial log shows "O2 sensor initialized on adc1 ch18" at boot.
-- [ ] 5.2 Confirm periodic O2 values are updated without disrupting other threads.
-- [ ] 5.3 Disconnect O2 sensor and confirm the system remains stable.
-- [ ] 5.4 Confirm all existing threads (Modbus, LoRa, MQTT, ADC flame, SHT30, UART, Ethernet) continue to run normally.
-- [ ] 5.5 Verify O2 reading is ~20.9% in normal air; adjust `O2_FULL_SCALE_MV` if needed.
+- [ ] 5.1 Confirm serial log shows "O2 sensor initialized on adc1 ch18" at boot. *(requires hardware)*
+- [ ] 5.2 Confirm periodic O2 values are updated without disrupting other threads. *(requires hardware)*
+- [ ] 5.3 Disconnect O2 sensor and confirm the system remains stable. *(requires hardware)*
+- [ ] 5.4 Confirm all existing threads (Modbus, LoRa, MQTT, ADC flame, SHT30, UART, Ethernet) continue to run normally. *(requires hardware)*
+- [ ] 5.5 Verify O2 reading is ~20.9% in normal air; adjust `O2_FULL_SCALE_MV` if needed. *(requires hardware)*
 
 ## 6. Ethernet Reporting Integration
 - [x] 6.1 Include O2 concentration in the Ethernet TCP JSON payload in `ethApp.c`.
 
-## 7. (Future Task, Blocked) Huawei Cloud Reporting Integration
-- [ ] 7.1 Add O2 concentration field to Huawei Cloud property-report JSON in `huaweiCloudApp.c`.
+## 7. (Deferred) Huawei Cloud Reporting Integration
+- [ ] 7.1 Add O2 concentration field to Huawei Cloud property-report JSON in `huaweiCloudApp.c`. *(deferred - future task)*
 
-## 8. (Future Task, Blocked) LoRa Reporting Integration
-- [ ] 8.1 Add O2 concentration field to LoRa text payload in `loraApp.c`.
+## 8. (Deferred) LoRa Reporting Integration
+- [ ] 8.1 Add O2 concentration field to LoRa text payload in `loraApp.c`. *(deferred - future task)*

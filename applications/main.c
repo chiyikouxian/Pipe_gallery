@@ -65,10 +65,16 @@ int main(void)
     line_sensor_init();
 
     /* SHT30 temperature/humidity sensor (I2C1: PB6 SCL, PB7 SDA) */
-    sht30_init();
+    if (sht30_init() != RT_EOK)
+        rt_kprintf("[main] E: SHT30 init failed!\n");
+    else
+        rt_kprintf("[main] I: SHT30 initialized on i2c1\n");
 
     /* O2 sensor (ADC1 channel 18, PA4) */
-    o2_sensor_init();
+    if (o2_sensor_init() != RT_EOK)
+        rt_kprintf("[main] E: O2 sensor init failed!\n");
+    else
+        rt_kprintf("[main] I: O2 sensor initialized on adc1 ch18\n");
 
     /* Ethernet TCP client - fiber optic main link */
     if (eth_app_init() != RT_EOK)

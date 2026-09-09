@@ -1,7 +1,7 @@
 import socket
 
 HOST = '0.0.0.0'  # listen on all interfaces
-PORT = 8080
+PORT = 19008
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((HOST, PORT))

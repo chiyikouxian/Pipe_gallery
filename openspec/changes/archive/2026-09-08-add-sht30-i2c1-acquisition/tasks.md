@@ -29,24 +29,24 @@
 ## 4. Integrate into System Startup
 - [x] 4.1 Add `#include "sht30App.h"` to `applications/heads.h`.
 - [x] 4.2 In `applications/main.c`, call `sht30_init()` after line_sensor_init() and before LoRa thread.
-- [ ] 4.3 Check the `sht30_init()` return value in `main.c` and emit a visible success/failure log.
+- [x] 4.3 Check the `sht30_init()` return value in `main.c` and emit a visible success/failure log.
 
 ## 5. Build Verification
-- [ ] 5.1 Run `scons` (or RT-Thread Studio build) and confirm zero errors.
-- [ ] 5.2 Confirm no new warnings introduced.
+- [ ] 5.1 Run `scons` (or RT-Thread Studio build) and confirm zero errors. *(requires ARM toolchain / hardware)*
+- [ ] 5.2 Confirm no new warnings introduced. *(requires ARM toolchain / hardware)*
 
 ## 6. Board-Level Verification
-- [ ] 6.1 Enable an appropriate SHT30 log level and confirm the boot log shows initialization on `i2c1`.
-- [ ] 6.2 Add/enable periodic scaled-integer output and confirm temperature/humidity values on the serial console.
-- [ ] 6.3 Disconnect SHT30 and confirm I2C error log appears without crash.
-- [ ] 6.4 Confirm all existing threads (Modbus, LoRa, MQTT, ADC, UART) continue to run normally.
+- [ ] 6.1 Enable an appropriate SHT30 log level and confirm the boot log shows initialization on `i2c1`. *(requires hardware)*
+- [ ] 6.2 Add/enable periodic scaled-integer output and confirm temperature/humidity values on the serial console. *(requires hardware)*
+- [ ] 6.3 Disconnect SHT30 and confirm I2C error log appears without crash. *(requires hardware)*
+- [ ] 6.4 Confirm all existing threads (Modbus, LoRa, MQTT, ADC, UART) continue to run normally. *(requires hardware)*
 
-## 7. (Future Task, Blocked) Huawei Cloud Reporting Integration
-- [ ] 7.1 Add temperature/humidity fields to Huawei Cloud property-report JSON in `huaweiCloudApp.c`.
-- [ ] 7.2 Create or update service definitions on the cloud platform side.
+## 7. (Deferred) Huawei Cloud Reporting Integration
+- [ ] 7.1 Add temperature/humidity fields to Huawei Cloud property-report JSON in `huaweiCloudApp.c`. *(deferred - future task)*
+- [ ] 7.2 Create or update service definitions on the cloud platform side. *(deferred - future task)*
 
-## 8. (Future Task, Blocked) LoRa Reporting Integration
-- [ ] 8.1 Add temperature/humidity fields to LoRa text payload in `loraApp.c`.
+## 8. (Deferred) LoRa Reporting Integration
+- [ ] 8.1 Add temperature/humidity fields to LoRa text payload in `loraApp.c`. *(deferred - future task)*
 
 ## 9. Ethernet Reporting Integration
 - [x] 9.1 Include temperature and humidity in the Ethernet TCP JSON payload in `ethApp.c`.

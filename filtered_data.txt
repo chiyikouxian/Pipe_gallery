@@ -1,0 +1,3456 @@
+ADC CH0: 49833  CH1: 46  CH3: 33  CH4: 32  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0x66
+[Ammeter] Voltage[0]: 234.65 V (Reg[0x100]=0x436A, Reg[0x101]=0xA79A)
+[Ammeter] Voltage[1]: 234.59 V (Reg[0x102]=0x436A, Reg[0x103]=0x9933)
+[Ammeter] Voltage[2]: 234.70 V (Reg[0x104]=0x436A, Reg[0x105]=0xB477)
+ADC CH0: 49886  CH1: 41  CH3: 21  CH4: 15  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0x66
+ADC CH0: 49663  CH1: 92  CH3: 32  CH4: 11  CH5: 61
+ADC CH0: 49898  CH1: 42  CH3: 25  CH4: 24  CH5: 32
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49895  CH1: 30  CH3: 17  CH4: 15  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0x66
+ADC CH0: 49894  CH1: 32  CH3: 40  CH4: 15  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0x66
+ADC CH0: 49849  CH1: 41  CH3: 28  CH4: 11  CH5: 24
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49894  CH1: 15  CH3: 33  CH4: 25  CH5: 36
+ADC CH0: 49896  CH1: 56  CH3: 26  CH4: 17  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0x66
+ADC CH0: 49899  CH1: 35  CH3: 26  CH4: 11  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 235.14 V (Reg[0x100]=0x436B, Reg[0x101]=0x265D)
+[Ammeter] Voltage[1]: 235.09 V (Reg[0x102]=0x436B, Reg[0x103]=0x18BB)
+[Ammeter] Voltage[2]: 235.20 V (Reg[0x104]=0x436B, Reg[0x105]=0x3374)
+ADC CH0: 49904  CH1: 11  CH3: 21  CH4: 11  CH5: 12
+ADC CH0: 49907  CH1: 25  CH3: 21  CH4: 23  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49896  CH1: 33  CH3: 21  CH4: 24  CH5: 36
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49900  CH1: 25  CH3: 24  CH4: 19  CH5: 28
+ADC CH0: 49902  CH1: 31  CH3: 20  CH4: 11  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49894  CH1: 0  CH3: 21  CH4: 24  CH5: 29
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49900  CH1: 35  CH3: 29  CH4: 24  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49894  CH1: 33  CH3: 25  CH4: 17  CH5: 25
+ADC CH0: 49898  CH1: 30  CH3: 28  CH4: 24  CH5: 32
+[Ammeter] Voltage[0]: 235.16 V (Reg[0x100]=0x436B, Reg[0x101]=0x2B25)
+[Ammeter] Voltage[1]: 235.11 V (Reg[0x102]=0x436B, Reg[0x103]=0x1D87)
+[Ammeter] Voltage[2]: 235.22 V (Reg[0x104]=0x436B, Reg[0x105]=0x38FC)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49906  CH1: 19  CH3: 21  CH4: 15  CH5: 24
+ADC CH0: 49925  CH1: 42  CH3: 17  CH4: 11  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49902  CH1: 30  CH3: 25  CH4: 18  CH5: 9
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49906  CH1: 40  CH3: 17  CH4: 15  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49895  CH1: 25  CH3: 25  CH4: 15  CH5: 24
+ADC CH0: 49882  CH1: 14  CH3: 21  CH4: 15  CH5: 30
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49906  CH1: 32  CH3: 24  CH4: 30  CH5: 29
+ADC CH0: 49910  CH1: 27  CH3: 28  CH4: 24  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49907  CH1: 31  CH3: 33  CH4: 27  CH5: 28
+[Ammeter] Voltage[0]: 234.71 V (Reg[0x100]=0x436A, Reg[0x101]=0xB820)
+[Ammeter] Voltage[1]: 234.66 V (Reg[0x102]=0x436A, Reg[0x103]=0xAA87)
+[Ammeter] Voltage[2]: 234.77 V (Reg[0x104]=0x436A, Reg[0x105]=0xC5E9)
+ADC CH0: 49906  CH1: 32  CH3: 36  CH4: 26  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49910  CH1: 32  CH3: 21  CH4: 25  CH5: 19
+ADC CH0: 49904  CH1: 23  CH3: 29  CH4: 25  CH5: 21
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49904  CH1: 32  CH3: 20  CH4: 15  CH5: 28
+ADC CH0: 49904  CH1: 27  CH3: 28  CH4: 17  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49827  CH1: 27  CH3: 15  CH4: 26  CH5: 29
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49898  CH1: 19  CH3: 19  CH4: 18  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49891  CH1: 40  CH3: 24  CH4: 23  CH5: 25
+ADC CH0: 49902  CH1: 15  CH3: 33  CH4: 11  CH5: 40
+[Ammeter] Voltage[0]: 235.32 V (Reg[0x100]=0x436B, Reg[0x101]=0x539F)
+[Ammeter] Voltage[1]: 235.27 V (Reg[0x102]=0x436B, Reg[0x103]=0x45B6)
+[Ammeter] Voltage[2]: 235.37 V (Reg[0x104]=0x436B, Reg[0x105]=0x60D7)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49902  CH1: 32  CH3: 28  CH4: 19  CH5: 19
+ADC CH0: 49895  CH1: 26  CH3: 28  CH4: 14  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49858  CH1: 34  CH3: 33  CH4: 32  CH5: 29
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49892  CH1: 43  CH3: 28  CH4: 19  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49822  CH1: 26  CH3: 15  CH4: 32  CH5: 32
+ADC CH0: 49899  CH1: 32  CH3: 25  CH4: 16  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49913  CH1: 19  CH3: 21  CH4: 26  CH5: 32
+ADC CH0: 49899  CH1: 26  CH3: 24  CH4: 19  CH5: 40
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49899  CH1: 17  CH3: 32  CH4: 24  CH5: 25
+[Ammeter] Voltage[0]: 235.30 V (Reg[0x100]=0x436B, Reg[0x101]=0x4E52)
+[Ammeter] Voltage[1]: 235.25 V (Reg[0x102]=0x436B, Reg[0x103]=0x41D8)
+ADC CH0: 49887  CH1: 32  CH3: 25  CH4: 26  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49895  CH1: 35  CH3: 32  CH4: 15  CH5: 30
+ADC CH0: 49886  CH1: 26  CH3: 28  CH4: 26  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49813  CH1: 19  CH3: 25  CH4: 26  CH5: 25
+ADC CH0: 49893  CH1: 25  CH3: 56  CH4: 15  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49894  CH1: 31  CH3: 27  CH4: 14  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49898  CH1: 34  CH3: 25  CH4: 18  CH5: 36
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49891  CH1: 34  CH3: 33  CH4: 27  CH5: 56
+ADC CH0: 49892  CH1: 24  CH3: 24  CH4: 19  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 235.41 V (Reg[0x100]=0x436B, Reg[0x101]=0x6A7B)
+[Ammeter] Voltage[1]: 235.36 V (Reg[0x102]=0x436B, Reg[0x103]=0x5D8E)
+[Ammeter] Voltage[2]: 235.47 V (Reg[0x104]=0x436B, Reg[0x105]=0x78F3)
+ADC CH0: 49887  CH1: 42  CH3: 21  CH4: 27  CH5: 36
+ADC CH0: 49902  CH1: 42  CH3: 25  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49894  CH1: 33  CH3: 25  CH4: 26  CH5: 25
+[Ammeter] Current[0]: 0.356 A (Reg[0x10E]=0x3EB6, Reg[0x10F]=0x9F91)
+[Ammeter] Current[1]: 0.347 A (Reg[0x110]=0x3EB1, Reg[0x111]=0xF121)
+[Ammeter] Current[2]: 0.344 A (Reg[0x112]=0x3EB0, Reg[0x113]=0x7A21)
+ADC CH0: 49663  CH1: 75  CH3: 4  CH4: 42  CH5: 61
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49819  CH1: 35  CH3: 16  CH4: 19  CH5: 40
+ADC CH0: 49895  CH1: 11  CH3: 25  CH4: 15  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49890  CH1: 42  CH3: 32  CH4: 3  CH5: 32
+ADC CH0: 49894  CH1: 33  CH3: 28  CH4: 14  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49894  CH1: 25  CH3: 25  CH4: 26  CH5: 27
+[Ammeter] Voltage[0]: 234.91 V (Reg[0x100]=0x436A, Reg[0x101]=0xE989)
+[Ammeter] Voltage[1]: 234.85 V (Reg[0x102]=0x436A, Reg[0x103]=0xDC21)
+[Ammeter] Voltage[2]: 234.96 V (Reg[0x104]=0x436A, Reg[0x105]=0xF60D)
+ADC CH0: 49895  CH1: 33  CH3: 17  CH4: 19  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49894  CH1: 28  CH3: 29  CH4: 19  CH5: 33
+ADC CH0: 49894  CH1: 55  CH3: 24  CH4: 25  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.357 A (Reg[0x10E]=0x3EB6, Reg[0x10F]=0xCCE1)
+[Ammeter] Current[1]: 0.344 A (Reg[0x110]=0x3EB0, Reg[0x111]=0x7D41)
+[Ammeter] Current[2]: 0.341 A (Reg[0x112]=0x3EAF, Reg[0x113]=0x0191)
+ADC CH0: 49905  CH1: 26  CH3: 28  CH4: 13  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAADC CH0: C 49890  CH1: 33  CH3: 24  CH4: 16  CH5: 29
+ADC CH0: 49894  CH1: 32  CH3: 41  CH4: 24  CH5: 30
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49894  CH1: 40  CH3: 25  CH4: 19  CH5: 36
+ADC CH0: 49883  CH1: 30  CH3: 26  CH4: 28  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49883  CH1: 35  CH3: 33  CH4: 19  CH5: 29
+[Ammeter] Voltage[0]: 234.85 V (Reg[0x100]=0x436A, Reg[0x101]=0xDA09)
+[Ammeter] Voltage[1]: 234.79 V (Reg[0x102]=0x436A, Reg[0x103]=0xCC58)
+[Ammeter] Voltage[2]: 234.90 V (Reg[0x104]=0x436A, Reg[0x105]=0xE7A8)
+ADC CH0: 49895  CH1: 35  CH3: 32  CH4: 24  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49910  CH1: 32  CH3: 24  CH4: 14  CH5: 28
+ADC CH0: 49910  CH1: 35  CH3: 25  CH4: 15  CH5: 13
+[Ammeter] Current[0]: 0.346 A (Reg[0x10E]=0x3EB1, Reg[0x10F]=0x9361)
+[Ammeter] Current[1]: 0.335 A (Reg[0x110]=0x3EAB, Reg[0x111]=0xF5E1)
+[Ammeter] Current[2]: 0.332 A (Reg[0x112]=0x3EAA, Reg[0x113]=0x17C1)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49928  CH1: 27  CH3: 17  CH4: 24  CH5: 24
+ADC CH0: 49902  CH1: 34  CH3: 25  CH4: 19  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49918  CH1: 33  CH3: 29  CH4: 28  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49906  CH1: 42  CH3: 25  CH4: 24  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49912  CH1: 23  CH3: 28  CH4: 19  CH5: 27
+ADC CH0: 49900  CH1: 35  CH3: 25  CH4: 19  CH5: 33
+[Ammeter] Voltage[0]: 234.99 V (Reg[0x100]=0x436A, Reg[0x101]=0xFDA2)
+[Ammeter] Voltage[1]: 234.93 V (Reg[0x102]=0x436A, Reg[0x103]=0xF026)
+[Ammeter] Voltage[2]: 235.04 V (Reg[0x104]=0x436B, Reg[0x105]=0x0A95)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49911  CH1: 26  CH3: 24  CH4: 17  CH5: 25
+ADC CH0: 49898  CH1: 35  CH3: 28  CH4: 20  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49849  CH1: 33  CH3: 25  CH4: 32  CH5: 33
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49908  CH1: 32  CH3: 24  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49918  CH1: 27  CH3: 30  CH4: 21  CH5: 25
+ADC CH0: 49911  CH1: 34  CH3: 28  CH4: 24  CH5: 21
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49916  CH1: 26  CH3: 25  CH4: 17  CH5: 25
+ADC CH0: 49914  CH1: 11  CH3: 28  CH4: 26  CH5: 44
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49872  CH1: 33  CH3: 33  CH4: 24  CH5: 29
+[Ammeter] Voltage[0]: 235.32 V (Reg[0x100]=0x436B, Reg[0x101]=0x5327)
+[Ammeter] Voltage[1]: 235.27 V (Reg[0x102]=0x436B, Reg[0x103]=0x457F)
+[Ammeter] Voltage[2]: 235.37 V (Reg[0x104]=0x436B, Reg[0x105]=0x604A)
+ADC CH0: 49900  CH1: 40  CH3: 28  CH4: 23  CH5: 40
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49902  CH1: 43  CH3: 19  CH4: 15  CH5: 25
+ADC CH0: 49914  CH1: 35  CH3: 25  CH4: 26  CH5: 29
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49910  CH1: 33  CH3: 25  CH4: 17  CH5: 28
+ADC CH0: 49908  CH1: 33  CH3: 25  CH4: 15  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49910  CH1: 19  CH3: 28  CH4: 30  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49914  CH1: 26  CH3: 24  CH4: 34  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49846  CH1: 35  CH3: 33  CH4: 15  CH5: 41
+ADC CH0: 49906  CH1: 19  CH3: 21  CH4: 27  CH5: 32
+[Ammeter] Voltage[0]: 235.23 V (Reg[0x100]=0x436B, Reg[0x101]=0x3CD8)
+[Ammeter] Voltage[1]: 235.18 V (Reg[0x102]=0x436B, Reg[0x103]=0x2F0D)
+[Ammeter] Voltage[2]: 235.28 V (Reg[0x104]=0x436B, Reg[0x105]=0x4961)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49914  CH1: 25  CH3: 21  CH4: 30  CH5: 28
+ADC CH0: 49911  CH1: 11  CH3: 24  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49934  CH1: 35  CH3: 25  CH4: 24  CH5: 28
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49913  CH1: 31  CH3: 24  CH4: 11  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49858  CH1: 0  CH3: 32  CH4: 11  CH5: 32
+ADC CH0: 49914  CH1: 35  CH3: 25  CH4: 30  CH5: 25
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49915  CH1: 30  CH3: 28  CH4: 15  CH5: 33
+ADC CH0: 49927  CH1: 33  CH3: 25  CH4: 23  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.54 V (Reg[0x100]=0x436A, Reg[0x101]=0x8BAE)
+[Ammeter] Voltage[1]: 234.ADC CH0: 49846  CH1: 41  CH3: 25  CH4: 25  CH5: 37
+[Ammeter] Voltage[2]: 234.59 V (Reg[0x104]=0x436A, Reg[0x105]=0x992C)
+ADC CH0: 49890  CH1: 32  CH3: 28  CH4: 26  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49910  CH1: 27  CH3: 24  CH4: 19  CH5: 33
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49911  CH1: 23  CH3: 25  CH4: 15  CH5: 28
+ADC CH0: 49914  CH1: 40  CH3: 24  CH4: 17  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49903  CH1: 25  CH3: 29  CH4: 11  CH5: 25
+ADC CH0: 49903  CH1: 33  CH3: 24  CH4: 17  CH5: 30
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49895  CH1: 27  CH3: 28  CH4: 19  CH5: 32
+[Ammeter] Voltage[0]: 235.05 V (Reg[0x100]=0x436B, Reg[0x101]=0x0ED6)
+[Ammeter] Voltage[1]: 235.00 V (Reg[0x102]=0x436B, Reg[0x103]=0x00B4)
+[Ammeter] Voltage[2]: 235.10 V (Reg[0x104]=0x436B, Reg[0x105]=0x1BED)
+ADC CH0: 49906  CH1: 42  CH3: 24  CH4: 42  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49894  CH1: 32  CH3: 25  CH4: 15  CH5: 25
+ADC CH0: 49906  CH1: 41  CH3: 30  CH4: 26  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.357 A (Reg[0x10E]=0x3EB7, Reg[0x10F]=0x3401)
+[Ammeter] Current[1]: 0.346 A (Reg[0x110]=0x3EB1, Reg[0x111]=0x6AC1)
+[Ammeter] Current[2]: 0.341 A (Reg[0x112]=0x3EAE, Reg[0x113]=0xBB41)
+ADC CH0: 49904  CH1: 30  CH3: 32  CH4: 26  CH5: 28
+ADC CH0: 49906  CH1: 33  CH3: 21  CH4: 15AC AC 13 AA 9E 02 1C  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49898  CH1: 42  CH3: 25  CH4: 26  CH5: 29
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49898  CH1: 35  CH3: 24  CH4: 15  CH5: 20
+ADC CH0: 49895  CH1: 36  CH3: 29  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49822  CH1: 35  CH3: 25  CH4: 26  CH5: 37
+[Ammeter] Voltage[0]: 234.69 V (Reg[0x100]=0x436A, Reg[0x101]=0xB144)
+[Ammeter] Voltage[1]: 234.64 V (Reg[0x102]=0x436A, Reg[0x103]=0xA465)
+[Ammeter] Voltage[2]: 234.74 V (Reg[0x104]=0x436A, Reg[0x105]=0xBE24)
+ADC CH0: 49903  CH1: 33  CH3: 19  CH4: 23  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49898  CH1: 35  CH3: 24  CH4: 30  CH5: 29
+ADC CH0: 49811  CH1: 30  CH3: 21  CH4: 27  CH5: 80
+[Ammeter] Current[0]: 0.358 A (Reg[0x10E]=0x3EB7, Reg[0x10F]=0x6C41)
+[Ammeter] Current[1]: 0.346 A (Reg[0x110]=0x3EB1, Reg[0x111]=0x6611)
+[Ammeter] Current[2]: 0.340 A (Reg[0x112]=0x3EAE, Reg[0x113]=0x3671AC AC 13 AA 99 02 19 08 FE 35 00 00 00 AA 00 00 00 00 AE
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49909  CH1: 39  CH3: 13  CH4: 17  CH5: 29
+ADC CH0: 49899  CH1: 25  CH3: 21  CH4: 30  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49902  CH1: 32  CH3: 17  CH4: 15  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49903  CH1: 42  CH3: 25  CH4: 25  CH5: 28
+ADC CH0: 49895  CH1: 26  CH3: 25  CH4: 28  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 235.21 V (Reg[0x100]=0x436B, Reg[0x101]=0x369A)
+[Ammeter] Voltage[1]: 235.16 V (Reg[0x102]=0x436B, Reg[0x103]=0x292D)
+[Ammeter] Voltage[2]: 235.26 V (Reg[0x104]=0x436B, Reg[0x105]=0x441B)
+ADC CH0: 49902  CH1: 25  CH3: 20  CH4: 15  CH5: 26
+ADC CH0: 49895  CH1: 45  CH3: 22  CH4: 25  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49901  CH1: 34  CH3: 25  CH4: 26  CH5: 24
+[Ammeter] Current[0]: 0.352 A (Reg[0x10E]=0x3EB4, Reg[0x10F]=0xB9A1)
+[Ammeter] Current[1]: 0.343 A (Reg[0x110]=0x3EAF, Reg[0x111]=0xEA61)
+[Ammeter] Current[2]: 0.342 A (Reg[0x112]=0x3EAF, Reg[0x113]=0x2EE1)
+ADC CH0: 49919  CH1: 24  CH3: 24  CH4: 15  CH5: 28
+ADC CH0: 49920  CH1: 3  CH3: 29  CH4: 25  CH5: 28
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49862  CH1: 27  CH3: 28  CH4: 32  CH5: 40
+ADC CH0: 49915  CH1: 25  CH3: 25  CH4: 26  CH5: 36
+[Ammeter] Voltage[0]: 234.78 V (Reg[0x100]=0x436A, Reg[0x101]=0xC864)
+[Ammeter] Voltage[1]: 234.73 V (Reg[0x102]=0x436A, Reg[0x103]=0xBB3A)
+[Ammeter] Voltage[2]: 234.83 V (Reg[0x104]=0x436A, Reg[0x105]=0xD51A)
+ADC CH0: 49920  CH1: 30  CH3: 25  CH4: 19  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49919  CH1: 35  CH3: 16  CH4: 30  CH5: 32
+ADC CH0: 49911  CH1: 42  CH3: 29  CH4: 30  CH5: 37
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49918  CH1: 41  CH3: 32  CH4: 11  CH5: 25
+ADC CH0: 49914  CH1: 43  CH3: 33  CH4: 11  CH5: 15
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49849  CH1: 35  CH3: 30  CH4: 25  CH5: 40
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49920  CH1: 34  CH3: 29  CH4: 10  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49927  CH1: 35  CH3: 23  CH4: 25  CH5: 32
+ADC CH0: 49922  CH1: 27  CH3: 28  CH4: 24  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 235.50 V (Reg[0x100]=0x436B, Reg[0x101]=0x81F8)
+[Ammeter] Voltage[1]: 235.45 V (Reg[0x102]=0x436B, Reg[0x103]=0x747E)
+[Ammeter] Voltage[2]: 235.56 V (Reg[0x104]=0x436B, Reg[0x105]=0x8FF7)
+ADC CH0: 49926  CH1: 25  CH3: 28  CH4: 15  CH5: 30
+ADC CH0: 49847  CH1: 32  CH3: 25  CH4: 15  CH5: 40
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49915  CH1: 31  CH3: 29  CH4: 27  CH5: 40
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49911  CH1: 30  CH3: 15  CH4: 18  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49928  CH1: 45  CH3: 21  CH4: 15  CH5: 24
+ADC CH0: 49918  CH1: 26  CH3: 25  CH4: 11  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49919  CH1: 36  CH3: 21  CH4: 26  CH5: 29
+ADC CH0: 49910  CH1: 15  CH3: 32  CH4: 11  CH5: 30
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49869  CH1: 43  CH3: 35  CH4: 33  CH5: 40
+[Ammeter] Voltage[0]: 234.81 V (Reg[0x100]=0x436A, Reg[0x101]=0xCF7C)
+[Ammeter] Voltage[1]: 234.75 V (Reg[0x102]=0x436A, Reg[0x103]=0xC106)
+[Ammeter] Voltage[2]: 234.85 V (Reg[0x104]=0x436A, Reg[0x105]=0xDBB9)
+ADC CH0: 49924  CH1: 26  CH3: 21  CH4: 15  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 50148  CH1: 50175  CH3: 50175  CH4: 50175  CH5: 50175
+ADC CH0: 49915  CH1: 32  CH3: 0  CH4: 24  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49918  CH1: 23  CH3: 17  CH4: 15  CH5: 28
+ADC CH0: 49861  CH1: 33  CH3: 32  CH4: 33  CH5: 40
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49802  CH1: 35  CH3: 50175  CH4: 50175  CH5: 50175
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49831  CH1: 27  CH3: 25  CH4: 50175  CH5: 50175
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 50138  CH1: 50175  CH3: 50175  CH4: 50175  CH5: 50175
+ADC CH0: 49862  CH1: 30  CH3: 21  CH4: 11  CH5: 50175
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.79 V (Reg[0x100]=0x436A, Reg[0x101]=0xCAC6)
+[Ammeter] Voltage[1]: 234.74 V (Reg[0x102]=0x436A, Reg[0x103]=0xBD90)
+[Ammeter] Voltage[2]: 234.83 V (Reg[0x104]=0x436A, Reg[0x105]=0xD610)
+ADC CH0: 49918  CH1: 41  CH3: 32  CH4: 19  CH5: 21
+ADC CH0: 49851  CH1: 11  CH3: 24  CH4: 50175  CH5: 50175
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49911  CH1: 32  CH3: 24  CH4: 19  CH5: 28
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49860  CH1: 27  CH3: 40  CH4: 50175  CH5: 50317
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 50174  CH1: 50175  CH3: 28  CH4: 50175  CH5: 50175
+ADC CH0: 49926  CH1: 41  CH3: 12  CH4: 19  CH5: 1
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49919  CH1: 32  CH3: 15  CH4: 15  CH5: 36
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49922  CH1: 40  CH3: 15  CH4: 17  CH5: 25
+ADC CH0: 49910  CH1: 46  CH3: 28  CH4: 19  CH5: 36
+[Ammeter] Voltage[0]: 235.53 V (Reg[0x100]=0x436B, Reg[0x101]=0x8A2F)
+[Ammeter] Voltage[1]: 235.48 V (Reg[0x102]=0x436B, Reg[0x103]=0x7C5E)
+[Ammeter] Voltage[2]: 235.58 V (Reg[0x104]=0x436B, Reg[0x105]=0x9615)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49936  CH1: 57  CH3: 25  CH4: 23  CH5: 33
+ADC CH0: 49913  CH1: 11  CH3: 16  CH4: 11  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49927  CH1: 24  CH3: 17  CH4: 25  CH5: 28
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49914  CH1: 26  CH3: 28  CH4: 23  CH5: 19
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49924  CH1: 33  CH3: 24  CH4: 16  CH5: 24
+ADC CH0: 49923  CH1: 30  CH3: 21  CH4: 26  CH5: 25
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49928  CH1: 37  CH3: 25  CH4: 23  CH5: 8
+ADC CH0: 49922  CH1: 28  CH3: 25  CH4: 22  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 34  CH3: 15  CH4: 18  CH5: 32
+[Ammeter] Voltage[0]: 234.78 V (Reg[0x100]=0x436A, Reg[0x101]=0xC879)
+[Ammeter] Voltage[1]: 234.72 V (Reg[0x102]=0x436A, Reg[0x103]=0xB9AB)
+[Ammeter] Voltage[2]: 234.83 V (Reg[0x104]=0x436A, Reg[0x105]=0xD4B3)
+ADC CH0: 49975  CH1: 0  CH3: 9  CH4: 11  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49927  CH1: 35  CH3: 25  CH4: 19  CH5: 33
+ADC CH0: 49919  CH1: 39  CH3: 32  CH4: 28  CH5: 29
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49847  CH1: 26  CH3: 28  CH4: 30  CH5: 40
+ADC CH0: 49925  CH1: 33  CH3: 25  CH4: 15  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49925  CH1: 43  CH3: 28  CH4: 19  CH5: 33
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49919  CH1: 41  CH3: 17  CH4: 19  CH5: 21
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49915  CH1: 34  CH3: 25  CH4: 19  CH5: 28
+ADC CH0: 49921  CH1: 34  CH3: 21  CH4: 26  CH5: 33
+[Ammeter] Voltage[0]: 234.84 V (Reg[0x100]=0x436A, Reg[0x101]=0xD96A)
+[Ammeter] Voltage[1]: 234.79 V (Reg[0x102]=0x436A, Reg[0x103]=0xCB8D)
+[Ammeter] Voltage[2]: 234.89 V (Reg[0x104]=0x436A, Reg[0x105]=0xE5FF)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49858  CH1: 33  CH3: 13  CH4: 27  CH5: 32
+ADC CH0: 49926  CH1: 46  CH3: 21  CH4: 18  CH5: 17
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49923  CH1: 33  CH3: 24  CH4: 14  CH5: 32
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49926  CH1: 40  CH3: 28  CH4: 15  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49927  CH1: 33  CH3: 25  CH4: 10  CH5: 33
+ADC CH0: 49921  CH1: 46  CH3: 25  CH4: 26  CH5: 27
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49920  CH1: 30  CH3: 29  CH4: 19  CH5: 25
+ADC CH0: 49928  CH1: 27  CH3: 24  CH4: 15  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49927  CH1: 32  CH3: 28  CH4: 35  CH5: 20
+[Ammeter] Voltage[0]: 235.11 V (Reg[0x100]=0x436B, Reg[0x101]=0x1EA0)
+[Ammeter] Voltage[1]: 235.06 V (Reg[0x102]=0x436B, Reg[0x103]=0x105E)
+[Ammeter] Voltage[2]: 235.16 V (Reg[0x104]=0x436B, Reg[0x105]=0x2B7C)
+ADC CH0: 49922  CH1: 34  CH3: 28  CH4: 27  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49938  CH1: 9  CH3: 24  CH4: 24  CH5: 28
+ADC CH0: 49924  CH1: 35  CH3: 21  CH4: 15  CH5: 33
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49924  CH1: 26  CH3: 29  CH4: 15  CH5: 36
+ADC CH0: 49914  CH1: 33  CH3: 25  CH4: 15  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49926  CH1: 46  CH3: 0  CH4: 23  CH5: 36
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49920  CH1: 34  CH3: 29  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49932  CH1: 32  CH3: 12  CH4: 19  CH5: 28
+ADC CH0: 49915  CH1: 35  CH3: 25  CH4: 24  CH5: 33
+[Ammeter] Voltage[0]: 234.64 V (Reg[0x100]=0x436A, Reg[0x101]=0xA593)
+[Ammeter] Voltage[1]: 234.59 V (Reg[0x102]=0x436A, Reg[0x103]=0x978D)
+[Ammeter] Voltage[2]: 234.69 V (Reg[0x104]=0x436A, Reg[0x105]=0xB250)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49927  CH1: 32  CH3: 28  CH4: 30  CH5: 29
+ADC CH0: 49986  CH1: 11  CH3: 0  CH4: 19  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49931  CH1: 27  CH3: 28  CH4: 19  CH5: 25
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49920  CH1: 35  CH3: 25  CH4: 28  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49926  CH1: 29  CH3: 13  CH4: 15  CH5: 28
+ADC CH0: 49950  CH1: 21  CH3: 41  CH4: 25  CH5: 33
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49921  CH1: 35  CH3: 25  CH4: 11  CH5: 29
+ADC CH0: 49926  CH1: 33  CH3: 28  CH4: 39  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49926  CH1: 24  CH3: 36  CH4: 24  CH5: 25
+[Ammeter] Voltage[0]: 235.06 V (Reg[0x100]=0x436B, Reg[0x101]=0x0FF3)
+[Ammeter] Voltage[1]: 235.00 V (Reg[0x102]=0x436B, Reg[0x103]=0x00F5)
+[Ammeter] Voltage[2]: 235.11 V (Reg[0x104]=0x436B, Reg[0x105]=0x1C2D)
+ADC CH0: 49926  CH1: 42  CH3: 33  CH4: 19  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49927  CH1: 35  CH3: 28  CH4: 15  CH5: 32
+ADC CH0: 49927  CH1: 40  CH3: 26  CH4: 19  CH5: 40
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000,AC AC 13 AA AD 02 0E 08 CA 34 00 00 00 AA 00 00 00 00 82
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49923  CH1: 33  CH3: 24  CH4: 11  CH5: 32
+ADC CH0: 49929  CH1: 26  CH3: 24  CH4: 26  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49858  CH1: 64  CH3: 32  CH4: 34  CH5: 33
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49936  CH1: 33  CH3: 23  CH4: 46  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49915  CH1: 21  CH3: 21  CH4: 25  CH5: 40
+ADC CH0: 49930  CH1: 11  CH3: 13  CH4: 26AC AC 13 AA AC 02 10 08 DA 34 00 00 00 AA 00 00 00 00 93
+[Ammeter] Voltage[0]: 234.85 V (Reg[0x100]=0x436A, Reg[0x101]=0xDA19)
+[Ammeter] Voltage[1]: 234.79 V (Reg[0x102]=0x436A, Reg[0x103]=0xCC9C)
+[Ammeter] Voltage[2]: 234.90 V (Reg[0x104]=0x436A, Reg[0x105]=0xE6B9)
+ADC CH0: 49928  CH1: 32  CH3: 25  CH4: 11  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49934  CH1: 34  CH3: 24  CH4: 19  CH5: 25
+ADC CH0: 49930  CH1: 32  CH3: 24  CH4: 15  CH5: 25
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49931  CH1: 32  CH3: 17  CH4: 19  CH5: 21
+ADC CH0: 49926  CH1: 33  CH3: 25  CH4: 15  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49934  CH1: 35  CH3: 25  CH4: 42  CH5: 9
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49926  CH1: 32  CH3: 24  CH4: 11  CH5: 19
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49931  CH1: 42  CH3: 28  CH4: 11  CH5: 33
+ADC CH0: 49919  CH1: 32  CH3: 14  CH4: 24  CH5: 25
+[Ammeter] Voltage[0]: 234.69 V (Reg[0x100]=0x436A, Reg[0x101]=0xB153)
+[Ammeter] Voltage[1]: 234.63 V (Reg[0x102]=0x436A, Reg[0x103]=0xA3CD)
+[Ammeter] Voltage[2]: 234.74 V (Reg[0x104]=0x436A, Reg[0x105]=0xBEB8)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49926  CH1: 8  CH3: 40  CH4: 25  CH5: 28
+ADC CH0: 49922  CH1: 33  CH3: 25  CH4: 19  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49930  CH1: 35  CH3: 16  CH4: 27  CH5: 25
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49926  CH1: 32  CH3: 28  CH4: 30  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49891  CH1: 30  CH3: 16  CH4: 26  CH5: 29
+ADC CH0: 49926  CH1: 32  CH3: 33  CH4: 11  CH5: 28
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49927  CH1: 32  CH3: 19  CH4: 15  CH5: 45
+ADC CH0: 49930  CH1: 42  CH3: 21  CH4: 19  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.61 V (Reg[0x100]=0x436A, Reg[0x101]=0x9D5F)
+[Ammeter] Voltage[1]: 234.ADC CH0: 49927  CH1: 28  CH3: 25  CH4: 15  CH5: 29
+[Ammeter] Voltage[2]: 234.66 V (Reg[0x104]=0x436A, Reg[0x105]=0xA974)
+ADC CH0: 49926  CH1: 35  CH3: 32  CH4: 32  CH5: 41
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49930  CH1: 31  CH3: 28  CH4: 11  CH5: 44
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49923  CH1: 30  CH3: 20  CH4: 9  CH5: 40
+ADC CH0: 49926  CH1: 32  CH3: 33  CH4: 15  CH5: 17
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49933  CH1: 35  CH3: 20  CH4: 24  CH5: 24
+ADC CH0: 49923  CH1: 33  CH3: 25  CH4: 0  CH5: 21
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49936  CH1: 15  CH3: 30  CH4: 15  CH5: 33
+[Ammeter] Voltage[0]: 234.77 V (Reg[0x100]=0x436A, Reg[0x101]=0xC604)
+[Ammeter] Voltage[1]: 234.71 V (Reg[0x102]=0x436A, Reg[0x103]=0xB771)
+[Ammeter] Voltage[2]: 234.82 V (Reg[0x104]=0x436A, Reg[0x105]=0xD29F)
+ADC CH0: 49934  CH1: 26  CH3: 28  CH4: 17  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49923  CH1: 29  CH3: 32  CH4: 28  CH5: 40
+ADC CH0: 49863  CH1: 42  CH3: 25  CH4: 33  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49940  CH1: 8  CH3: 17  CH4: 15  CH5: 25
+ADC CH0: 49922  CH1: 31  CH3: 25  CH4: 30  CH5: 41
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49931  CH1: 27  CH3: 28  CH4: 18  CH5: 36
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49927  CH1: 35  CH3: 24  CH4: 25  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49934  CH1: 25  CH3: 28  CH4: 11  CH5: 28
+ADC CH0: 49869  CH1: 46  CH3: 40  CH4: 19  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.76 V (Reg[0x100]=0x436A, Reg[0x101]=0xC44E)
+[Ammeter] Voltage[1]: 234.70 V (Reg[0x102]=0x436A, Reg[0x103]=0xB589)
+[Ammeter] Voltage[2]: 234.81 V (Reg[0x104]=0x436A, Reg[0x105]=0xCF7F)
+ADC CH0: 49937  CH1: 43  CH3: 33  CH4: 19  CH5: 34
+ADC CH0: 49926  CH1: 35  CH3: 32  CH4: 11  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49931  CH1: 34  CH3: 21  CH4: 26  CH5: 25
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49919  CH1: 34  CH3: 25  CH4: 19  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49946  CH1: 32  CH3: 17  CH4: 11  CH5: 32
+ADC CH0: 49937  CH1: 31  CH3: 15  CH4: 30  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49934  CH1: 35  CH3: 25  CH4: 15  CH5: 36
+ADC CH0: 49935  CH1: 36  CH3: 24  CH4: 15  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49930  CH1: 34  CH3: 32  CH4: 25  CH5: 32
+[Ammeter] Voltage[0]: 234.79 V (Reg[0x100]=0x436A, Reg[0x101]=0xCA5F)
+[Ammeter] Voltage[1]: 234.73 V (Reg[0x102]=0x436A, Reg[0x103]=0xBCE5)
+[Ammeter] Voltage[2]: 234.83 V (Reg[0x104]=0x436A, Reg[0x105]=0xD655)
+ADC CH0: 49927  CH1: 35  CH3: 26  CH4: 15  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49866  CH1: 38  CH3: 28  CH4: 17  CH5: 33
+ADC CH0: 49921  CH1: 24  CH3: 20  CH4: 30  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49938  CH1: 32  CH3: 25  CH4: 19  CH5: 28
+ADC CH0: 49934  CH1: 15  CH3: 28  CH4: 24  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49923  CH1: 33  CH3: 21  CH4: 24  CH5: 33
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49942  CH1: 35  CH3: 15  CH4: 24  CH5: 44
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49930  CH1: 33  CH3: 28  CH4: 19  CH5: 21
+ADC CH0: 49927  CH1: 29  CH3: 34  CH4: 24  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 235.00 V (Reg[0x100]=0x436B, Reg[0x101]=0x001F)
+[Ammeter] Voltage[1]: 234.94 V (Reg[0x102]=0x436A, Reg[0x103]=0xF276)
+[Ammeter] Voltage[2]: 235.04 V (Reg[0x104]=0x436B, Reg[0x105]=0x0CA3)
+ADC CH0: 49852  CH1: 35  CH3: 28  CH4: 34  CH5: 37
+ADC CH0: 49938  CH1: 33  CH3: 15  CH4: 26  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49939  CH1: 19  CH3: 28  CH4: 24  CH5: 32
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49938  CH1: 27  CH3: 32  CH4: 24  CH5: 28
+ADC CH0: 49934  CH1: 32  CH3: 24  CH4: 19  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 26  CH3: 17  CH4: 11  CH5: 24
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49926  CH1: 33  CH3: 29  CH4: 32  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49870  CH1: 35  CH3: 36  CH4: 30  CH5: 44
+ADC CH0: 49942  CH1: 41  CH3: 28  CH4: 24  CH5: 36
+[Ammeter] Voltage[0]: 234.93 V (Reg[0x100]=0x436A, Reg[0x101]=0xEF5D)
+[Ammeter] Voltage[1]: 234.88 V (Reg[0x102]=0x436A, Reg[0x103]=0xE18F)
+[Ammeter] Voltage[2]: 234.97 V (Reg[0x104]=0x436A, Reg[0x105]=0xFADD)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49930  CH1: 33  CH3: 25  CH4: 32  CH5: 25
+ADC CH0: 49926  CH1: 26  CH3: 28  CH4: 15  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49863  CH1: 10  CH3: 33  CH4: 35  CH5: 42
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49927  CH1: 32  CH3: 28  CH4: 31  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49940  CH1: 35  CH3: 29  CH4: 15  CH5: 28
+ADC CH0: 49857  CH1: 24  CH3: 24  CH4: 25  CH5: 36
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49931  CH1: 25  CH3: 29  CH4: 24  CH5: 29
+ADC CH0: 49868  CH1: 30  CH3: 32  CH4: 32  CH5: 40
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49933  CH1: 32  CH3: 25  CH4: 15  CH5: 37
+[Ammeter] Voltage[0]: 235.22 V (Reg[0x100]=0x436B, Reg[0x101]=0x3973)
+[Ammeter] Voltage[1]: 235.16 V (Reg[0x102]=0x436B, Reg[0x103]=0x2B56)
+[Ammeter] Voltage[2]: 235.26 V (Reg[0x104]=0x436B, Reg[0x105]=0x44E7)
+ADC CH0: 49930  CH1: 26  CH3: 25  CH4: 19  CH5: 40
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49936  CH1: 40  CH3: 19  CH4: 19  CH5: 29
+ADC CH0: 49926  CH1: 26  CH3: 28  CH4: 9  CH5: 32
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49939  CH1: 32  CH3: 25  CH4: 27  CH5: 33
+ADC CH0: 49931  CH1: 32  CH3: 17  CH4: 15  CH5: 36
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49940  CH1: 30  CH3: 24  CH4: 11  CH5: 26
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49926  CH1: 35  CH3: 20  CH4: 23  CH5: 36
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49937  CH1: 30  CH3: 25  CH4: 15  CH5: 28
+ADC CH0: 49931  CH1: 32  CH3: 15  CH4: 11  CH5: 17
+[Ammeter] Voltage[0]: 235.15 V (Reg[0x100]=0x436B, Reg[0x101]=0x26CA)
+[Ammeter] Voltage[1]: 235.09 V (Reg[0x102]=0x436B, Reg[0x103]=0x1835)
+[Ammeter] Voltage[2]: 235.19 V (Reg[0x104]=AC AC 13 AA 90 02 13 08 8C 36 00 00 00 AA 00 00 00 00 2E
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49938  CH1: 27  CH3: 32  CH4: 32  CH5: 28
+ADC CH0: 49934  CH1: 33  CH3: 24  CH4: 26  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49931  CH1: 42  CH3: 20  CH4: 15  CH5: 21
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49934  CH1: 40  CH3: 28  CH4: 32  CH5: 30
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49942  CH1: 35  CH3: 32  CH4: 15  CH5: 30
+ADC CH0: 49859  CH1: 43  CH3: 24  CH4: 25  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49937  CH1: 25  CH3: 28  CH4: 32  CH5: 32
+ADC CH0: 49920  CH1: 27  CH3: 28  CH4: 24  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49939  CH1: 43  CH3: 25  CH4: 15  CH5: 28
+[Ammeter] Voltage[0]: 235.00 V (Reg[0x100]=0x436B, Reg[0x101]=0x0207)
+[Ammeter] Voltage[1]: 234.95 V (Reg[0x102]=0x436A, Reg[0x103]=0xF42E)
+[Ammeter] Voltage[2]: 235.05 V (Reg[0x104]=0x436B, Reg[0x105]=0x0E3D)
+ADC CH0: 49942  CH1: 33  CH3: 28  CH4: 11  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49946  CH1: 34  CH3: 29  CH4: 11  CH5: 28
+ADC CH0: 49942  CH1: 74  CH3: 17  CH4: 26  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49938  CH1: 28  CH3: 30  CH4: 11  CH5: 40
+ADC CH0: 49964  CH1: 19  CH3: 21  CH4: 24  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49935  CH1: 25  CH3: 32  CH4: 17  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49934  CH1: 23  CH3: 25  CH4: 24  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49936  CH1: 42  CH3: 32  CH4: 34  CH5: 25
+ADC CH0: 49935  CH1: 15  CH3: 25  CH4: 17  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 235.07 V (Reg[0x100]=0x436B, Reg[0x101]=0x1442)
+[Ammeter] Voltage[1]: 235.02 V (Reg[0x102]=0x436B, Reg[0x103]=0x05B7)
+[Ammeter] Voltage[2]: 235.12 V (Reg[0x104]=0x436B, Reg[0x105]=0x2134)
+ADC CH0: 49931  CH1: 45  CH3: 33  CH4: 14  CH5: 29
+ADC CH0: 49930  CH1: 35  CH3: 21  CH4: 26  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49935  CH1: 32  CH3: 28  CH4: 26  CH5: 28
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49923  CH1: 47  CH3: 21  CH4: 19  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49935  CH1: 33  CH3: 24  CH4: 19  CH5: 32
+ADC CH0: 49958  CH1: 65  CH3: 28  CH4: 15  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49936  CH1: 25  CH3: 28  CH4: 19  CH5: 28
+ADC CH0: 49937  CH1: 75  CH3: 11  CH4: 19  CH5: 9
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49863  CH1: 27  CH3: 36  CH4: 13  CH5: 29
+[Ammeter] Voltage[0]: 234.80 V (Reg[0x100]=0x436A, Reg[0x101]=0xCE2B)
+[Ammeter] Voltage[1]: 234.75 V (Reg[0x102]=0x436A, Reg[0x103]=0xC12B)
+[Ammeter] Voltage[2]: 234.85 V (Reg[0x104]=0x436A, Reg[0x105]=0xDAC6)
+ADC CH0: 49872  CH1: 42  CH3: 29  CH4: 30  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49942  CH1: 29  CH3: 25  CH4: 15  CH5: 32
+ADC CH0: 49927  CH1: 0  CH3: 29  CH4: 15 AC AC 13 AA 93 02 12 08 5C 36 00 00 00 AA 00 00 00 00 00
+gas:0.0 ppm CH5: 28
+------------------------[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49934  CH1: 32  CH3: 25  CH4: 30  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49930  CH1: 32  CH3: 33  CH4: 2  CH5: 24
+ADC CH0: 49936  CH1: 40  CH3: 28  CH4: 19  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49942  CH1: 33  CH3: 1  CH4: 0  CH5: 36
+ADC CH0: 49931  CH1: 27  CH3: 24  CH4: 32  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49934  CH1: 35  CH3: 28  CH4: 27  CH5: 25
+[Ammeter] Voltage[0]: 234.93 V (Reg[0x100]=0x436A, Reg[0x101]=0xEF4E)
+[Ammeter] Voltage[1]: 234.87 V (Reg[0x102]=0x436A, Reg[0x103]=0xE143)
+[Ammeter] Voltage[2]: 234.98 V (Reg[0x104]=0x436A, Reg[0x105]=0xFC12)
+ADC CH0: 49935  CH1: 26  CH3: 25  CH4: 17  CH5: 45
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49939  CH1: 32  CH3: 13  CH4: 35  CH5: 25
+ADC CH0: 49939  CH1: 35  CH3: 25  CH4: 33  CH5: 30
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49936  CH1: 32  CH3: 17  CH4: 26  CH5: 25
+ADC CH0: 49932  CH1: 32  CH3: 24  CH4: 15  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49934  CH1: 35  CH3: 25  CH4: 11  CH5: 25
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49938  CH1: 40  CH3: 28  CH4: 19  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49934  CH1: 42  CH3: 21  CH4: 19  CH5: 25
+ADC CH0: 49941  CH1: 27  CH3: 25  CH4: 14  CH5: 44
+[Ammeter] Voltage[0]: 234.35 V (Reg[0x100]=0x436A, Reg[0x101]=0x5A7D)
+[Ammeter] Voltage[1]: 234.29 V (Reg[0x102]=0x436A, Reg[0x103]=0x4C28)
+[Ammeter] Voltage[2]: 234.39 V (Reg[0x104]=0x436A, Reg[0x105]=0x6659)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49942  CH1: 40  CH3: 24  CH4: 11  CH5: 25
+ADC CH0: 49936  CH1: 3  CH3: 28  CH4: 14  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49942  CH1: 32  CH3: 28  CH4: 15  CH5: 29
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49934  CH1: 34  CH3: 28  CH4: 26  CH5: 30
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49934  CH1: 31  CH3: 25  CH4: 15  CH5: 29
+ADC CH0: 49942  CH1: 27  CH3: 19  CH4: 15  CH5: 19
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49927  CH1: 24  CH3: 21  CH4: 15  CH5: 28
+ADC CH0: 49936  CH1: 36  CH3: 28  CH4: 14  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49936  CH1: 30  CH3: 21  CH4: 15  CH5: 24
+[Ammeter] Voltage[0]: 235.13 V (Reg[0x100]=0x436B, Reg[0x101]=0x235F)
+[Ammeter] Voltage[1]: 235.08 V (Reg[0x102]=0x436B, Reg[0x103]=0x160B)
+[Ammeter] Voltage[2]: 235.19 V (Reg[0x104]=0x436B, Reg[0x105]=0x30F0)
+ADC CH0: 49922  CH1: 42  CH3: 25  CH4: 30  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49942  CH1: 25  CH3: 21  CH4: 19  CH5: 25
+ADC CH0: 49918  CH1: 41  CH3: 57  CH4: 2  CH5: 28
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49930  CH1: 40  CH3: 15  CH4: 29  CH5: 34
+ADC CH0: 49930  CH1: 33  CH3: 17  CH4: 19  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49926  CH1: 33  CH3: 20  CH4: 11  CH5: 28
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49919  CH1: 35  CH3: 30  CH4: 24  CH5: 25
+ADC CH0: 49862  CH1: 30  CH3: 36  CH4: 34  CH5: 29
+[Ammeter] Voltage[0]: 234.43 V (Reg[0x100]=0x436A, Reg[0x101]=0x6E9D)
+[Ammeter] Voltage[1]: 234.38 V (Reg[0x102]=0x436A, Reg[0x103]=0x6152)
+[Ammeter] Voltage[2]: 234.48 V (Reg[0x104]=0x436A, Reg[0x105]=0x7B0E)
+ADC CH0: 49919  CH1: 30  CH3: 17  CH4: 24  CH5: 25
+ADC CH0: 49931  CH1: 64  CH3: 24  CH4: 19  CH5: 28
+ADC CH0: 49922  CH1: 34  CH3: 25  CH4: 19  CH5: 32
+[Ammeter] Current[0]: 0.352 A (Reg[0x10E]=0x3EB4, Reg[0x10F]=0xB361)
+[Ammeter] Current[1]: 0.346 A (Reg[0x110]=0x3EB1, Reg[0x111]=0x35A1)
+[Ammeter] Current[2]: 0.342 A (Reg[0x112]=0x3EAF, Reg[0x113]=0x2581)
+ADC CH0: 49906  CH1: 34  CH3: 28  CH4: 19  CH5: 25
+ADC CH0: 49802  CH1: 14  CH3: 28  CH4: 24  CH5: 9
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49663  CH1: 50175  CH3: 50175  CH4: 50175  CH5: 50175
+ADC CH0: 50156  CH1: 50175  CH3: 50175  CH4: 50175  CH5: 50175
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.87 V (Reg[0x100]=0x436A, Reg[0x101]=0xE126)
+[Ammeter] Voltage[1]: 234.82 V (Reg[0ADC CH0: 50160  CH1: 50175  CH3: 50175  CH4: 50175  CH5: 50175
+[Ammeter] Voltage[2]: 234.92 V (Reg[0x104]=0x436A, Reg[0x105]=0xEDFA)
+ADC CH0: 50154  CH1: 50175  CH3: 50175  CH4: 50175  CH5: 50175
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 50170  CH1: 50175  CH3: 50175  CH4: 50175  CH5: 50175
+[Ammeter] Current[0]: 0.352 A (Reg[0x10E]=0x3EB4, Reg[0x10F]=0xB041)
+[Ammeter] Current[1]: 0.344 A (Reg[0x1ADC CH0: 49848  CH1: 15  CH3: 41  CH4: 32  CH5: 33
+[Ammeter] Current[2]: 0.339 A (Reg[0x112]=0x3EAD, Reg[0x113]=0xE3A1)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49922  CH1: 9  CH3: 25  CH4: 11  CH5: 32
+ADC CH0: 49872  CH1: 42  CH3: 25  CH4: 11  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49916  CH1: 39  CH3: 24  CH4: 15  CH5: 33
+ADC CH0: 49820  CH1: 65  CH3: 50175  CH4: 50175  CH5: 50173
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49814  CH1: 36  CH3: 50175  CH4: 50175  CH5: 50175
+[Ammeter] Voltage[0]: 233.95 V (Reg[0x100]=0x4369, Reg[0x101]=0xF4A2)
+[Ammeter] Voltage[1]: 233.89 V (Reg[0x102]=0x4369, Reg[0x103]=0xE5CE)
+[Ammeter] Voltage[2]: 233.99 V (Reg[0x104]=0x4369, Reg[0x105]=0xFEF4)
+ADC CH0: 49858  CH1: 39  CH3: 28  CH4: 50175  CH5: 50175
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49852  CH1: 31  CH3: 28  CH4: 50175  CH5: 50175
+ADC CH0: 49837  CH1: 25  CH3: 50175  CH4: 50175  CH5: 50175
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.354 A (Reg[0x10E]=0x3EB5, Reg[0x10F]=0x52C1)
+[Ammeter] Current[1]: 0.346 A (Reg[0x110]=0x3EB1, Reg[0x111]=0x4221)
+[Ammeter] Current[2]: 0.339 A (Reg[0x112]=0x3EAD, Reg[0x113]=0x93F1)
+ADC CH0: 49898  CH1: 34  CH3: 28  CH4: 20  CH5: 50315
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49857  CH1: 23  CH3: 28  CH4: 50175  CH5: 50175
+ADC CH0: 49939  CH1: 40  CH3: 24  CH4: 25  CH5: 24
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49946  CH1: 35  CH3: 24  CH4: 11  CH5: 25
+ADC CH0: 49942  CH1: 43  CH3: 32  CH4: 36  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49923  CH1: 30  CH3: 28  CH4: 18  CH5: 21
+[Ammeter] Voltage[0]: 234.76 V (Reg[0x100]=0x436A, Reg[0x101]=0xC40E)
+[Ammeter] Voltage[1]: 234.71 V (Reg[0x102]=0x436A, Reg[0x103]=0xB638)
+[Ammeter] Voltage[2]: 234.81 V (Reg[0x104]=0x436A, Reg[0x105]=0xD01C)
+ADC CH0: 49946  CH1: 61  CH3: 28  CH4: 24  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49942  CH1: 42  CH3: 32  CH4: 11  CH5: 33
+ADC CH0: 49934  CH1: 32  CH3: 25  CH4: 26  CH5: 33
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0AC AC 13 AA 96 02 0B 08 2D 36 00 00 00 AA 00 00 00 00 CD
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49938  CH1: 15  CH3: 28  CH4: 14  CH5: 32
+ADC CH0: 49926  CH1: 24  CH3: 28  CH4: 11  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49942  CH1: 30  CH3: 28  CH4: 14  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49934  CH1: 33  CH3: 17  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49946  CH1: 35  CH3: 15  CH4: 14  CH5: 32
+ADC CH0: 49943  CH1: 32  CH3: 24  CH4: 41  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 235.04 V (Reg[0x100]=0x436B, Reg[0x101]=0x0ACD)
+[Ammeter] Voltage[1]: 234.98 V (Reg[0x102]=0x436A, Reg[0x103]=0xFCC0)
+[Ammeter] Voltage[2]: 235.08 V (Reg[0x104]=0x436B, Reg[0x105]=0x1693)
+ADC CH0: 49943  CH1: 22  CH3: 25  CH4: 35  CH5: 28
+ADC CH0: 49938  CH1: 33  CH3: 21  CH4: 26  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49938  CH1: 35  CH3: 21  CH4: 15  CH5: 28
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49936  CH1: 33  CH3: 20  CH4: 26  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49942  CH1: 44  CH3: 14  CH4: 2  CH5: 17
+ADC CH0: 49934  CH1: 26  CH3: 29  CH4: 24  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49945  CH1: 35  CH3: 32  CH4: 14  CH5: 33
+ADC CH0: 49934  CH1: 32  CH3: 27  CH4: 19  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49952  CH1: 40  CH3: 28  CH4: 21  CH5: 32
+[Ammeter] Voltage[0]: 234.70 V (Reg[0x100]=0x436A, Reg[0x101]=0xB59F)
+[Ammeter] Voltage[1]: 234.65 V (Reg[0x102]=0x436A, Reg[0x103]=0xA73A)
+[Ammeter] Voltage[2]: 234.75 V (Reg[0x104]=0x436A, Reg[0x105]=0xC238)
+ADC CH0: 49881  CH1: 40  CH3: 33  CH4: 30  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49952  CH1: 44  CH3: 21  CH4: 21  CH5: 57
+ADC CH0: 49937  CH1: 40  CH3: 33  CH4: 26  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49955  CH1: 40  CH3: 28  CH4: 24  CH5: 33
+ADC CH0: 49939  CH1: 26  CH3: 21  CH4: 17  CH5: 22
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49940  CH1: 33  CH3: 17  CH4: 13  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49961  CH1: 43  CH3: 17  CH4: 19  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 26  CH3: 28  CH4: 21  CH5: 28
+ADC CH0: 49944  CH1: 34  CH3: 21  CH4: 11  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.61 V (Reg[0x100]=0x436A, Reg[0x101]=0x9C4B)
+[Ammeter] Voltage[1]: 234.55 V (Reg[0x102]=0x436A, Reg[0x103]=0x8E8E)
+[Ammeter] Voltage[2]: 234.65 V (Reg[0x104]=0x436A, Reg[0x105]=0xA886)
+ADC CH0: 49947  CH1: 35  CH3: 17  CH4: 24  CH5: 33
+ADC CH0: 49952  CH1: 32  CH3: 40  CH4: 24  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49884  CH1: 48  CH3: 28  CH4: 32  CH5: 36
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49938  CH1: 34  CH3: 25  CH4: 19  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49887  CH1: 11  CH3: 37  CH4: 24  CH5: 29
+ADC CH0: 49967  CH1: 11  CH3: 28  CH4: 19  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49950  CH1: 40  CH3: 28  CH4: 15  CH5: 28
+ADC CH0: 49943  CH1: 37  CH3: 21  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49935  CH1: 33  CH3: 25  CH4: 19  CH5: 29
+[Ammeter] Voltage[0]: 234.92 V (Reg[0x100]=0x436A, Reg[0x101]=0xEBDA)
+[Ammeter] Voltage[1]: 234.86 V (Reg[0x102]=0x436A, Reg[0x103]=0xDE2C)
+[Ammeter] Voltage[2]: 234.97 V (Reg[0x104]=0x436A, Reg[0x105]=0xF86E)
+ADC CH0: 49923  CH1: 26  CH3: 25  CH4: 17  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49943  CH1: 42  CH3: 25  CH4: 15  CH5: 33
+ADC CH0: 49983  CH1: 32  CH3: 29  CH4: 19  CH5: 57
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49946  CH1: 25  CH3: 29  CH4: 15  CH5: 28
+ADC CH0: 49950  CH1: 33  CH3: 21  CH4: 19  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49943  CH1: 32  CH3: 25  CH4: 15  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49947  CH1: 34  CH3: 17  CH4: 19  CH5: 26
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49868  CH1: 42  CH3: 25  CH4: 19  CH5: 28
+ADC CH0: 49951  CH1: 23  CH3: 21  CH4: 26  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.36 V (Reg[0x100]=0x436A, Reg[0x101]=0x5D1B)
+[Ammeter] Voltage[1]: 234.31 V (Reg[0x102]=0x436A, Reg[0x103]=0x5068)
+[Ammeter] Voltage[2]: 234.41 V (Reg[0x104]=0x436A, Reg[0x105]=0x6ACC)
+ADC CH0: 49936  CH1: 32  CH3: 20  CH4: 25  CH5: 33
+ADC CH0: 49939  CH1: 11  CH3: 24  CH4: 1  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49943  CH1: 27  CH3: 28  CH4: 32  CH5: 29
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49948  CH1: 26  CH3: 22  CH4: 30  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49943  CH1: 33  CH3: 28  CH4: 14  CH5: 25
+ADC CH0: 49941  CH1: 35  CH3: 17  CH4: 19  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49943  CH1: 26  CH3: 32  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49927  CH1: 41  CH3: 33  CH4: 13  CH5: 25
+ADC CH0: 49942  CH1: 26  CH3: 25  CH4: 15  CH5: 25
+[Ammeter] Voltage[0]: 234.78 V (Reg[0x100]=0x436A, Reg[0x101]=0xC7F9)
+[Ammeter] Voltage[1]: 234.72 V (Reg[0x102]=0x436A, Reg[0x103]=0xB8E5)
+[Ammeter] Voltage[2]: 234.82 V (Reg[0x104]=0x436A, Reg[0x105]=0xD3E6)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49938  CH1: 33  CH3: 32  CH4: 15  CH5: 28
+ADC CH0: 49942  CH1: 32  CH3: 15  CH4: 34  CH5: 40
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49943  CH1: 33  CH3: 28  CH4: 11  CH5: 32
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49926  CH1: 25  CH3: 32  CH4: 26  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49948  CH1: 31  CH3: 13  CH4: 15  CH5: 28
+ADC CH0: 49948  CH1: 32  CH3: 32  CH4: 19  CH5: 21
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49947  CH1: 19  CH3: 28  CH4: 25  CH5: 29
+ADC CH0: 49938  CH1: 33  CH3: 0  CH4: 15  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49939  CH1: 11  CH3: 28  CH4: 26  CH5: 25
+[Ammeter] Voltage[0]: 235.18 V (Reg[0x100]=0x436B, Reg[0x101]=0x2EE1)
+[Ammeter] Voltage[1]: 235.12 V (Reg[0x102]=0x436B, Reg[0x103]=0x200D)
+[Ammeter] Voltage[2]: 235.22 V (Reg[0x104]=0x436B, Reg[0x105]=0x3A68)
+ADC CH0: 49931  CH1: 24  CH3: 28  CH4: 17  CH5: 17
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 32  CH3: 37  CH4: 27  CH5: 29
+ADC CH0: 49935  CH1: 32  CH3: 25  CH4: 14  CH5: 25
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 41  CH3: 17  CH4: 11  CH5: 33
+ADC CH0: 49939  CH1: 32  CH3: 25  CH4: 15  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49942  CH1: 32  CH3: 32  CH4: 11  CH5: 25
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49929  CH1: 26  CH3: 24  CH4: 15  CH5: 36
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 33  CH3: 29  CH4: 20  CH5: 25
+ADC CH0: 49878  CH1: 32  CH3: 36  CH4: 26  CH5: 33
+[Ammeter] Voltage[0]: 234.93 V (Reg[0x100]=0x436A, Reg[0x101]=0xEED5)
+[Ammeter] Voltage[1]: 234.88 V (Reg[0x102]=0x436A, Reg[0x103]=0xE236)
+[Ammeter] Voltage[2]: 234.98 V (Reg[0x104]=0x436A, Reg[0x105]=0xFB61)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 36  CH3: 24  CH4: 15  CH5: 25
+ADC CH0: 49940  CH1: 41  CH3: 25  CH4: 17  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49923  CH1: 27  CH3: 28  CH4: 26  CH5: 24
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 50175  CH1: 50175  CH3: 50175  CH4: 50175  CH5: 50175
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 50168  CH1: 50175  CH3: 50175  CH4: 50175  CH5: 50175
+ADC CH0: 50170  CH1: 50175  CH3: 50175  CH4: 50175  CH5: 50175
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 50172  CH1: 50175  CH3: 50175  CH4: 50175  CH5: 50175
+ADC CH0: 50166  CH1: 50175  CH3: 50175  CH4: 50175  CH5: 50175
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 50166  CH1: 50175  CH3: 50175  CH4: 50175  CH5: 50175
+[Ammeter] Voltage[0]: 234.85 V (Reg[0x100]=0x436A, Reg[0x101]=0xDC25)
+[Ammeter] Voltage[1]: 234.80 V (Reg[0x102]=0x436A, Reg[0x103]=0xCE96)
+[Ammeter] Voltage[2]: 234.90 V (Reg[0x104]=0x436A, Reg[0x105]=0xE8C2)
+ADC CH0: 50167  CH1: 50175  CH3: 50175  CH4: 50175  CH5: 50175
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 50166  CH1: 50175  CH3: 50175  CH4: 50175  CH5: 50175
+ADC CH0: 50163  CH1: 50175  CH3: 50175  CH4: 50175  CH5: 50175
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49857  CH1: 43  CH3: 28  CH4: 33  CH5: 28
+ADC CH0: 49894  CH1: 35  CH3: 32  CH4: 27  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49943  CH1: 35  CH3: 28  CH4: 24  CH5: 33
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49943  CH1: 41  CH3: 36  CH4: 0  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49944  CH1: 40  CH3: 24  CH4: 19  CH5: 24
+ADC CH0: 49831  CH1: 35  CH3: 25  CH4: 33  CH5: 50175
+[Ammeter] Voltage[0]: 234.87 V (Reg[0x100]=0x436A, Reg[0x101]=0xDEDF)
+[Ammeter] Voltage[1]: 234.81 V (Reg[0x102]=0x436A, Reg[0x103]=0xD0FE)
+[Ammeter] Voltage[2]: 234.92 V (Reg[0x104]=0x436A, Reg[0x105]=0xEBA3)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49912  CH1: 33  CH3: 33  CH4: 15  CH5: 50321
+ADC CH0: 49904  CH1: 40  CH3: 17  CH4: 27  CH5: 50310
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49907  CH1: 32  CH3: 25  CH4: 15  CH5: 50319
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49893  CH1: 41  CH3: 25  CH4: 19  CH5: 50319
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49906  CH1: 31  CH3: 24  CH4: 24  CH5: 50314
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49903  CH1: 27  CH3: 25  CH4: 18  CH5: 50318
+ADC CH0: 49907  CH1: 33  CH3: 12  CH4: 39  CH5: 50318
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49898  CH1: 39  CH3: 20  CH4: 17  CH5: 50314
+[Ammeter] Voltage[0]: 234.81 V (Reg[0x100]=0x436A, Reg[0x101]=0xCFAC)
+[Ammeter] Voltage[1]: 234.75 V (Reg[0x102]=0x436A, Reg[0x103]=0xC199)
+[Ammeter] Voltage[2]: 234.85 V (Reg[0x104]=0x436A, Reg[0x105]=0xDB8B)
+ADC CH0: 49946  CH1: 31  CH3: 21  CH4: 19  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49882  CH1: 42  CH3: 37  CH4: 9  CH5: 33
+ADC CH0: 49930  CH1: 42  CH3: 19  CH4: 15  CH5: 23
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49947  CH1: 32  CH3: 36  CH4: 15  CH5: 25
+ADC CH0: 49942  CH1: 40  CH3: 24  CH4: 15  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 40  CH3: 33  CH4: 23  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49936  CH1: 32  CH3: 28  CH4: 15  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49945  CH1: 18  CH3: 25  CH4: 15  CH5: 24
+[Ammeter] Voltage[0]: 234.69 V (Reg[0x100]=0x436A, Reg[0x101]=0xB15D)
+[Ammeter] Voltage[1]: 234.ADC CH0: 49935  CH1: 30  CH3: AC AC 13 AA C8 02 00 08 35 33 00 00 00 A15  CH4: 24  CH5: 15
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[2]: 234.74 V (Reg[0x104]=0x436A, Reg[0x105]=0xBE02)
+ADC CH0: 49942  CH1: 32  CH3: 25  CH4: 35  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49947  CH1: 35  CH3: 28  CH4: 15  CH5: 25
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49946  CH1: 30  CH3: 20  CH4: 15  CH5: 33
+ADC CH0: 49936  CH1: 34  CH3: 28  CH4: 26  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 32  CH3: 33  CH4: 27  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49951  CH1: 42  CH3: 28  CH4: 19  CH5: 33
+[Ammeter] Voltage[0]: 234.61 V (Reg[0x100]=0x436A, Reg[0x101]=0x9C61)
+[Ammeter] Voltage[1]: 234.ADC CH0: 49930  CH1: 43  CH3: 15  CH4: 19  CH5: 33
+[Ammeter] Voltage[2]: 234.65 V (Reg[0x104]=0x436A, Reg[0x105]=0xA89C)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 42  CH3: 23  CH4: 13  CH5: 35
+ADC CH0: 49946  CH1: 27  CH3: 9  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49943  CH1: 35  CH3: 12  CH4: 15  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49941  CH1: 28  CH3: 24  CH4: 15  CH5: 37
+ADC CH0: 49934  CH1: 40  CH3: 17  CH4: 19  CH5: 33
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 47  CH3: 17  CH4: 32  CH5: 25
+ADC CH0: 49934  CH1: 40  CH3: 9  CH4: 19  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.68 V (Reg[0x100]=0x436A, Reg[0x101]=0xAF82)
+[Ammeter] Voltage[1]: 234.ADC CH0: 49946  CH1: 30  CH3: 21  CH4: 24  CH5: 32
+[Ammeter] Voltage[2]: 234.73 V (Reg[0x104]=0x436A, Reg[0x105]=0xBB07)
+ADC CH0: 49890  CH1: 39  CH3: 23  CH4: 14  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49948  CH1: 27  CH3: 28  CH4: 27  CH5: 32
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49960  CH1: 32  CH3: 17  CH4: 15  CH5: 25
+ADC CH0: 49944  CH1: 34  CH3: 32  CH4: 15  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49947  CH1: 32  CH3: 29  CH4: 24  CH5: 36
+ADC CH0: 49854  CH1: 2  CH3: 52  CH4: 26  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49962  CH1: 19  CH3: 25  CH4: 20  CH5: 30
+[Ammeter] Voltage[0]: 234.67 V (Reg[0x100]=0x436A, Reg[0x101]=0xAC32)
+[Ammeter] Voltage[1]: 234.62 V (Reg[0x102]=0x436A, Reg[0x103]=0x9ED4)
+[Ammeter] Voltage[2]: 234.72 V (Reg[0x104]=0x436A, Reg[0x105]=0xB88F)
+ADC CH0: 49943  CH1: 42  CH3: 19  CH4: 7  CH5: 40
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 43  CH3: 21  CH4: 30  CH5: 33
+ADC CH0: 49950  CH1: 14  CH3: 24  CH4: 19  CH5: 40
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49947  CH1: 39  CH3: 19  CH4: 11  CH5: 29
+ADC CH0: 49877  CH1: 46  CH3: 27  CH4: 26  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49945  CH1: 33  CH3: 19  CH4: 15  CH5: 25
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49940  CH1: 32  CH3: 24  CH4: 26  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49952  CH1: 35  CH3: 28  CH4: 19  CH5: 32
+ADC CH0: 49943  CH1: 35  CH3: 24  CH4: 14  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.68 V (Reg[0x100]=0x436A, Reg[0x101]=0xAFB2)
+[Ammeter] Voltage[1]: 234.63 V (Reg[0x102]=0x436A, Reg[0x103]=0xA236)
+[Ammeter] Voltage[2]: 234.73 V (Reg[0x104]=0x436A, Reg[0x105]=0xBB9A)
+ADC CH0: 49948  CH1: 29  CH3: 28  CH4: 17  CH5: 32
+ADC CH0: 49948  CH1: 27  CH3: 17  CH4: 58  CH5: 0
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49946  CH1: 23  CH3: 15  CH4: 25  CH5: 29
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49947  CH1: 26  CH3: 28  CH4: 24  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 31  CH3: 30  CH4: 18  CH5: 33
+ADC CH0: 49953  CH1: 35  CH3: 19  CH4: 26  CH5: 40
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49947  CH1: 35  CH3: 17  CH4: 15  CH5: 25
+ADC CH0: 49950  CH1: 26  CH3: 28  CH4: 11  CH5: 21
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 25  CH3: 25  CH4: 11  CH5: 24
+[Ammeter] Voltage[0]: 234.80 V (Reg[0x100]=0x436A, Reg[0x101]=0xCD4E)
+[Ammeter] Voltage[1]: 234.74 V (Reg[0x102]=0x436A, Reg[0x103]=0xBFFE)
+[Ammeter] Voltage[2]: 234.84 V (Reg[0x104]=0x436A, Reg[0x105]=0xD98E)
+ADC CH0: 49950  CH1: 32  CH3: 24  CH4: 9  CH5: 15
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49947  CH1: 25  CH3: 25  CH4: 11  CH5: 25
+ADC CH0: 49934  CH1: 7  CH3: 29  CH4: 27  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49946  CH1: 35  CH3: 24  CH4: 14  CH5: 29
+ADC CH0: 49942  CH1: 26  CH3: 0  CH4: 11  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 30  CH3: 28  CH4: 15  CH5: 21
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49940  CH1: 33  CH3: 28  CH4: 26  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49946  CH1: 27  CH3: 25  CH4: 17  CH5: 17
+ADC CH0: 49942  CH1: 34  CH3: 29  CH4: 19  CH5: 41
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.66 V (Reg[0x100]=0x436A, Reg[0x101]=0xAB07)
+[Ammeter] Voltage[1]: 234.61 V (Reg[0x102]=0x436A, Reg[0x103]=0x9E56)
+[Ammeter] Voltage[2]: 234.71 V (Reg[0x104]=0x436A, Reg[0x105]=0xB80D)
+ADC CH0: 49954  CH1: 32  CH3: 33  CH4: 11  CH5: 28
+gas:0.0 ppmADC CH0: 49947  CH1: 27  CH3: 33  CH4: 30  CH5: 25
+ADC CH0: 49958  CH1: 32  CH3: 21  CH4: 24  CH5: 25
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 26  CH3: 28  CH4: 15  CH5: 30
+ADC CH0: 49959  CH1: 19  CH3: 36  CH4: 11  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49942  CH1: 27  CH3: 24  CH4: 11  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49956  CH1: 30  CH3: 25  CH4: 30  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 34  CH3: 33  CH4: 11  CH5: 28
+ADC CH0: 49943  CH1: 31  CH3: 24  CH4: 27  CH5: 29
+[Ammeter] Voltage[0]: 234.63 V (Reg[0x100]=0x436A, Reg[0x101]=0xA14C)
+[Ammeter] Voltage[1]: 234.57 V (Reg[0x102]=0x436A, Reg[0x103]=0x9387)
+[Ammeter] Voltage[2]: 234.67 V (Reg[0x104]=0x436A, Reg[0x105]=0xAC63)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 26  CH3: 24  CH4: 30  CH5: 29
+ADC CH0: 49946  CH1: 41  CH3: 33  CH4: 26  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 33  CH3: 25  CH4: 14  CH5: 40
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49942  CH1: 33  CH3: 29  CH4: 15  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49951  CH1: 30  CH3: 28  CH4: 15  CH5: 25
+ADC CH0: 49934  CH1: 35  CH3: 24  CH4: 27  CH5: 25
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 35  CH3: 20  CH4: 27  CH5: 29
+ADC CH0: 49873  CH1: 35  CH3: 28  CH4: 15  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49962  CH1: 46  CH3: 25  CH4: 13  CH5: 33
+[Ammeter] Voltage[0]: 234.71 V (Reg[0x100]=0x436A, Reg[0x101]=0xB7D1)
+[Ammeter] Voltage[1]: 234.66 V (Reg[0x102]=0x436A, Reg[0x103]=0xAA1D)
+[Ammeter] Voltage[2]: 234.76 V (Reg[0x104]=0x436A, Reg[0x105]=0xC2CC)
+ADC CH0: 49937  CH1: 31  CH3: 33  CH4: 30  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49966  CH1: 7  CH3: 32  CH4: 13  CH5: 30
+ADC CH0: 49950  CH1: 25  CH3: 25  CH4: 18  CH5: 33
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49956  CH1: 40  CH3: 25  CH4: 28  CH5: 25
+ADC CH0: 49955  CH1: 19  CH3: 28  CH4: 25  CH5: 19
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49875  CH1: 57  CH3: 44  CH4: 30  CH5: 25
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49935  CH1: 5  CH3: 48  CH4: 14  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49865  CH1: 35  CH3: 25  CH4: 23  CH5: 25
+ADC CH0: 49879  CH1: 33  CH3: 9  CH4: 24  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[1]: 234.57 V (Reg[0x102]=0x436A, Reg[0x103]=0x933C)
+[Ammeter] Voltage[2]: 234.66 V (Reg[0x104]=0x436A, Reg[0x105]=0xAB85)
+ADC CH0: 49954  CH1: 33  CH3: 25  CH4: 24  CH5: 19
+ADC CH0: 49944  CH1: 35  CH3: 21  CH4: 15  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49875  CH1: 36  CH3: 33  CH4: 23  CH5: 40
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49939  CH1: 26  CH3: 24  CH4: 24  CH5: 36
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49941  CH1: 9  CH3: 25  CH4: 30  CH5: 29
+ADC CH0: 49947  CH1: 36  CH3: 32  CH4: 18  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49950  CH1: 30  CH3: 28  CH4: 15  CH5: 40
+ADC CH0: 49943  CH1: 15  CH3: 28  CH4: 26  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 33  CH3: 25  CH4: 11  CH5: 32
+[Ammeter] Voltage[0]: 234.71 V (Reg[0x100]=0x436A, Reg[0x101]=0xB720)
+[Ammeter] Voltage[1]: 234.65 V (Reg[0x102]=0x436A, Reg[0x103]=0xA8D0)
+[Ammeter] Voltage[2]: 234.76 V (Reg[0x104]=0x436A, Reg[0x105]=0xC315)
+ADC CH0: 49946  CH1: 33  CH3: 28  CH4: 15  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 40  CH3: 36  CH4: 16  CH5: 21
+ADC CH0: 49949  CH1: 42  CH3: 0  CH4: 16  CH5: 27
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49954  CH1: 34  CH3: 32  CH4: 15  CH5: 25
+ADC CH0: 49962  CH1: 31  CH3: 33  CH4: 24  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49876  CH1: 45  CH3: 33  CH4: 30  CH5: 40
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49939  CH1: 42  CH3: 15  CH4: 11  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49949  CH1: 45  CH3: 28  CH4: 14  CH5: 33
+ADC CH0: 49943  CH1: 27  CH3: 25  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.67 V (Reg[0x100]=0x436A, Reg[0x101]=0xABB4)
+[Ammeter] Voltage[1]: 234.61 V (Reg[0x102]=0x436A, Reg[0x103]=0x9E76)
+[Ammeter] Voltage[2]: 234.71 V (Reg[0x104]=0x436A, Reg[0x105]=0xB779)
+ADC CH0: 49954  CH1: 32  CH3: 25  CH4: 19  CH5: 23
+ADC CH0: 49954  CH1: 42  CH3: 28  CH4: 13  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 33  CH3: 25  CH4: 18  CH5: 25
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49952  CH1: 34  CH3: 28  CH4: 17  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 25  CH3: 17  CH4: 26  CH5: 28
+ADC CH0: 49947  CH1: 31  CH3: 29  CH4: 11  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49951  CH1: 32  CH3: 25  CH4: 18  CH5: 40
+ADC CH0: 49934  CH1: 31  CH3: 29  CH4: 35  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49947  CH1: 23  CH3: 29  CH4: 17  CH5: 29
+[Ammeter] Voltage[0]: 234.66 V (Reg[0x100]=0x436A, Reg[0x101]=0xA965)
+[Ammeter] Voltage[1]: 234.60 V (Reg[0x102]=0x436A, Reg[0x103]=0x9B1A)
+[Ammeter] Voltage[2]: 234.70 V (Reg[0x104]=0x436A, Reg[0x105]=0xB547)
+ADC CH0: 49951  CH1: 61  CH3: 32  CH4: 26  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49941  CH1: 31  CH3: 17  CH4: 14  CH5: 27
+ADC CH0: 49909  CHAC AC 13 AA 90 02 F8 07 E1 36 00 00 00 AA 00 00 00 00 67
+gas:0.0 ppm, levle: 0%: 0%, alarm:0xAA
+-------------[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49941  CH1: 0  CH3: 17  CH4: 19  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49943  CH1: 27  CH3: 24  CH4: 24  CH5: 25
+ADC CH0: 49946  CH1: 40  CH3: 28  CH4: 19  CH5: 28
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 34  CH3: 28  CH4: 15  CH5: 25
+ADC CH0: 49953  CH1: 23  CH3: 13  CH4: 11  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49952  CH1: 42  CH3: 32  CH4: 19  CH5: 32
+[Ammeter] Voltage[0]: 234.75 V (Reg[0x100]=0x436A, Reg[0x101]=0xC1AA)
+[Ammeter] Voltage[1]: 234.70 V (Reg[0x102]=0x436A, Reg[0x103]=0xB452)
+[Ammeter] Voltage[2]: 234.79 V (Reg[0x104]=0x436A, Reg[0x105]=0xCC80)
+ADC CH0: 49954  CH1: 30  CH3: 23  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49946  CH1: 33  CH3: 33  CH4: 14  CH5: 33
+ADC CH0: 49950  CH1: 19  CH3: 24  CH4: 24  CH5: 12
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49944  CH1: 30  CH3: 30  CH4: 26  CH5: 32
+ADC CH0: 49959  CH1: 31  CH3: 24  CH4: 15  CH5: 11
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49962  CH1: 35  CH3: 28  CH4: 23  CH5: 29
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49955  CH1: 35  CH3: 25  CH4: 14  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49946  CH1: 32  CH3: 25  CH4: 19  CH5: 28
+ADC CH0: 49967  CH1: 26  CH3: 28  CH4: 15  CH5: 32
+[Ammeter] Voltage[0]: 235.00 V (Reg[0x100]=0x436B, Reg[0x101]=0x021F)
+[Ammeter] Voltage[1]: 234.95 V (Reg[0x102]=0x436A, Reg[0x103]=0xF524)
+[Ammeter] Voltage[2]: 235.05 V (Reg[0x104]=0x436B, Reg[0x105]=0x0D90)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 26  CH3: 23  CH4: 26  CH5: 28
+ADC CH0: 49829  CH1: 8  CH3: 32  CH4: 30  CH5: 12
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49882  CH1: 26  CH3: 29  CH4: 32  CH5: 33
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49940  CH1: 58  CH3: 9  CH4: 30  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49949  CH1: 32  CH3: 25  CH4: 14  CH5: 25
+ADC CH0: 49940  CH1: 40  CH3: 24  CH4: 24  CH5: 29
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49951  CH1: 15  CH3: 30  CH4: 15  CH5: 25
+ADC CH0: 49947  CH1: 26  CH3: 20  CH4: 15  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 34  CH3: 24  CH4: 15  CH5: 30
+[Ammeter] Voltage[0]: 235.41 V (Reg[0x100]=0x436B, Reg[0x101]=0x6979)
+[Ammeter] Voltage[1]: 235.35 V (Reg[0x102]=0x436B, Reg[0x103]=0x5A64)
+[Ammeter] Voltage[2]: 235.45 V (Reg[0x104]=0x436B, Reg[0x105]=0x7388)
+ADC CH0: 49950  CH1: 33  CH3: 17  CH4: 26  CH5: 36
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 40  CH3: 25  CH4: 24  CH5: 32
+ADC CH0: 49943  CH1: 28  CH3: 25  CH4: 19  CH5: 28
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 27  CH3: 23  CH4: 15  CH5: 27
+ADC CH0: 49948  CH1: 35  CH3: 28  CH4: 15  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49891  CH1: 35  CH3: 25  CH4: 19  CH5: 33
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49953  CH1: 19  CH3: 25  CH4: 26  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 34  CH3: 24  CH4: 11  CH5: 15
+ADC CH0: 49958  CH1: 33  CH3: 30  CH4: 30  CH5: 24
+[Ammeter] Voltage[0]: 235.37 V (Reg[0x100]=0x436B, Reg[0x101]=0x6110)
+[Ammeter] Voltage[1]: 235.32 V (Reg[0x102]=0x436B, Reg[0x103]=0x525E)
+[Ammeter] Voltage[2]: 235.42 V (Reg[0x104]=0x436B, Reg[0x105]=0x6C37)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49961  CH1: 15  CH3: 20  CH4: 15  CH5: 28
+ADC CH0: 49947  CH1: 35  CH3: 24  CH4: 14  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 25  CH3: 40  CH4: 19  CH5: 25
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49945  CH1: 34  CH3: 32  CH4: 23  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49951  CH1: 33  CH3: 24  CH4: 15  CH5: 28
+ADC CH0: 49948  CH1: 43  CH3: 28  CH4: 24  CH5: 33
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49943  CH1: 36  CH3: 27  CH4: 27  CH5: 28
+ADC CH0: 49950  CH1: 26  CH3: 25  CH4: 24  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 235.24 V (Reg[0x100]=0x436B, Reg[0x101]=0x3DEC)
+[Ammeter] Voltage[1]: 235.ADC CH0: 49950  CH1: 27  CH3: 17  CH4: 24  CH5: 32
+[Ammeter] Voltage[2]: 235.29 V (Reg[0x104]=0x436B, Reg[0x105]=0x4B85)
+ADC CH0: 49955  CH1: 35  CH3: 25  CH4: 20  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 35  CH3: 30  CH4: 15  CH5: 30
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 26  CH3: 24  CH4: 24  CH5: 15
+ADC CH0: 49947  CH1: 34  CH3: 24  CH4: 17  CH5: 36
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49955  CH1: 42  CH3: 25  CH4: 17  CH5: 29
+ADC CH0: 49874  CH1: 42  CH3: 30  CH4: 30  CH5: 36
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 23  CH3: 24  CH4: 15  CH5: 32
+[Ammeter] Voltage[0]: 235.09 V (Reg[0x100]=0x436B, Reg[0x101]=0x18E4)
+[Ammeter] Voltage[1]: 235.04 V (Reg[0x102]=0x436B, Reg[0x103]=0x0B6A)
+[Ammeter] Voltage[2]: 235.14 V (Reg[0x104]=0x436B, Reg[0x105]=0x23F5)
+ADC CH0: 49954  CH1: 15  CH3: 25  CH4: 19  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49984  CH1: 26  CH3: 25  CH4: 15  CH5: 25
+ADC CH0: 49948  CH1: 31  CH3: 30  CH4: 30  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49956  CH1: 25  CH3: 24  CH4: 30  CH5: 28
+ADC CH0: 49906  CH1: 31  CH3: 35  CH4: 32  CH5: 15
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49966  CH1: 120  CH3: 32  CH4: 24  CH5: 24
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49963  CH1: 42  CH3: 28  CH4: 19  CH5: 15
+ADC CH0: 49958  CH1: 34  CH3: 17  CH4: 14  CH5: 16
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49951  CH1: 15  CH3: 25  CH4: 33  CH5: 26
+[Ammeter] Voltage[0]: 235.15 V (Reg[0x100]=0x436B, Reg[0x101]=0x2811)
+[Ammeter] Voltage[1]: 235.09 V (Reg[0x102]=0x436B, Reg[0x103]=0x1945)
+[Ammeter] Voltage[2]: 235.20 V (Reg[0x104]=0x436B, Reg[0x105]=0x337D)
+ADC CH0: 49952  CH1: 32  CH3: 28  CH4: 24  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49970  CH1: 25  CH3: 26  CH4: 32  CH5: 65
+ADC CH0: 49951  CH1: 40  CH3: 21  CH4: 17  CH5: 32
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0AC AC 13 AA 9F 02 EB 07 F7 35 00 00 00 AA 00 00 00 00 7E
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49936  CH1: 34  CH3: 29  CH4: 19  CH5: 28
+ADC CH0: 49959  CH1: 25  CH3: 24  CH4: 17  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 15  CH3: 28  CH4: 32  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49960  CH1: 32  CH3: 30  CH4: 19  CH5: 21
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49951  CH1: 43  CH3: 25  CH4: 26  CH5: 33
+ADC CH0: 49884  CH1: 35  CH3: 25  CH4: 30  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 235.26 V (Reg[0x100]=0x436B, Reg[0x101]=0x43F2)
+[Ammeter] Voltage[1]: 235.21 V (Reg[0x102]=0x436B, Reg[0x103]=0x362F)
+[Ammeter] Voltage[2]: 235.30 V (Reg[0x104]=0x436B, Reg[0x105]=0x4F05)
+ADC CH0: 49938  CH1: 15  CH3: 24  CH4: 24  CH5: 28
+ADC CH0: 49938  CH1: 40  CH3: 24  CH4: 0  CH5: 30
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 29  CH3: 25  CH4: 26  CH5: 33
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49950  CH1: 35  CH3: 28  CH4: 15  CH5: 36
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 42  CH3: 17  CH4: 16  CH5: 32
+ADC CH0: 49881  CH1: 35  CH3: 24  CH4: 19  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49883  CH1: 35  CH3: 29  CH4: 35  CH5: 17
+ADC CH0: 49948  CH1: 33  CH3: 24  CH4: 33  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49951  CH1: 30  CH3: 25  CH4: 25  CH5: 30
+[Ammeter] Voltage[0]: 235.11 V (Reg[0x100]=0x436B, Reg[0x101]=0x1E72)
+[Ammeter] Voltage[1]: 235.06 V (Reg[0x102]=0x436B, Reg[0x103]=0x110A)
+[Ammeter] Voltage[2]: 235.16 V (Reg[0x104]=0x436B, Reg[0x105]=0x2B53)
+ADC CH0: 49968  CH1: 23  CH3: 15  CH4: 11  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 27  CH3: 12  CH4: 26  CH5: 24
+ADC CH0: 49954  CH1: 24  CH3: 28  CH4: 19  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49950  CH1: 25  CH3: 25  CH4: 15  CH5: 0
+ADC CH0: 49954  CH1: 32  CH3: 21  CH4: 19  CH5: 15
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49883  CH1: 40  CH3: 33  CH4: 31  CH5: 40
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49964  CH1: 30  CH3: 19  CH4: 24  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 32  CH3: 25  CH4: 17  CH5: 23
+ADC CH0: 49950  CH1: 27  CH3: 25  CH4: 17  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 235.02 V (Reg[0x100]=0x436B, Reg[0x101]=0x0673)
+[Ammeter] Voltage[1]: 234.97 V (Reg[0x102]=0x436A, Reg[0x103]=0xF8E3)
+[Ammeter] Voltage[2]: 235.07 V (Reg[0x104]=0x436B, Reg[0x105]=0x1210)
+ADC CH0: 49961  CH1: 25  CH3: 28  CH4: 19  CH5: 15
+ADC CH0: 49948  CH1: 30  CH3: 28  CH4: 19  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49964  CH1: 123  CH3: 4  CH4: 32  CH5: 28
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49956  CH1: 27  CH3: 20  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 27  CH3: 32  CH4: 15  CH5: 32
+ADC CH0: 49939  CH1: 19  CH3: 21  CH4: 24  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49956  CH1: 35  CH3: 32  CH4: 17  CH5: 32
+ADC CH0: 49960  CH1: 30  CH3: 20  CH4: 27  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49962  CH1: 27  CH3: 24  CH4: 18  CH5: 25
+[Ammeter] Voltage[0]: 234.88 V (Reg[0x100]=0x436A, Reg[0x101]=0xE228)
+[Ammeter] Voltage[1]: 234.82 V (Reg[0x102]=0x436A, Reg[0x103]=0xD445)
+[Ammeter] Voltage[2]: 234.93 V (Reg[0x104]=0x436A, Reg[0x105]=0xEEA2)
+ADC CH0: 49950  CH1: 33  CH3: 28  CH4: 22  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49960  CH1: 33  CH3: 15  CH4: 19  CH5: 36
+ADC CH0: 49951  CH1: 35  CH3: 21  CH4: 26  CH5: 36
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49950  CH1: 32  CH3: 24  CH4: 11  CH5: 28
+ADC CH0: 49957  CH1: 32  CH3: 17  CH4: 32  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49907  CH1: 25  CH3: 25  CH4: 19  CH5: 28
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49939  CH1: 35  CH3: 21  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49971  CH1: 42  CH3: 28  CH4: 19  CH5: 25
+ADC CH0: 49954  CH1: 26  CH3: 24  CH4: 30  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 235.36 V (Reg[0x100]=0x436B, Reg[0x101]=0x5C72)
+[Ammeter] Voltage[1]: 235.30 V (Reg[0x102]=0x436B, Reg[0x103]=0x4EB4)
+[Ammeter] Voltage[2]: 235.40 V (Reg[0x104]=0x436B, Reg[0x105]=0x68B9)
+ADC CH0: 49959  CH1: 33  CH3: 25  CH4: 15  CH5: 25
+ADC CH0: 49975  CH1: 30  CH3: 25  CH4: 30  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49957  CH1: 26  CH3: 25  CH4: 24  CH5: 25
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49955  CH1: 35  CH3: 40  CH4: 13  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 23  CH3: 24  CH4: 15  CH5: 25
+ADC CH0: 49954  CH1: 18  CH3: 24  CH4: 11  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49949  CH1: 25  CH3: 25  CH4: 26  CH5: 40
+ADC CH0: 49908  CH1: 31  CH3: 13  CH4: 14  CH5: 28
+[Ammeter] Voltage[0]: 235.23 V (Reg[0x100]=0x436B, Reg[0x101]=0x3B1E)
+[Ammeter] Voltage[1]: 235.18 V (Reg[0x102]=0x436B, Reg[0x103]=0x2E80)
+[Ammeter] Voltage[2]: 235.28 V (Reg[0x104]=0x436B, Reg[0x105]=0x47CA)
+ADC CH0: 49955  CH1: 32  CH3: 25  CH4: 24  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 32  CH3: 24  CH4: 24  CH5: 36
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49951  CH1: 25  CH3: 17  CH4: 19  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49948  CH1: 35  CH3: 25  CH4: 15  CH5: 21
+ADC CH0: 49955  CH1: 40  CH3: 12  CH4: 34  CH5: 29
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49891  CH1: 47  CH3: 40  CH4: 26  CH5: 28
+ADC CH0: 49943  CH1: 18  CH3: 24  CH4: 27  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 26  CH3: 20  CH4: 3  CH5: 28
+[Ammeter] Voltage[0]: 235.37 V (Reg[0x100]=0x436B, Reg[0x101]=0x5F9D)
+[Ammeter] Voltage[1]: 235.31 V (Reg[0x102]=0x436B, Reg[0x103]=0x510F)
+[Ammeter] Voltage[2]: 235.41 V (Reg[0x104]=0x436B, Reg[0x105]=0x6A86)
+ADC CH0: 49954  CH1: 32  CH3: 17  CH4: 25  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 30  CH3: 28  CH4: 11  CH5: 20
+ADC CH0: 49899  CH1: 23  CH3: 28  CH4: 28  CH5: 41
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49947  CH1: 33  CH3: 30  CH4: 27  CH5: 29
+ADC CH0: 49959  CH1: 32  CH3: 21  CH4: 25  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49943  CH1: 32  CH3: 25  CH4: 17  CH5: 33
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49953  CH1: 40  CH3: 25  CH4: 15  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 32  CH3: 28  CH4: 19  CH5: 30
+ADC CH0: 49962  CH1: 25  CH3: 28  CH4: 15  CH5: 26
+[Ammeter] Voltage[0]: 235.30 V (Reg[0x100]=0x436B, Reg[0x101]=0x4D6C)
+[Ammeter] Voltage[1]: 235.25 V (Reg[0x102]=0x436B, Reg[0x103]=0x4111)
+[Ammeter] Voltage[2]: 235.34 V (Reg[0x104]=0x436B, Reg[0x105]=0x597C)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 35  CH3: 17  CH4: 15  CH5: 28
+ADC CH0: 49951  CH1: 40  CH3: 28  CH4: 26  CH5: 41
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 23  CH3: 28  CH4: 19  CH5: 29
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49964  CH1: 34  CH3: 17  CH4: 24  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49957  CH1: 25  CH3: 21  CH4: 15  CH5: 33
+ADC CH0: 49923  CH1: 0  CH3: 1  CH4: 18  CH5: 57
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49894  CH1: 41  CH3: 19  CH4: 35  CH5: 32
+ADC CH0: 49958  CH1: 32  CH3: 22  CH4: 11  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49963  CH1: 30  CH3: 32  CH4: 34  CH5: 21
+[Ammeter] Voltage[0]: 235.18 V (Reg[0x100]=0x436B, Reg[0x101]=0x300B)
+[Ammeter] Voltage[1]: 235.13 V (Reg[0x102]=0x436B, Reg[0x103]=0x21F1)
+[Ammeter] Voltage[2]: 235.23 V (Reg[0x104]=0x436B, Reg[0x105]=0x3BDF)
+ADC CH0: 49950  CH1: 25  CH3: 25  CH4: 19  CH5: 17
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 42  CH3: 21  CH4: 19  CH5: 25
+ADC CH0: 49927  CH1: 35  CH3: 37  CH4: 25  CH5: 28
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49878  CH1: 19  CH3: 45  CH4: 32  CH5: 48
+ADC CH0: 49950  CH1: 35  CH3: 25  CH4: 26  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 24  CH3: 28  CH4: 30  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49959  CH1: 34  CH3: 25  CH4: 27  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 30  CH3: 32  CH4: 7  CH5: 32
+ADC CH0: 49976  CH1: 47  CH3: 17  CH4: 30  CH5: 30
+[Ammeter] Voltage[0]: 235.25 V (Reg[0x100]=0x436B, Reg[0x101]=0x4120)
+[Ammeter] Voltage[1]: 235.20 V (Reg[0x102]=0x436B, Reg[0x103]=0x3441)
+[Ammeter] Voltage[2]: 235.30 V (Reg[0x104]=0x436B, Reg[0x105]=0x4E09)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 29  CH3: 28  CH4: 19  CH5: 28
+ADC CH0: 49895  CH1: 31  CH3: 29  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 39  CH3: 25  CH4: 26  CH5: 29
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49949  CH1: 19  CH3: 36  CH4: 13  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49951  CH1: 26  CH3: 25  CH4: 19  CH5: 29
+ADC CH0: 49959  CH1: 36  CH3: 33  CH4: 15  CH5: 41
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49898  CH1: 40  CH3: 32  CH4: 31  CH5: 29
+ADC CH0: 49966  CH1: 34  CH3: 28  CH4: 24  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49888  CH1: 15  CH3: 52  CH4: 15  CH5: 32
+[Ammeter] Voltage[0]: 235.28 V (Reg[0x100]=0x436B, Reg[0x101]=0x499B)
+[Ammeter] Voltage[1]: 235.23 V (Reg[0x102]=0x436B, Reg[0x103]=0x3BA6)
+[Ammeter] Voltage[2]: 235.33 V (Reg[0x104]=0x436B, Reg[0x105]=0x54BE)
+ADC CH0: 49938  CH1: 33  CH3: 28  CH4: 24  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49943  CH1: 64  CH3: 8  CH4: 9  CH5: 41
+ADC CH0: 49956  CH1: 25  CH3: 28  CH4: 26  CH5: 44
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 37  CH3: 24  CH4: 11  CH5: 32
+ADC CH0: 49950  CH1: 14  CH3: 24  CH4: 19  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49951  CH1: 27  CH3: 49  CH4: 15  CH5: 33
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49950  CH1: 30  CH3: 33  CH4: 19  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 30  CH3: 17  CH4: 15  CH5: 32
+ADC CH0: 49950  CH1: 34  CH3: 40  CH4: 13  CH5: 29
+[Ammeter] Voltage[0]: 235.15 V (Reg[0x100]=0x436B, Reg[0x101]=AC AC 13 AA 90 02 F5 07 E1 36 00 00 00 AA 00 00 00 00 64
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[1]: 235.10 V (Reg[0x102]=0x436B, Reg[0x103]=0x1A2B)
+[Ammeter] Voltage[2]: 235.20 V (Reg[0x104]=0x436B, Reg[0x105]=0x3378)
+ADC CH0: 49956  CH1: 33  CH3: 33  CH4: 19  CH5: 28
+ADC CH0: 49956  CHAC AC 13 AA 90 02 F3 07 E1 36 00 00 00 AA 00 00 00 00 62
+gas:0.0 ppm, levle: 0%, alarm:0xA: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 46  CH3: 19  CH4: 19  CH5: 28
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49948  CH1: 35  CH3: 25  CH4: 26  CH5: 37
+ADC CH0: 49950  CH1: 32  CH3: 28  CH4: 33  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49951  CH1: 32  CH3: 15  CH4: 19  CH5: 28
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49953  CH1: 26  CH3: 25  CH4: 13  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 35  CH3: 24  CH4: 19  CH5: 33
+[Ammeter] Voltage[0]: 235.20 V (Reg[0x100]=0x436B, Reg[0x101]=0x34BE)
+[Ammeter] Voltage[1]: 235.ADC CH0: 49954  CH1: 33  CH3: 21  CH4: 15  CH5: 24
+[Ammeter] Voltage[2]: 235.25 V (Reg[0x104]=0x436B, Reg[0x105]=0x4015)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49983  CH1: 26  CH3: 25  CH4: 19  CH5: 29
+ADC CH0: 49950  CH1: 30  CH3: 21  CH4: 15  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49962  CH1: 34  CH3: 28  CH4: 24  CH5: 30
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 25  CH3: 20  CH4: 10  CH5: 21
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49878  CH1: 32  CH3: 28  CH4: 17  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 58  CH3: 15  CH4: 8  CH5: 28
+ADC CH0: 49958  CH1: 33  CH3: 19  CH4: 25  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.84 V (Reg[0x100]=0x436A, Reg[0x101]=0xD949)
+[Ammeter] Voltage[1]: 234.79 V (Reg[0x102]=0x436A, Reg[0x103]=0xCB87)
+[Ammeter] Voltage[2]: 234.89 V (Reg[0x104]=0x436A, Reg[0x105]=0xE3F3)
+ADC CH0: 49960  CH1: 30  CH3: 19  CH4: 19  CH5: 25
+ADC CH0: 49962  CH1: 11  CH3: 28  CH4: 26  CH5: 23
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 40  CH3: 23  CH4: 13  CH5: 17
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49967  CH1: 33  CH3: 32  CH4: 25  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49947  CH1: 33  CH3: 19  CH4: 26  CH5: 33
+ADC CH0: 49950  CH1: 35  CH3: 28  CH4: 18  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49950  CH1: 42  CH3: 19  CH4: 19  CH5: 29
+ADC CH0: 49958  CH1: 35  CH3: 25  CH4: 25  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49945  CH1: 27  CH3: 25  CH4: 13  CH5: 28
+[Ammeter] Voltage[0]: 235.17 V (Reg[0x100]=0x436B, Reg[0x101]=0x2D10)
+[Ammeter] Voltage[1]: 235.12 V (Reg[0x102]=0x436B, Reg[0x103]=0x1FCB)
+[Ammeter] Voltage[2]: 235.21 V (Reg[0x104]=0x436B, Reg[0x105]=0x3847)
+ADC CH0: 49947  CH1: 33  CH3: 25  CH4: 23  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49892  CH1: 11  CH3: 36  CH4: 32  CH5: 25
+ADC CH0: 49950  CH1: 35  CH3: 21  CH4: 19  CH5: 36
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 50006  CH1: 27  CH3: 32  CH4: 11  CH5: 25
+ADC CH0: 49954  CH1: 27  CH3: 28  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49943  CH1: 33  CH3: 25  CH4: 17  CH5: 30
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49954  CH1: 15  CH3: 32  CH4: 24  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 27  CH3: 25  CH4: 19  CH5: 32
+ADC CH0: 49951  CH1: 35  CH3: 25  CH4: 19  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 235.13 V (Reg[0x100]=0x436B, Reg[0x101]=0x2262)
+[Ammeter] Voltage[1]: 235.08 V (Reg[0x102]=0x436B, Reg[0x103]=0x14D4)
+[Ammeter] Voltage[2]: 235.18 V (Reg[0x104]=0x436B, Reg[0x105]=0x2E45)
+ADC CH0: 49956  CH1: 26  CH3: 17  CH4: 15  CH5: 28
+ADC CH0: 49950  CH1: 42  CH3: 25  CH4: 26  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49886  CH1: 32  CH3: 19  CH4: 19  CH5: 28
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49962  CH1: 31  CH3: 21  CH4: 15  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 30  CH3: 25  CH4: 19  CH5: 27
+ADC CH0: 49957  CH1: 26  CH3: 15  CH4: 18  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49958  CH1: 27  CH3: 17  CH4: 19  CH5: 28
+ADC CH0: 49950  CH1: 67  CH3: 28  CH4: 19  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 35  CH3: 25  CH4: 35  CH5: 32
+[Ammeter] Voltage[0]: 235.26 V (Reg[0x100]=0x436B, Reg[0x101]=0x431B)
+[Ammeter] Voltage[1]: 235.21 V (Reg[0x102]=0x436B, Reg[0x103]=0x3661)
+[Ammeter] Voltage[2]: 235.30 V (Reg[0x104]=0x436B, Reg[0x105]=0x4F38)
+ADC CH0: 49959  CH1: 40  CH3: 37  CH4: 35  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49962  CH1: 30  CH3: 24  CH4: 25  CH5: 33
+ADC CH0: 49892  CH1: 35  CH3: 33  CH4: 19  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49962  CH1: 33  CH3: 52  CH4: 11  CH5: 32
+ADC CH0: 49958  CH1: 26  CH3: 21  CH4: 15  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49946  CH1: 22  CH3: 29  CH4: 19  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49951  CH1: 33  CH3: 32  CH4: 19  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 39  CH3: 13  CH4: 26  CH5: 28
+ADC CH0: 49943  CH1: 32  CH3: 25  CH4: 19  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 235.43 V (Reg[0x100]=0x436B, Reg[0x101]=0x6E9A)
+[Ammeter] Voltage[1]: 235.37 V (Reg[0x102]=0x436B, Reg[0x103]=0x6125)
+[Ammeter] Voltage[2]: 235.48 V (Reg[0x104]=0x436B, Reg[0x105]=0x7B27)
+ADC CH0: 49947  CH1: 30  CH3: 32  CH4: 17  CH5: 17
+ADC CH0: 49953  CH1: 26  CH3: 25  CH4: 15  CH5: 21
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 35  CH3: 25  CH4: 14  CH5: 25
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 15  CH3: 28  CH4: 11  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 25  CH3: 21  CH4: 24  CH5: 25
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49958  CH1: 24  CH3: 28  CH4: 26  CH5: 36
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 31  CH3: 24  CH4: 19  CH5: 29
+ADC CH0: 49958  CH1: 15  CH3: 24  CH4: 27  CH5: 25
+[Ammeter] Voltage[0]: 235.32 V (Reg[0x100]=0x436B, Reg[0x101]=0x537B)
+[Ammeter] Voltage[1]: 235.26 V (Reg[0x102]=0x436B, Reg[0x103]=0x4444)
+[Ammeter] Voltage[2]: 235.36 V (Reg[0x104]=0x436B, Reg[0x105]=0x5E39)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 41  CH3: 23  CH4: 15  CH5: 17
+ADC CH0: 49957  CH1: 34  CH3: 25  CH4: 11  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49957  CH1: 40  CH3: 28  CH4: 10  CH5: 25
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49882  CH1: 0  CH3: 21  CH4: 34  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49977  CH1: 40  CH3: 36  CH4: 18  CH5: 28
+ADC CH0: 49960  CH1: 34  CH3: 21  CH4: 15  CH5: 25
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 25  CH3: 32  CH4: 17  CH5: 32
+ADC CH0: 49955  CH1: 40  CH3: 25  CH4: 14  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49947  CH1: 18  CH3: 15  CH4: 11  CH5: 30
+[Ammeter] Voltage[0]: 235.02 V (Reg[0x100]=0x436B, Reg[0x101]=0x0565)
+[Ammeter] Voltage[1]: 234.96 V (Reg[0x102]=0x436A, Reg[0x103]=0xF7CD)
+[Ammeter] Voltage[2]: 235.06 V (Reg[0x104]=0x436B, Reg[0x105]=0x0FB5)
+ADC CH0: 49958  CH1: 24  CH3: 25  CH4: 11  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 27  CH3: 28  CH4: 19  CH5: 33
+ADC CH0: 49958  CH1: 32  CH3: 24  CH4: 15  CH5: 24
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49960  CH1: 30  CH3: 21  CH4: 11  CH5: 25
+ADC CH0: 49966  CH1: 42  CH3: 0  CH4: 18  CH5: 20
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49956  CH1: 27  CH3: 24  CH4: 14  CH5: 21
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49950  CH1: 27  CH3: 24  CH4: 25  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 40  CH3: 25  CH4: 25  CH5: 29
+ADC CH0: 49959  CH1: 32  CH3: 8  CH4: 23  CH5: 28
+[Ammeter] Voltage[0]: 234.84 V (Reg[0x100]=0x436A, Reg[0x101]=0xD964)
+[Ammeter] Voltage[1]: 234.79 V (Reg[0x102]=0x436A, Reg[0x103]=0xCC09)
+[Ammeter] Voltage[2]: 234.89 V (Reg[0x104]=0x436A, Reg[0x105]=0xE5F3)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 28  CH3: 44  CH4: 15  CH5: 28
+ADC CH0: 49959  CH1: 11  CH3: 25  CH4: 15  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 15  CH3: 22  CH4: 15  CH5: 32
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49902  CH1: 43  CH3: 33  CH4: 24  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 18  CH3: 24  CH4: 24  CH5: 25
+ADC CH0: 49884  CH1: 11  CH3: 19  CH4: 19  CH5: 30
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49898  CH1: 19  CH3: 33  CH4: 15  CH5: 33
+ADC CH0: 49954  CH1: 43  CH3: 45  CH4: 35  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49963  CH1: 44  CH3: 0  CH4: 31  CH5: 33
+[Ammeter] Voltage[0]: 234.77 V (Reg[0x100]=0x436A, Reg[0x101]=0xC6A9)
+[Ammeter] Voltage[1]: 234.72 V (Reg[0x102]=0x436A, Reg[0x103]=0xB982)
+[Ammeter] Voltage[2]: 234.81 V (Reg[0x104]=0x436A, Reg[0x105]=0xD0AD)
+ADC CH0: 49955  CH1: 18  CH3: 20  CH4: 30  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 33  CH3: 21  CH4: 19  CH5: 40
+ADC CH0: 49963  CH1: 11  CH3: 12  CH4: 17  CH5: 20
+AC AC 13 AA 8D 02 F7 07 11 37 00 00 00 AA 00 [Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[00 00 00 94
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49946  CH1: 33  CH3: 25  CH4: 15  CH5: 28
+ADC CH0: 49954  CH1: 30  CH3: 24  CH4: 10  CH5: 36
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49960  CH1: 40  CH3: 25  CH4: 24  CH5: 28
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49963  CH1: 47  CH3: 25  CH4: 24  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49960  CH1: 26  CH3: 28  CH4: 15  CH5: 0
+ADC CH0: 49946  CH1: 35  CH3: 17  CH4: 17  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.58 V (Reg[0x100]=0x436A, Reg[0x101]=0x94F1)
+[Ammeter] Voltage[1]: 234.53 V (Reg[0x102]=0x436A, Reg[0x103]=0x87F8)
+[Ammeter] Voltage[2]: 234.62 V (Reg[0x104]=0x436A, Reg[0x105]=0xA062)
+ADC CH0: 49964  CH1: 26  CH3: 25  CH4: 19  CH5: 25
+ADC CH0: 49963  CH1: 32  CH3: 28  CH4: 15  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 40  CH3: 28  CH4: 17  CH5: 28
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49950  CH1: 42  CH3: 25  CH4: 11  CH5: 36
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 35  CH3: 29  CH4: 19  CH5: 28
+ADC CH0: 49950  CH1: 34  CH3: 21  CH4: 14  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49968  CH1: 14  CH3: 24  CH4: 19  CH5: 28
+ADC CH0: 49958  CH1: 15  CH3: 23  CH4: 30  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49964  CH1: 83  CH3: 13  CH4: 19  CH5: 33
+[Ammeter] Voltage[0]: 234.56 V (Reg[0x100]=0x436A, Reg[0x101]=0x90B2)
+[Ammeter] Voltage[1]: 234.51 V (Reg[0x102]=0x436A, Reg[0x103]=0x83E2)
+[Ammeter] Voltage[2]: 234.61 V (Reg[0x104]=0x436A, Reg[0x105]=0x9DD5)
+ADC CH0: 49963  CH1: 26  CH3: 17  CH4: 24  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 40  CH3: 29  CH4: 15  CH5: 25
+ADC CH0: 49963  CH1: 32  CH3: 25  CH4: 27  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49897  CH1: 79  CH3: 21  CH4: 26  CH5: 28
+ADC CH0: 49955  CH1: 12  CH3: 24  CH4: 17  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 34  CH3: 24  CH4: 19  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 34  CH3: 15  CH4: 15  CH5: 29
+ADC CH0: 49961  CH1: 40  CH3: 14  CH4: 9  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 33  CH3: 36  CH4: 18  CH5: 28
+[Ammeter] Voltage[0]: 234.61 V (Reg[0x100]=0x436A, Reg[0x101]=0x9D83)
+[Ammeter] Voltage[1]: 234.56 V (Reg[0x102]=0x436A, Reg[0x103]=0x8F6B)
+[Ammeter] Voltage[2]: 234.65 V (Reg[0x104]=0x436A, Reg[0x105]=0xA74C)
+ADC CH0: 49958  CH1: 30  CH3: 28  CH4: 19  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49890  CH1: 43  CH3: 14  CH4: 27  CH5: 37
+ADC CH0: 49964  CH1: 33  CH3: 32  CH4: 19  CH5: 23
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49968  CH1: 35  CH3: 25  CH4: 8  CH5: 24
+ADC CH0: 49950  CH1: 35  CH3: 24  CH4: 11  CH5: 30
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49947  CH1: 15  CH3: 28  CH4: 15  CH5: 40
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49963  CH1: 40  CH3: 28  CH4: 15  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 31  CH3: 17  CH4: 17  CH5: 33
+ADC CH0: 49968  CH1: 34  CH3: 32  CH4: 14  CH5: 21
+[Ammeter] Voltage[0]: 234.88 V (Reg[0x100]=0x436A, Reg[0x101]=0xE1E8)
+[Ammeter] Voltage[1]: 234.82 V (Reg[0x102]=0x436A, Reg[0x103]=0xD404)
+[Ammeter] Voltage[2]: 234.93 V (Reg[0x104]=0x436A, Reg[0x105]=0xEE72)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 33  CH3: 21  CH4: 17  CH5: 32
+ADC CH0: 49964  CH1: 33  CH3: 25  CH4: 11  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 27  CH3: 24  CH4: 33  CH5: 25
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49959  CH1: 32  CH3: 20  CH4: 15  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49943  CH1: 35  CH3: 24  CH4: 19  CH5: 21
+ADC CH0: 49958  CH1: 32  CH3: 25  CH4: 26  CH5: 29
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 32  CH3: 24  CH4: 25  CH5: 32
+ADC CH0: 49952  CH1: 88  CH3: 25  CH4: 15  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.74 V (Reg[0x100]=0x436A, ReADC CH0: 49895  CH1: 33  CH3: 29  CH4: 19  CH5: 33
+[Ammeter] Voltage[1]: 234.68 V (Reg[0x102]=0x436A, Reg[0x103]=0xB033)
+[Ammeter] Voltage[2]: 234.78 V (Reg[0x104]=0x436A, Reg[0x105]=0xC9D4)
+ADC CH0: 49903  CH1: 35  CH3: 33  CH4: 19  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49874  CH1: 35  CH3: 26  CH4: 23  CH5: 28
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=ADC CH0: 49966  CH1: 19  CH3: 24  CH4: 11  CH5: 32
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49951  CH1: 32  CH3: 32  CH4: 24  CH5: 28
+ADC CH0: 49959  CH1: 16  CH3: 25  CH4: 14  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]ADC CH0: 49950  CH1: 32  CH3: 25  CH4: 15  CH5: 24
+ADC CH0: 49951  CH1: 30  CH3: 15  CH4: 14  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49932  CH1: 35  CH3: 24  CH4: 19  CH5: 28
+[Ammeter] Voltage[0]: 234.86 V (Reg[0x100]=0x436A, Reg[0x101]=0xDCBC)
+[Ammeter] Voltage[1]: 234.ADC CH0: 49963  CH1: 34  CH3: 24  CH4: 19  CH5: 28
+[Ammeter] Voltage[2]: 234.91 V (Reg[0x104]=0x436A, Reg[0x105]=0xE96B)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 27  CH3: 24  CH4: 19  CH5: 25
+ADC CH0: 49954  CH1: 40  CH3: 73  CH4: 26  CH5: 45
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49958  CH1: 25  CH3: 17  CH4: 18  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49951  CH1: 33  CH3: 25  CH4: 9  CH5: 15
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49955  CH1: 40  CH3: 28  CH4: 25  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 25  CH3: 24  CH4: 19  CH5: 28
+ADC CH0: 49950  CH1: 32  CH3: 25  CH4: 15  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.98 V (Reg[0x100]=0x436A, Reg[0x101]=0xFCAB)
+[Ammeter] Voltage[1]: 234.93 V (Reg[0x102]=0x436A, Reg[0x103]=0xEF4E)
+[Ammeter] Voltage[2]: 235.03 V (Reg[0x104]=0x436B, Reg[0x105]=0x08DA)
+ADC CH0: 49951  CH1: 33  CH3: 30  CH4: 22  CH5: 33
+ADC CH0: 49950  CH1: 35  CH3: 17  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 23  CH3: 17  CH4: 15  CH5: 29
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 32  CH3: 21  CH4: 10  CH5: 28
+ADC CH0: 49950  CH1: 32  CH3: 24  CH4: 11  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49960  CH1: 32  CH3: 25  CH4: 24  CH5: 21
+ADC CH0: 49871  CH1: 51  CH3: 44  CH4: 11  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 15  CH3: 19  CH4: 26  CH5: 29
+[Ammeter] Voltage[0]: 235.02 V (Reg[0x100]=0x436B, Reg[0x101]=0x063E)
+[Ammeter] Voltage[1]: 234.97 V (Reg[0x102]=0x436A, Reg[0x103]=0xF8FC)
+[Ammeter] Voltage[2]: 235.07 V (Reg[0x104]=0x436B, Reg[0x105]=0x1287)
+ADC CH0: 49954  CH1: 32  CH3: 32  CH4: 15  CH5: 21
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49951  CH1: 42  CH3: 28  CH4: 24  CH5: 33
+ADC CH0: 49954  CH1: 19  CH3: 24  CH4: 13  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49964  CH1: 25  CH3: 20  CH4: 19  CH5: 25
+ADC CH0: 49956  CH1: 30  CH3: 28  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49962  CH1: 35  CH3: 17  CH4: 15  CH5: 25
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49959  CH1: 34  CH3: 24  CH4: 15  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 34  CH3: 40  CH4: 15  CH5: 36
+ADC CH0: 49959  CH1: 36  CH3: 28  CH4: 26  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 235.14 V (Reg[0x100]=0x436B, Reg[0x101]=0x2567)
+[Ammeter] Voltage[1]: 235.09 V (Reg[0x102]=0x436B, Reg[0x103]=0x1804)
+[Ammeter] Voltage[2]: 235.19 V (Reg[0x104]=0x436B, Reg[0x105]=0x311C)
+ADC CH0: 49947  CH1: 30  CH3: 24  CH4: 30  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 22  CH3: 28  CH4: 19  CH5: 28
+ADC CH0: 49884  CH1: 33  CH3: 33  CH4: 25  CH5: 28
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49946  CH1: 27  CH3: 30  CH4: 11  CH5: 33
+ADC CH0: 49954  CH1: 31  CH3: 24  CH4: 26  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 35  CH3: 21  CH4: 15  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 50002  CH1: 25  CH3: 15  CH4: 11  CH5: 40
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49968  CH1: 33  CH3: 28  CH4: 15  CH5: 28
+ADC CH0: 49907  CH1: 35  CH3: 36  CH4: 26  CH5: 25
+[Ammeter] Voltage[0]: 234.93 V (Reg[0x100]=0x436A, Reg[0x101]=0xEEC1)
+[Ammeter] Voltage[1]: 234.88 V (Reg[0x102]=0x436A, Reg[0x103]=0xE17E)
+[Ammeter] Voltage[2]: 234.97 V (Reg[0x104]=0x436A, Reg[0x105]=0xFAC AC 13 AA 89 02 FB 07 50 37 00 00 00 AA 00 00 00 00 D3
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49961  CH1: 40  CH3: 15  CH4: 24  CH5: 25
+ADC CH0: 49963  CH1: 26  CH3: 21  CH4: 24  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 15  CH3: 29  CH4: 30  CH5: 32
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49951  CH1: 40  CH3: 28  CH4: 15  CH5: 28
+ADC CH0: 49959  CH1: 34  CH3: 24  CH4: 32  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49943  CH1: 33  CH3: 17  CH4: 23  CH5: 32
+ADC CH0: 49959  CH1: 43  CH3: 16  CH4: 17  CH5: 36
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49895  CH1: 32  CH3: 33  CH4: 26  CH5: 32
+[Ammeter] Voltage[0]: 234.54 V (Reg[0x100]=0x436A, Reg[0x101]=0x8C89)
+[Ammeter] Voltage[1]: 234.49 V (Reg[0x102]=0x436A, Reg[0x103]=0x7EBA)
+[Ammeter] Voltage[2]: 234.59 V (Reg[0x104]=0x436A, Reg[0x105]=0x981B)
+ADC CH0: 49956  CH1: 35  CH3: 24  CH4: 25  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 31  CH3: 25  CH4: 32  CH5: 28
+ADC CH0: 49958  CH1: 15  CH3: 25  CH4: 15  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49954  CH1: 33  CH3: 25  CH4: 15  CH5: 25
+ADC CH0: 49955  CH1: 15  CH3: 13  CH4: 17  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49946  CH1: 33  CH3: 23  CH4: 19  CH5: 31
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49954  CH1: 33  CH3: 17  CH4: 16  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 15  CH3: 24  CH4: 15  CH5: 29
+ADC CH0: 49942  CH1: 26  CH3: 28  CH4: 25  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.19 V (Reg[0x100]=0x436A, Reg[0x101]=0x31EA)
+[Ammeter] Voltage[1]: 234.14 V (Reg[0x102]=0x436A, Reg[0x103]=0x244B)
+[Ammeter] Voltage[2]: 234.24 V (Reg[0x104]=0x436A, Reg[0x105]=0x3DCB)
+ADC CH0: 49958  CH1: 37  CH3: 17  CH4: 11  CH5: 32
+ADC CH0: 49956  CH1: 32  CH3: 28  CH4: 11  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 29  CH3: 17  CH4: 24  CH5: 1
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49891  CH1: 24  CH3: 29  CH4: 27  CH5: 57
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 51  CH3: 32  CH4: 25  CH5: 24
+ADC CH0: 49962  CH1: 24  CH3: 21  CH4: 27  CH5: 60
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49950  CH1: 33  CH3: 17  CH4: 15  CH5: 37
+ADC CH0: 49958  CH1: 35  CH3: 28  CH4: 11  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 36  CH3: 15  CH4: 15  CH5: 32
+[Ammeter] Voltage[0]: 233.99 V (Reg[0x100]=0x4369, Reg[0x101]=0xFF7D)
+[Ammeter] Voltage[1]: 233.94 V (Reg[0x102]=0x4369, Reg[0x103]=0xF1B6)
+[Ammeter] Voltage[2]: 234.04 V (Reg[0x104]=0x436A, Reg[0x105]=0x0A59)
+ADC CH0: 49934  CH1: 32  CH3: 25  CH4: 15  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49947  CH1: 35  CH3: 23  CH4: 19  CH5: 24
+ADC CH0: 49962  CH1: 40  CH3: 25  CH4: 17  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49951  CH1: 30  CH3: 28  CH4: 15  CH5: 40
+ADC CH0: 49960  CH1: 33  CH3: 24  CH4: 17  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49961  CH1: 31  CH3: 24  CH4: 10  CH5: 29
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49958  CH1: 74  CH3: 17  CH4: 26  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49960  CH1: 26  CH3: 21  CH4: 15  CH5: 32
+ADC CH0: 49975  CH1: 26  CH3: 17  CH4: 27  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.80 V (Reg[0x100]=0x436A, Reg[0x101]=0xCF05)
+[Ammeter] Voltage[1]: 234.75 V (Reg[0x102]=0x436A, Reg[0x103]=0xC1FA)
+[Ammeter] Voltage[2]: 234.85 V (Reg[0x104]=0x436A, Reg[0x105]=0xDAE0)
+ADC CH0: 49947  CH1: 15  CH3: 25  CH4: 15  CH5: 25
+ADC CH0: 49900  CH1: 15  CH3: 13  CH4: 32  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 19  CH3: 29  CH4: 26  CH5: 32
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49958  CH1: 27  CH3: 28  CH4: 35  CH5: 23
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49887  CH1: 39  CH3: 40  CH4: 24  CH5: 23
+ADC CH0: 49954  CH1: 27  CH3: 13  CH4: 24  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49959  CH1: 27  CH3: 24  CH4: 24  CH5: 28
+ADC CH0: 49952  CH1: 26  CH3: 32  CH4: 17  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49930  CH1: 0  CH3: 45  CH4: 25  CH5: 32
+[Ammeter] Voltage[0]: 234.65 V (Reg[0x100]=0x436A, Reg[0x101]=0xA6AC)
+[Ammeter] Voltage[1]: 234.59 V (Reg[0x102]=0x436A, Reg[0x103]=0x9906)
+[Ammeter] Voltage[2]: 234.69 V (Reg[0x104]=0x436A, Reg[0x105]=0xB196)
+ADC CH0: 49951  CH1: 32  CH3: 29  CH4: 17AC AC 13   CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49903  CH1: 27  CH3: 17  CH4: 31  CH5: 40
+gas:0.0 ppm, levle: 0%, alarm:0xA------------------------------------------
+--[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49895  CH1: 47  CH3: 17  CH4: 32  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49960  CH1: 29  CH3: 22  CH4: 20  CH5: 32
+ADC CH0: 49958  CH1: 32  CH3: 25  CH4: 19  CH5: 12
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 30  CH3: 25  CH4: 17  CH5: 29
+ADC CH0: 49959  CH1: 23  CH3: 25  CH4: 32  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49952  CH1: 32  CH3: 32  CH4: 12  CH5: 29
+[Ammeter] Voltage[0]: 234.63 V (Reg[0x100]=0x436A, Reg[0x101]=0xA197)
+[Ammeter] Voltage[1]: 234.57 V (Reg[0x102]=0x436A, Reg[0x103]=0x92EB)
+[Ammeter] Voltage[2]: 234.67 V (Reg[0x104]=0x436A, Reg[0x105]=0xABC0)
+ADC CH0: 49902  CH1: 34  CH3: 25  CH4: 24  CH5: 37
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49972  CH1: 32  CH3: 17  CH4: 19  CH5: 28
+ADC CH0: 49956  CH1: 34  CH3: 25  CH4: 19  CH5: 32
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49869  CH1: 19  CH3: 40  CH4: 19  CH5: 41
+ADC CH0: 49955  CH1: 34  CH3: 19  CH4: 15  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49978  CH1: 51  CH3: 24  CH4: 14  CH5: 25
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49955  CH1: 35  CH3: 25  CH4: 25  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49975  CH1: 35  CH3: 28  CH4: 24  CH5: 32
+ADC CH0: 49954  CH1: 24  CH3: 28  CH4: 18  CH5: 30
+[Ammeter] Voltage[0]: 234.29 V (Reg[0x100]=0x436A, Reg[0x101]=0x4BDA)
+[Ammeter] Voltage[1]: 234.24 V (Reg[0x102]=0x436A, Reg[0x103]=0x3EDD)
+[Ammeter] Voltage[2]: 234.34 V (Reg[0x104]=0x436A, Reg[0x105]=0x580A)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 30  CH3: 32  CH4: 15  CH5: 22
+ADC CH0: 49946  CH1: 38  CH3: 32  CH4: 32  CH5: 30
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49960  CH1: 30  CH3: 17  CH4: 11  CH5: 29
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49962  CH1: 24  CH3: 15  CH4: 21  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 40  CH3: 21  CH4: 13  CH5: 33
+ADC CH0: 49963  CH1: 26  CH3: 20  CH4: 14  CH5: 33
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 35  CH3: 25  CH4: 24  CH5: 28
+ADC CH0: 49951  CH1: 24  CH3: 24  CH4: 19  CH5: 40
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 32  CH3: 5  CH4: 40  CH5: 32
+[Ammeter] Voltage[0]: 234.34 V (Reg[0x100]=0x436A, Reg[0x101]=0x5737)
+[Ammeter] Voltage[1]: 234.28 V (Reg[0x102]=0x436A, Reg[0x103]=0x48E4)
+[Ammeter] Voltage[2]: 234.38 V (Reg[0x104]=0x436A, Reg[0x105]=0x61E2)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49960  CH1: 40  CH3: 24  CH4: 23  CH5: 25
+ADC CH0: 49955  CH1: 29  CH3: 17  CH4: 14  CH5: 28
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49900  CH1: 123  CH3: 28  CH4: 27  CH5: 29
+ADC CH0: 49953  CH1: 15  CH3: 24  CH4: 13  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49942  CH1: 33  CH3: 17  CH4: 19  CH5: 25
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49954  CH1: 27  CH3: 17  CH4: 29  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49893  CH1: 15  CH3: 21  CH4: 19  CH5: 25
+ADC CH0: 49883  CH1: 25  CH3: 24  CH4: 17  CH5: 24
+[Ammeter] Voltage[0]: 234.76 V (Reg[0x100]=0x436A, Reg[0x101]=0xC38B)
+[Ammeter] Voltage[1]: 234.70 V (Reg[0x102]=0x436A, Reg[0x103]=0xB568)
+[Ammeter] Voltage[2]: 234.80 V (Reg[0x104]=0x436A, Reg[0x105]=0xCE72)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49961  CH1: 32  CH3: 28  CH4: 27  CH5: 28
+ADC CH0: 49962  CH1: 33  CH3: 28  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 25  CH3: 19  CH4: 22  CH5: 28
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49953  CH1: 29  CH3: 25  CH4: 15  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49960  CH1: 32  CH3: 28  CH4: 15  CH5: 21
+ADC CH0: 49957  CH1: 26  CH3: 15  CH4: 14  CH5: 33
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49948  CH1: 15  CH3: 19  CH4: 26  CH5: 28
+ADC CH0: 49951  CH1: 31  CH3: 29  CH4: 10  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49968  CH1: 23  CH3: 20  CH4: 26  CH5: 22
+[Ammeter] Voltage[0]: 234.80 V (Reg[0x100]=0x436A, Reg[0x101]=0xCD1A)
+[Ammeter] Voltage[1]: 234.74 V (Reg[0x102]=0x436A, Reg[0x103]=0xBEFB)
+[Ammeter] Voltage[2]: 234.84 V (Reg[0x104]=0x436A, Reg[0x105]=0xD7E5)
+ADC CH0: 49950  CH1: 26  CH3: 25  CH4: 26  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49965  CH1: 42  CH3: 24  CH4: 21  CH5: 41
+ADC CH0: 49947  CH1: 32  CH3: 24  CH4: 17  CH5: 25
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49884  CH1: 111  CH3: 16  CH4: 15  CH5: 29
+ADC CH0: 49957  CH1: 38  CH3: 29  CH4: 11  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 26  CH3: 25  CH4: 11  CH5: 25
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49954  CH1: 32  CH3: 24  CH4: 11  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 31  CH3: 24  CH4: 26  CH5: 32
+ADC CH0: 49955  CH1: 39  CH3: 22  CH4: 25  CH5: 23
+[Ammeter] Voltage[0]: 234.70 V (Reg[0x100]=0x436A, Reg[0x101]=0xB4E5)
+[Ammeter] Voltage[1]: 234.65 V (Reg[0x102]=0x436A, Reg[0x103]=0xA76C)
+[Ammeter] Voltage[2]: 234.75 V (Reg[0x104]=0x436A, Reg[0x105]=0xC0C7)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 35  CH3: 24  CH4: 15  CH5: 28
+ADC CH0: 49945  CH1: 32  CH3: 25  CH4: 24  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49957  CH1: 35  CH3: 25  CH4: 11  CH5: 28
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49942  CH1: 25  CH3: 28  CH4: 19  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 40  CH3: 25  CH4: 13  CH5: 45
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49952  CH1: 33  CH3: 24  CH4: 15  CH5: 28
+[Ammeter] Voltage[0]: 234.53 V (Reg[0x100]=0x436A, Reg[0x101]=0x89D5)
+[Ammeter] Voltage[1]: 234.ADC CH0: 49959  CH1: 32  CH3: 24  CH4: 15  CH5: 32
+[Ammeter] Voltage[2]: 234.57 V (Reg[0x104]=0x436A, Reg[0x105]=0x93E2)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 44  CH3: 30  CH4: 15  CH5: 25
+ADC CH0: 49958  CH1: 35  CH3: 24  CH4: 14  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49950  CH1: 34  CH3: 21  CH4: 19  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49952  CH1: 33  CH3: 25  CH4: 23  CH5: 44
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49950  CH1: 33  CH3: 24  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 26  CH3: 21  CH4: 11  CH5: 25
+ADC CH0: 49959  CH1: 32  CH3: 24  CH4: 27  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.67 V (Reg[0x100]=0x436A, Reg[0x101]=0xACA2)
+[Ammeter] Voltage[1]: 234.62 V (Reg[0x102]=0x436A, Reg[0x103]=0x9EE5)
+[Ammeter] Voltage[2]: 234.71 V (Reg[0x104]=0x436A, Reg[0x105]=0xB7AC)
+ADC CH0: 49895  CH1: 43  CH3: 29  CH4: 29  CH5: 37
+ADC CH0: 49955  CH1: 35  CH3: 44  CH4: 40  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 27  CH3: 29  CH4: 26  CH5: 32
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49879  CH1: 40  CH3: 29  CH4: 32  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 30  CH3: 25  CH4: 17  CH5: 32
+ADC CH0: 49963  CH1: 11  CH3: 17  CH4: 15  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49950  CH1: 33  CH3: 24  CH4: 14  CH5: 25
+ADC CH0: 49966  CH1: 47  CH3: 24  CH4: 11  CH5: 30
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 30  CH3: 25  CH4: 19  CH5: 33
+[Ammeter] Voltage[0]: 234.70 V (Reg[0x100]=0x436A, Reg[0x101]=0xB459)
+[Ammeter] Voltage[1]: 234.64 V (Reg[0x102]=0x436A, Reg[0x103]=0xA4D0)
+[Ammeter] Voltage[2]: 234.74 V (Reg[0x104]=0x436A, Reg[0x105]=0xBEA0)
+ADC CH0: 49959  CH1: 31  CH3: 28  CH4: 14  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49951  CH1: 44  CH3: 25  CH4: 24  CH5: 32
+ADC CH0: 49959  CH1: 27  CH3: 29  CH4: 25  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49957  CH1: 30  CH3: 21  CH4: 21  CH5: 25
+ADC CH0: 49889  CH1: 72  CH3: 9  CH4: 30  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 79  CH3: 20  CH4: 25  CH5: 45
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49967  CH1: 31  CH3: 19  CH4: 17  CH5: 30
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49944  CH1: 33  CH3: 13  CH4: 19  CH5: 25
+ADC CH0: 49955  CH1: 14  CH3: 28  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.80 V (Reg[0x100]=0x436A, Reg[0x101]=0xCF3C)
+[Ammeter] Voltage[1]: 234.75 V (Reg[0x102]=0x436A, Reg[0x103]=0xC15B)
+[Ammeter] Voltage[2]: 234.85 V (Reg[0x104]=0x436A, Reg[0x105]=0xDA10)
+ADC CH0: 49952  CH1: 58  CH3: 22  CH4: 23  CH5: 32
+ADC CH0: 49918  CH1: 45  CH3: 41  CH4: 9  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49883  CH1: 57  CH3: 35  CH4: 32  CH5: 40
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49958  CH1: 42  CH3: 28  CH4: 15  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49898  CH1: 31  CH3: 37  CH4: 24  CH5: 40
+ADC CH0: 49958  CH1: 32  CH3: 32  CH4: 15  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49955  CH1: 26  CH3: 25  CH4: 27  CH5: 32
+ADC CH0: 49959  CH1: 23  CH3: 28  CH4: 14  CH5: 9
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 42  CH3: 26  CH4: 15  CH5: 25
+[Ammeter] Voltage[0]: 234.68 V (Reg[0x100]=0x436A, Reg[0x101]=0xAF88)
+[Ammeter] Voltage[1]: 234.63 V (Reg[0x102]=0x436A, Reg[0x103]=0xA19C)
+[Ammeter] Voltage[2]: 234.72 V (Reg[0x104]=0x436A, Reg[0x105]=0xBA05)
+ADC CH0: 49955  CH1: 31  CH3: 28  CH4: 35  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 32  CH3: 25  CH4: 30  CH5: 49
+ADC CH0: 49950  CH1: 34  CH3: 28  CH4: 20  CH5: 21
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49958  CH1: 30  CH3: 25  CH4: 26  CH5: 33
+ADC CH0: 49957  CH1: 35  CH3: 33  CH4: 19  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 34  CH3: 26  CH4: 16  CH5: 24
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49895  CH1: 43  CH3: 28  CH4: 34  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49965  CH1: 33  CH3: 28  CH4: 11  CH5: 25
+ADC CH0: 49950  CH1: 26  CH3: 21  CH4: 15  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.75 V (Reg[0x100]=0x436A, Reg[0x101]=0xC17E)
+[Ammeter] Voltage[1]: 234.70 V (Reg[0x102]=0x436A, Reg[0x103]=0xB3CD)
+[Ammeter] Voltage[2]: 234.79 V (Reg[0x104]=0x436A, Reg[0x105]=0xCC06)
+ADC CH0: 49943  CH1: 33  CH3: 24  CH4: 19  CH5: 32
+ADC CH0: 49954  CH1: 33  CH3: 25  CH4: 15  CH5: 36
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49951  CH1: 27  CH3: 21  CH4: 19  CH5: 24
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49962  CH1: 24  CH3: 25  CH4: 30  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49962  CH1: 34  CH3: 21  CH4: 15  CH5: 25
+ADC CH0: 49951  CH1: 33  CH3: 33  CH4: 11  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49975  CH1: 9  CH3: 32  CH4: 24  CH5: 45
+ADC CH0: 49955  CH1: 35  CH3: 24  CH4: 26  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49963  CH1: 42  CH3: 23  CH4: 11  CH5: 40
+[Ammeter] Voltage[0]: 234.58 V (Reg[0x100]=0x436A, Reg[0x101]=0x9537)
+[Ammeter] Voltage[1]: 234.52 V (Reg[0x102]=0x436A, Reg[0x103]=0x874E)
+[Ammeter] Voltage[2]: 234.62 V (Reg[0x104]=0x436A, Reg[0x105]=0xA107)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49894  CH1: 30  CH3: 25  CH4: 26  CH5: 40
+ADC CH0: 49898  CH1: 35  CH3: 25  CH4: 24  CH5: 40
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49902  CH1: 41  CH3: 25  CH4: 35  CH5: 56
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49890  CH1: 32  CH3: 26  CH4: 19  CH5: 36
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 34  CH3: 28  CH4: 15  CH5: 32
+ADC CH0: 49947  CH1: 33  CH3: 25  CH4: 11  CH5: 13
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 25  CH3: 33  CH4: 14  CH5: 28
+ADC CH0: 49955  CH1: 33  CH3: 28  CH4: 19  CH5: 17
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 33  CH3: 20  CH4: 33  CH5: 32
+[Ammeter] Voltage[0]: 234.55 V (Reg[0x100]=0x436A, Reg[0x101]=0x8E1C)
+[Ammeter] Voltage[1]: 234.50 V (Reg[0x102]=0x436A, Reg[0x103]=0x8100)
+[Ammeter] Voltage[2]: 234.59 V (Reg[0x104]=0x436A, Reg[0x105]=0x98BA)
+ADC CH0: 49958  CH1: 34  CH3: 33  CH4: 25  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49963  CH1: 43  CH3: 24  CH4: 3  CH5: 29
+ADC CH0: 49966  CH1: 33  CH3: 24  CH4: 17  CH5: 29
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 33  CH3: 25  CH4: 26  CH5: 28
+ADC CH0: 49958  CH1: 35  CH3: 25  CH4: 14  CH5: 40
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 29  CH3: 24  CH4: 15  CH5: 30
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49951  CH1: 30  CH3: 28  CH4: 23  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 30  CH3: 28  CH4: 18  CH5: 28
+ADC CH0: 49958  CH1: 32  CH3: 15  CH4: 15  CH5: 32
+[Ammeter] Voltage[0]: 234.60 V (Reg[0x100]=0x436A, Reg[0x101]=0x99F0)
+[Ammeter] Voltage[1]: 234.54 V (Reg[0x102]=0x436A, Reg[0x103]=0x8C5A)
+[Ammeter] Voltage[2]: 234.64 V (Reg[0x104]=0x436A, Reg[0x105]=0xA544)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 39  CH3: 24  CH4: 30  CH5: 21
+ADC CH0: 49960  CH1: 34  CH3: 33  CH4: 26  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 26  CH3: 29  CH4: 19  CH5: 24
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49955  CH1: 47  CH3: 32  CH4: 19  CH5: 21
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49898  CH1: 35  CH3: 32  CH4: 19  CH5: 33
+ADC CH0: 49960  CH1: 35  CH3: 17  CH4: 17  CH5: 28
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 19  CH3: 21  CH4: 26  CH5: 25
+ADC CH0: 49959  CH1: 34  CH3: 28  CH4: 29  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49970  CH1: 42  CH3: 32  CH4: 27  CH5: 25
+[Ammeter] Voltage[0]: 234.73 V (Reg[0x100]=0x436A, Reg[0x101]=0xBAFB)
+[Ammeter] Voltage[1]: 234.68 V (Reg[0x102]=0x436A, Reg[0x103]=0xAE5C)
+[Ammeter] Voltage[2]: 234.77 V (Reg[0x104]=0x436A, Reg[0x105]=0xC6FB)
+ADC CH0: 49942  CH1: 32  CH3: 17  CH4: 15  CH5: 41
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49956  CH1: 32  CH3: 25  CH4: 34  CH5: 32
+ADC CH0: 49955  CH1: 42  CH3: 21  CH4: 15  CH5: 33
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0AC AC 13 AA 8F 02 F3 .000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 42  CH3: 28  CH4: 19  CH5: 33
+ADC CH0: 49959  CH1: 33  CH3: 17  CH4: 21  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49952  CH1: 15  CH3: 25  CH4: 19  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49959  CH1: 25  CH3: 30  CH4: 18  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49949  CH1: 15  CH3: 17  CH4: 24  CH5: 25
+ADC CH0: 49960  CH1: 32  CH3: 25  CH4: 32  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.63 V (Reg[0x100]=0x436A, Reg[0x101]=0xA3B8)
+[Ammeter] Voltage[1]: 234.58 V (Reg[0x102]=0x436A, Reg[0x103]=0x9497)
+[Ammeter] Voltage[2]: 234.68 V (Reg[0x104]=0x436A, Reg[0x105]=0xAEEA)
+ADC CH0: 49951  CH1: 41  CH3: 24  CH4: 15  CH5: 32
+ADC CH0: 49955  CH1: 30  CH3: 26  CH4: 32  CH5: 23
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49956  CH1: 27  CH3: 28  CH4: 11  CH5: 32
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49958  CH1: 23  CH3: 29  CH4: 11  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49956  CH1: 27  CH3: 30  CH4: 15  CH5: 44
+ADC CH0: 49952  CH1: 32  CH3: 28  CH4: 15  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49960  CH1: 28  CH3: 24  CH4: 11  CH5: 25
+ADC CH0: 49954  CH1: 40  CH3: 25  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49886  CH1: 46  CH3: 17  CH4: 19  CH5: 36
+[Ammeter] Voltage[0]: 234.58 V (Reg[0x100]=0x436A, Reg[0x101]=0x94D9)
+[Ammeter] Voltage[1]: 234.52 V (Reg[0x102]=0x436A, Reg[0x103]=0x870A)
+[Ammeter] Voltage[2]: 234.62 V (Reg[0x104]=0x436A, Reg[0x105]=0xA00E)
+ADC CH0: 49955  CH1: 30  CH3: 33  CH4: 28  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 19  CH3: 25  CH4: 19  CH5: 25
+ADC CH0: 49947  CH1: 35  CH3: 21  CH4: 19  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49960  CH1: 27  CH3: 25  CH4: 19  CH5: 25
+ADC CH0: 49954  CH1: 35  CH3: 20  CH4: 26  CH5: 0
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 33  CH3: 17  CH4: 25  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49951  CH1: 33  CH3: 24  CH4: 14  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49963  CH1: 40  CH3: 17  CH4: 24  CH5: 32
+ADC CH0: 49883  CH1: 43  CH3: 32  CH4: 11  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.77 V (Reg[0x100]=0x436A, Reg[0x101]=0xC5F3)
+[Ammeter] Voltage[1]: 234.71 V (Reg[0x102]=0x436A, Reg[0x103]=0xB698)
+[Ammeter] Voltage[2]: 234.81 V (Reg[0x104]=0x436A, Reg[0x105]=0xCFE8)
+ADC CH0: 49955  CH1: 24  CH3: 25  CH4: 11  CH5: 33
+ADC CH0: 49952  CH1: 32  CH3: 17  CH4: 24  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49956  CH1: 34  CH3: 28  CH4: 28  CH5: 40
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAADC CH0: 49914  CH1: 25  CH3: 32  CH4: 25  CH5: 33
+ADC CH0: 49892  CH1: 19  CH3: 24  CH4: 15  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49946  CH1: 27  CH3: 32  CH4: 30  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49961  CH1: 42  CH3: 15  CH4: 15  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 19  CH3: 17  CH4: 15  CH5: 32
+ADC CH0: 49964  CH1: 25  CH3: 21  CH4: 25  CH5: 25
+[Ammeter] Voltage[0]: 234.97 V (Reg[0x100]=0x436A, Reg[0x101]=0xF91E)
+[Ammeter] Voltage[1]: 234.92 V (Reg[0x102]=0x436A, Reg[0x103]=0xEBB9)
+[Ammeter] Voltage[2]: 235.01 V (Reg[0x104]=0x436B, Reg[0x105]=0x048E)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 26  CH3: 28  CH4: 15  CH5: 28
+ADC CH0: 49958  CH1: 26  CH3: 24  CH4: 15  CH5: 36
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49962  CH1: 23  CH3: 20  CH4: 11  CH5: 32
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49984  CH1: 35  CH3: 25  CH4: 14  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 23  CH3: 17  CH4: 19  CH5: 25
+ADC CH0: 49966  CH1: 27  CH3: 33  CH4: 11  CH5: 36
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0[I/LoRa] Sent text payload, ppm=0, flow=0.000
+ADC CH0: 49907  CH1: 33  CH3: 28  CH4: 25  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49957  CH1: 15  CH3: 17  CH4: 15  CH5: 29
+[Ammeter] Voltage[0]: 234.64 V (Reg[0x100]=0x436A, Reg[0x101]=0xA442)
+[Ammeter] Voltage[1]: 234.58 V (Reg[0x102]=0x436A, Reg[0x103]=0x95DA)
+[Ammeter] Voltage[2]: 234.68 V (Reg[0x104]=0x436A, Reg[0x105]=0xAF7F)
+ADC CH0: 49958  CH1: 29  CH3: 25  CH4: 7  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 32  CH3: 17  CH4: 26  CH5: 32
+ADC CH0: 49966  CH1: 30  CH3: 24  CH4: 15  CH5: 25
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 26  CH3: 24  CH4: 19  CH5: 34
+ADC CH0: 49962  CH1: 25  CH3: 25  CH4: 26  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49974  CH1: 15  CH3: 24  CH4: 28  CH5: 28
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49958  CH1: 34  CH3: 25  CH4: 11  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 42  CH3: 28  CH4: 19  CH5: 32
+[Ammeter] Voltage[0]: 234.02 V (Reg[0x100]=0x436A, Reg[0x101]=0x0792)
+[Ammeter] Voltage[2]: 234.06 V (Reg[0x104]=0x436A, Reg[0x105]=0x11B2)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 33  CH3: 29  CH4: 27  CH5: 28
+ADC CH0: 49966  CH1: 33  CH3: 23  CH4: 15  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x00ADC CH0: 49955  CH1: 31  CH3: 32  CH4: 31  CH5: 32
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49961  CH1: 32  CH3: 16  CH4: 15  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 32  CH3: 21  CH4: 24  CH5: 25
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000ADC CH0: 49960  CH1: 33  CH3: 32  CH4: 21  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49942  CH1: 40  CH3: 32  CH4: 24  CH5: 32
+ADC CH0: 49963  CH1: 24  CH3: 32  CH4: 15  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.12 V (Reg[0x100]=0x436A, Reg[0x101]=0x1EE0)
+[Ammeter] Voltage[1]: 234ADC CH0: 49950  CH1: 27  CH3: 21  CH4: 27  CH5: 28
+[Ammeter] Voltage[2]: 234.15 V (Reg[0x104]=0x436A, Reg[0x105]=0x28EE)
+ADC CH0: 49959  CH1: 65  CH3: 15  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 35  CH3: 29  CH4: 34  CH5: 44
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49951  CH1: 32  CH3: 24  CH4: 15  CH5: 29
+ADC CH0: 49958  CH1: 42  CH3: 21  CH4: 14  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49954  CH1: 3  CH3: 25  CH4: 27  CH5: 15
+ADC CH0: 49951  CH1: 17  CH3: 17  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49947  CH1: 25  CH3: 17  CH4: 19  CH5: 28
+[Ammeter] Voltage[0]: 234.07 V (Reg[0x100]=0x436A, Reg[0x101]=0x1437)
+[Ammeter] Voltage[1]: 234.02 V (Reg[0x102]=0x436A, Reg[0x103]=0x0620)
+[Ammeter] Voltage[2]: 234.12 V (Reg[0x104]=0x436A, Reg[0x105]=0x1EFE)
+ADC CH0: 49961  CH1: 0  CH3: 24  CH4: 15  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49962  CH1: 47  CH3: 28  CH4: 14  CH5: 32
+ADC CH0: 49955  CH1: 28  CH3: 28  CH4: 26  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0ADC CH0: 49980  CH1: 30  CH3: 15  CH4: 15  CH5: 40
+ADC CH0: 49958  CH1: 33  CH3: 24  CH4: 24  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 27  CH3: 24  CH4: 19  CH5: 29
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49966  CH1: 30  CH3: 33  CH4: 26  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 35  CH3: 17  CH4: 15  CH5: 25
+ADC CH0: 49950  CH1: 19  CH3: 17  CH4: 24  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 233.41 V (Reg[0x100]=0x4369, Reg[0x101]=0x69A1)
+[Ammeter] Voltage[1]: 233.36 V (Reg[0x102]=0x4369, Reg[0x103]=0x5CB4)
+[Ammeter] Voltage[2]: 233.45 V (Reg[0x104]=0x4369, Reg[0x105]=0x750F)
+ADC CH0: 49959  CH1: 29  CH3: 28  CH4: 26  CH5: 25
+ADC CH0: 49944  CH1: 35  CH3: 23  CH4: 34  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49966  CH1: 35  CH3: 28  CH4: 15  CH5: 33
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49958  CH1: 32  CH3: 24  CH4: 15  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 11  CH3: 24  CH4: 17  CH5: 32
+ADC CH0AC AC 13 AA 8D 02 FD 07 BB 36 00 00 00 A: 49958  CH1: 23  CH3: 20  CH4: 15  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49958  CH1: 32  CH3: 15  CH4: 15  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49887  CH1: 35  CH3: 33  CH4: 15  CH5: 40
+ADC CH0: 49907  CH1: 15  CH3: 29  CH4: 34  CH5: 33
+[Ammeter] Voltage[0]: 233.91 V (Reg[0x100]=0x4369, Reg[0x101]=0xEAD6)
+[Ammeter] Voltage[1]: 233.86 V (Reg[0x102]=0x4369, Reg[0x103]=0xDDA5)
+[Ammeter] Voltage[2]: 233.95 V (Reg[0x104]=0x4369, Reg[0x105]=0xF58A)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49943  CH1: 0  CH3: 17  CH4: 35  CH5: 28
+ADC CH0: 49964  CH1: 32  CH3: 17  CH4: 19  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49982  CH1: 35  CH3: 21  CH4: 27  CH5: 29
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49954  CH1: 27  CH3: 32  CH4: 18  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 27  CH3: 26  CH4: 14  CH5: 28
+ADC CH0: 49964  CH1: 27  CH3: 25  CH4: 15  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49966  CH1: 26  CH3: 24  CH4: 19  CH5: 21
+ADC CH0: 49970  CH1: 30  CH3: 17  CH4: 19  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 27  CH3: 25  CH4: 19  CH5: 25
+[Ammeter] Voltage[0]: 233.93 V (Reg[0x100]=0x4369, Reg[0x101]=0xEF4E)
+[Ammeter] Voltage[1]: 233.88 V (Reg[0x102]=0x4369, Reg[0x103]=0xE2C5)
+[Ammeter] Voltage[2]: 233.96 V (Reg[0x104]=0x4369, Reg[0x105]=0xF847)
+ADC CH0: 49968  CH1: 33  CH3: 32  CH4: 17  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49962  CH1: 32  CH3: 24  CH4: 36  CH5: 28
+ADC CH0: 49964  CH1: 27  CH3: 29  CH4: 17  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49966  CH1: 29  CH3: 28  CH4: 26  CH5: 28
+ADC CH0: 49951  CH1: 39  CH3: 24  CH4: 19  CH5: 42
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 31  CH3: 14  CH4: 11  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49958  CH1: 33  CH3: 24  CH4: 18  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49951  CH1: 42  CH3: 20  CH4: 30  CH5: 32
+ADC CH0: 49918  CH1: 43  CH3: 13  CH4: 15  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 233.98 V (Reg[0x100]=0x4369, Reg[0x101]=0xFD39)
+[Ammeter] Voltage[1]: 233.93 V (Reg[0x102]=0x4369, Reg[0x103]=0xEE56)
+[Ammeter] Voltage[2]: 234.02 V (Reg[0x104]=0x436A, Reg[0x105]=0x0716)
+ADC CH0: 49963  CH1: 24  CH3: 32  CH4: 15  CH5: 21
+ADC CH0: 49959  CH1: 35  CH3: 24  CH4: 14  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 42  CH3: 29  CH4: 15  CH5: 29
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49956  CH1: 26  CH3: 25  CH4: 13  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49961  CH1: 33  CH3: 17  CH4: 11  CH5: 28
+ADC CH0: 49955  CH1: 42  CH3: 25  CH4: 11  CH5: 30
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49883  CH1: 34  CH3: 8  CH4: 34  CH5: 40
+ADC CH0: 49962  CH1: 40  CH3: 32  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49962  CH1: 23  CH3: 0  CH4: 10  CH5: 28
+[Ammeter] Voltage[0]: 233.77 V (Reg[0x100]=0x4369, Reg[0x101]=0xC653)
+[Ammeter] Voltage[1]: 233.72 V (Reg[0x102]=0x4369, Reg[0x103]=0xB8AD)
+[Ammeter] Voltage[2]: 233.81 V (Reg[0x104]=0x4369, Reg[0x105]=0xD0BD)
+ADC CH0: 49950  CH1: 34  CH3: 24  CH4: 17  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49962  CH1: 31  CH3: 20  CH4: 25  CH5: 21
+ADC CH0: 49970  CH1: 42  CH3: 44  CH4: 11  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49886  CH1: 47  CH3: 28  CH4: 15  CH5: 13
+ADC CH0: 49967  CH1: 111  CH3: 17  CH4: 13  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 41  CH3: 28  CH4: 11  CH5: 25
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49966  CH1: 31  CH3: 17  CH4: 17  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49951  CH1: 35  CH3: 21  CH4: 24  CH5: 24
+ADC CH0: 49975  CH1: 33  CH3: 29  CH4: 26  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 233.91 V (Reg[0x100]=0x4369, Reg[0x101]=0xE908)
+[Ammeter] Voltage[1]: 233.85 V (Reg[0x102]=0x4369, Reg[0x103]=0xDB98)
+[Ammeter] Voltage[2]: 233.95 V (Reg[0x104]=0x4369, Reg[0x105]=0xF46E)
+ADC CH0: 49942  CH1: 15  CH3: 24  CH4: 14  CH5: 21
+ADC CH0: 49970  CH1: 26  CH3: 15  CH4: 25  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49956  CH1: 44  CH3: 48  CH4: 21  CH5: 32
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49956  CH1: 32  CH3: 28  CH4: 24  CH5: 17
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 34  CH3: 28  CH4: 15  CH5: 25
+ADC CH0: 49958  CH1: 25  CH3: 20  CH4: 15  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49962  CH1: 24  CH3: 25  CH4: 29  CH5: 33
+ADC CH0: 49901  CH1: 11  CH3: 15  CH4: 17  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49960  CH1: 35  CH3: 41  CH4: 19  CH5: 25
+[Ammeter] Voltage[0]: 233.88 V (Reg[0x100]=0x4369, Reg[0x101]=0xE3CE)
+[Ammeter] Voltage[1]: 233.83 V (Reg[0x102]=0x4369, Reg[0x103]=0xD5CD)
+[Ammeter] Voltage[2]: 233.93 V (Reg[0x104]=0x4369, Reg[0x105]=0xEE66)
+ADC CH0: 49963  CH1: 19  CH3: 21  CH4: 19  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 19  CH3: 25  CH4: 19  CH5: 28
+ADC CH0: 49906  CH1: 33  CH3: 28  CH4: 27  CH5: 12
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49962  CH1: 35  CH3: 32  CH4: 15  CH5: 21
+ADC CH0: 49960  CH1: 22  CH3: 28  CH4: 19  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49988  CH1: 34  CH3: 25  CH4: 15  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49958  CH1: 30  CH3: 22  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%m, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 32  CH3: 20  CH4: 24  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 37  CH3: 21  CH4: 26  CH5: 32
+[Ammeter] Voltage[0]: 233.75 V (Reg[0x100]=0x4369, Reg[0x101]=0xC1E6)
+[Ammeter] Voltage[1]: 233.69 V (Reg[0x102]=0x4369, Reg[0x103]=0xB27A)
+[Ammeter] Voltage[2]: 233.79 V (Reg[0x104]=0x4369, Reg[0x105]=0xCAAC)
+ADC CH0: 49954  CH1: 27  CH3: 17  CH4: 26  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49961  CH1: 40  CH3: 25  CH4: 10  CH5: 25
+ADC CH0: 49872  CH1: 31  CH3: 36  CH4: 15  CH5: 37
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 28  CH3: 28  CH4: 32  CH5: 40
+ADC CH0: 49967  CH1: 25  CH3: 15  CH4: 11  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 15  CH3: 25  CH4: 19  CH5: 21
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49958  CH1: 27  CH3: 24  CH4: 15  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49963  CH1: 27  CH3: 28  CH4: 26  CH5: 29
+ADC CH0: 49977  CH1: 33  CH3: 21  CH4: 15  CH5: 36
+[Ammeter] Voltage[0]: 233.93 V (Reg[0x100]=0x4369, Reg[0x101]=0xEF83)
+[Ammeter] Voltage[1]: 233.87 V (Reg[0x102]=0x4369, Reg[0x103]=0xE140)
+[Ammeter] Voltage[2]: 233.97 V (Reg[0x104]=0x4369, Reg[0x105]=0xFABC)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 28  CH3: 24  CH4: 15  CH5: 25
+ADC CH0: 49958  CH1: 11  CH3: 28  CH4: 15  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49969  CH1: 35  CH3: 19  CH4: 15  CH5: 29
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49942  CH1: 24  CH3: 21  CH4: 14  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49956  CH1: 33  CH3: 28  CH4: 11  CH5: 28
+ADC CH0: 49910  CH1: 46  CH3: 32  CH4: 23  CH5: 37
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 23  CH3: 16  CH4: 19  CH5: 25
+ADC CH0: 49958  CH1: 25  CH3: 21  CH4: 11  CH5: 21
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49964  CH1: 33  CH3: 24  CH4: 25  CH5: 25
+[Ammeter] Voltage[0]: 233.89 V (Reg[0x100]=0x4369, Reg[0x101]=0xE501)
+[Ammeter] Voltage[1]: 233.83 V (Reg[0x102]=0x4369, Reg[0x103]=0xD692)
+[Ammeter] Voltage[2]: 233.93 V (Reg[0x104]=0x4369, Reg[0x105]=0xEF07)
+ADC CH0: 49953  CH1: 23  CH3: 17  CH4: 15  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49951  CH1: 35  CH3: 25  CH4: 15  CH5: 16
+ADC CH0: 49958  CH1: 30  CH3: 19  CH4: 15  CH5: 27
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49878  CH1: 34  CH3: 28  CH4: 18  CH5: 32
+ADC CH0: 49950  CH1: 26  CH3: 28  CH4: 18  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49922  CH1: 29  CH3: 28  CH4: 26  CH5: 28
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49886  CH1: 27  CH3: 13  CH4: 11  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49942  CH1: 35  CH3: 40  CH4: 27  CH5: 21
+ADC CH0: 49941  CH1: 32  CH3: 33  CH4: 11  CH5: 28
+[Ammeter] Voltage[0]: 234.09 V (Reg[0x100]=0x436A, Reg[0x101]=0x1804)
+[Ammeter] Voltage[1]: 234.04 V (Reg[0x102]=0x436A, Reg[0x103]=0x0A65)
+[Ammeter] Voltage[2]: 234.13 V (Reg[0x104]=0x436A, Reg[0x105]=0x2274)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49942  CH1: 30  CH3: 32  CH4: 15  CH5: 28
+ADC CH0: 49943  CH1: 11  CH3: 45  CH4: 20  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49943  CH1: 40  CH3: 24  CH4: 15  CH5: 33
+[Ammeter] Current[0]: 0.348 A (Reg[0x10E]=0x3EB2, Reg[0x10F]=0x3C21)
+[Ammeter] Current[1]: 0.344 A (Reg[0x110]=0x3EB0, Reg[0x111]=0x54A1)
+[Ammeter] Current[2]: 0.337 A (Reg[0x112]=0x3EAC, Reg[0x113]=0xD6E1)
+ADC CH0: 49946  CH1: 29  CH3: 25  CH4: 24  CH5: 12
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49942  CH1: 33  CH3: 25  CH4: 24  CH5: 29
+ADC CH0: 49875  CH1: 35  CH3: 37  CH4: 15  CH5: 29
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49858  CH1: 43  CH3: 35  CH4: 19  CH5: 29
+ADC CH0: 49943  CH1: 35  CH3: 21  CH4: 24  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49944  CH1: 32  CH3: 28  CH4: 25  CH5: 32
+[Ammeter] Voltage[0]: 234.00 V (Reg[0x100]=0x436A, Reg[0x101]=0x00BD)
+[Ammeter] Voltage[1]: 233.95 V (Reg[0x102]=0x4369, Reg[0x103]=0xF33C)
+[Ammeter] Voltage[2]: 234.04 V (Reg[0x104]=0x436A, Reg[0x105]=0x0BE8)
+ADC CH0: 49959  CH1: 30  CH3: 25  CH4: 26  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 72  CH3: 28  CH4: 15  CH5: 29
+ADC CH0: 49962  CH1: 35  CH3: 25  CH4: 14  CH5: 32
+[Ammeter] Current[0]: 0.344 A (Reg[0x10E]=0x3EB0, Reg[0x10F]=0x5AE1)
+[Ammeter] Current[1]: 0.339 A (Reg[0x110]=0x3EAD, Reg[0x111]=0xBE21)
+[Ammeter] Current[2]: 0.338 A (Reg[0x112]=0x3EAD, Reg[0x113]=0x66A1)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 27  CH3: 21  CH4: 14  CH5: 28
+ADC CH0: 49948  CH1: 15  CH3: 28  CH4: 19  CH5: 16
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49960  CH1: 15  CH3: 19  CH4: 15  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49863  CH1: 91  CH3: 45  CH4: 47  CH5: 19
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49956  CH1: 35  CH3: 21  CH4: 17  CH5: 28
+ADC CH0: 49955  CH1: 29  CH3: 24  CH4: 15  CH5: 30
+[Ammeter] Voltage[0]: 233.94 V (Reg[0x100]=0x4369, Reg[0x101]=0xF255)
+[Ammeter] Voltage[1]: 233.89 V (Reg[0x102]=0x4369, Reg[0x103]=0xE420)
+[Ammeter] Voltage[2]: 233.98 V (Reg[0x104]=0x4369, Reg[0x105]=0xFD68)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 32  CH3: 25  CH4: 11  CH5: 32
+ADC CH0: 49951  CH1: 35  CH3: 24  CH4: 15  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 25  CH3: 28  CH4: 14  CH5: 25
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49951  CH1: 14  CH3: 32  CH4: 14  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 0  CH3: 15  CH4: 11  CH5: 32
+ADC CH0: 49958  CH1: 29  CH3: 19  CH4: 14  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49954  CH1: 32  CH3: 28  CH4: 25  CH5: 33
+ADC CH0: 49959  CH1: 32  CH3: 49  CH4: 40  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49980  CH1: 35  CH3: 28  CH4: 15  CH5: 32
+[Ammeter] Voltage[0]: 234.40 V (Reg[0x100]=0x436A, Reg[0x101]=0x6817)
+[Ammeter] Voltage[1]: 234.35 V (Reg[0x102]=0x436A, Reg[0x103]=0x5A0B)
+[Ammeter] Voltage[2]: 234.44 V (Reg[0x104]=0x436A, Reg[0x105]=0x71F4)
+ADC CH0: 49956  CH1: 32  CH3: 28  CH4: 18  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49964  CH1: 27  CH3: 28  CH4: 14  CH5: 32
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49947  CH1: 35  CH3: 28  CH4: 11  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49961  CH1: 35  CH3: 29  CH4: 15  CH5: 25
+ADC CH0: 49948  CH1: 34  CH3: 9  CH4: 11  CH5: 28
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 32  CH3: 29  CH4: 29  CH5: 25
+ADC CH0: 49960  CH1: 38  CH3: 20  CH4: 17  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.49 V (Reg[0x100]=0x436A, Reg[0x101]=0x7EB4)
+[Ammeter] Voltage[1]: 234.ADC CH0: 49950  CH1: 27  CH3: 24  CH4: 26  CH5: 21
+[Ammeter] Voltage[2]: 234.53 V (Reg[0x104]=0x436A, Reg[0x105]=0x89F8)
+ADC CH0: 49966  CH1: 34  CH3: 21  CH4: 30  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49951  CH1: 33  CH3: 32  CH4: 16  CH5: 28
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 25  CH3: 25  CH4: 15  CH5: 33
+ADC CH0: 49958  CH1: 34  CH3: 21  CH4: 27  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49953  CH1: 30  CH3: 24  CH4: 9  CH5: 15
+ADC CH0: 49958  CH1: 40  CH3: 20  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49978  CH1: 16  CH3: 24  CH4: 14  CH5: 33
+[Ammeter] Voltage[0]: 234.60 V (Reg[0x100]=0x436A, Reg[0x101]=0x9AD3)
+[Ammeter] Voltage[1]: 234.54 V (Reg[0x102]=0x436A, Reg[0x103]=0x8C7E)
+[Ammeter] Voltage[2]: 234.64 V (Reg[0x104]=0x436A, Reg[0x105]=0xA4FE)
+ADC CH0: 49966  CH1: 35  CH3: 25  CH4: 9  CH5: 36
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49962  CH1: 32  CH3: 32  CH4: 23  CH5: 29
+ADC CH0: 49959  CH1: 32  CH3: 25  CH4: 24  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49956  CH1: 30  CH3: 25  CH4: 15  CH5: 24
+ADC CH0: 49955  CH1: 34  CH3: 20  CH4: 14  CH5: 12
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 30  CH3: 28  CH4: 26  CH5: 28
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49970  CH1: 15  CH3: 40  CH4: 25  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 42  CH3: 28  CH4: 27  CH5: 28
+ADC CH0: 49955  CH1: 39  CH3: 29  CH4: 19  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 235.06 V (Reg[0x100]=0x436B, Reg[0x101]=0x11C5)
+[Ammeter] Voltage[1]: 235.01 V (Reg[0x102]=0x436B, Reg[0x103]=0x035E)
+[Ammeter] Voltage[2]: 235.11 V (Reg[0x104]=0x436B, Reg[0x105]=0x1C84)
+ADC CH0: 49968  CH1: 32  CH3: 24  CH4: 19  CH5: 32
+ADC CH0: 49963  CH1: 10  CH3: 25  CH4: 24  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49962  CH1: 35  CH3: 25  CH4: 19  CH5: 30
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49962  CH1: 32  CH3: 19  CH4: 27  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49957  CH1: 36  CH3: 23  CH4: 17  CH5: 32
+ADC CH0: 49970  CH1: 1  CH3: 25  CH4: 13  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49955  CH1: 47  CH3: 24  CH4: 15  CH5: 29
+ADC CH0: 49946  CH1: 0  CH3: 14  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 40  CH3: 28  CH4: 19  CH5: 24
+[Ammeter] Voltage[0]: 234.80 V (Reg[0x100]=0x436A, Reg[0x101]=0xCD6F)
+[Ammeter] Voltage[1]: 234.74 V (Reg[0x102]=0x436A, Reg[0x103]=0xBF7B)
+[Ammeter] Voltage[2]: 234.84 V (Reg[0x104]=0x436A, Reg[0x105]=0xD789)
+ADC CH0: 49893  CH1: 35  CH3: 24  CH4: 19  CH5: 40
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 32  CH3: 28  CH4: 23  CH5: 33
+ADC CH0: 49959  CH1: 32  CH3: 19  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49958  CH1: 34  CH3: 15  CH4: 19  CH5: 24
+ADC CH0: 49951  CH1: 33  CH3: 19  CH4: 11  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 27  CH3: 24  CH4: 15  CH5: 25
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49943  CH1: 19  CH3: 28  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 30  CH3: 20  CH4: 19  CH5: 21
+ADC CH0: 50031  CH1: 40  CH3: 28  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.47 V (Reg[0x100]=0x436A, Reg[0x101]=0x7A43)
+[Ammeter] Voltage[1]: 234.42 V (Reg[0x102]=0x436A, Reg[0x103]=0x6C8D)
+[Ammeter] Voltage[2]: 234.51 V (Reg[0x104]=0x436A, Reg[0x105]=0x83BF)
+ADC CH0: 49954  CH1: 30  CH3: 25  CH4: 25  CH5: 29
+ADC CH0: 49958  CH1: 31  CH3: 24  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 42  CH3: 32  CH4: 11  CH5: 32
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49963  CH1: 43  CH3: 17  CH4: 24  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49943  CH1: 34  CH3: 33  CH4: 18  CH5: 32
+ADC CH0: 49894  CH1: 33  CH3: 21  CH4: 10  CH5: 21
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49960  CH1: 34  CH3: 25  CH4: 30  CH5: 29
+ADC CH0: 49970  CH1: 29  CH3: 20  CH4: 15  CH5: 21
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 34  CH3: 25  CH4: 33  CH5: 44
+[Ammeter] Voltage[0]: 234.36 V (Reg[0x100]=0x436A, Reg[0x101]=0x5DB1)
+[Ammeter] Voltage[1]: 234.31 V (Reg[0x102]=0x436A, Reg[0x103]=0x50AA)
+[Ammeter] Voltage[2]: 234.40 V (Reg[0x104]=0x436A, Reg[0x105]=0x68D2)
+ADC CH0: 49958  CH1: 27  CH3: 25  CH4: 26  CH5: 30
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49956  CH1: 35  CH3: 21  CH4: 19  CH5: 21
+ADC CH0: 49955  CH1: 33  CH3: 13  CH4: 26  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49948  CH1: 31  CH3: 32  CH4: 13  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 32  CH3: 16  CH4: 19  CH5: 25
+ADC CH0: 49902  CH1: 34  CH3: 29  CH4: 32  CH5: 28
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49947  CH1: 29  CH3: 20  CH4: 11  CH5: 25
+ADC CH0: 49954  CH1: 27  CH3: 28  CH4: 3  CH5: 0
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49962  CH1: 35  CH3: 9  CH4: 14  CH5: 33
+[Ammeter] Voltage[0]: 234.40 V (Reg[0x100]=0x436A, Reg[0x101]=0x685F)
+[Ammeter] Voltage[1]: 234.34 V (Reg[0x102]=0x436A, Reg[0x103]=0x5946)
+[Ammeter] Voltage[2]: 234.44 V (Reg[0x104]=0x436A, Reg[0x105]=0x7210)
+ADC CH0: 49892  CH1: 35  CH3: 21  CH4: 26  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49964  CH1: 32  CH3: 26  CH4: 21  CH5: 25
+ADC CH0: 49951  CH1: 32  CH3: 25  CH4: 19  CH5: 25
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 33  CH3: 36  CH4: 26  CH5: 36
+ADC CH0: 49959  CH1: 33  CH3: 15  CH4: 35  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 34  CH3: 14  CH4: 29  CH5: 33
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49917  CH1: 11  CH3: 28  CH4: 42  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49956  CH1: 32  CH3: 28  CH4: 19  CH5: 13
+ADC CH0: 49962  CH1: 46  CH3: 24  CH4: 23  CH5: 28
+[Ammeter] Voltage[0]: 234.33 V (Reg[0x100]=0x436A, Reg[0x101]=0x55B1)
+[Ammeter] Voltage[1]: 234.27 V (Reg[0x102]=0x436A, Reg[0x103]=0x46EB)
+[Ammeter] Voltage[2]: 234.37 V (Reg[0x104]=0x436A, Reg[0x105]=0x5FF8)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49953  CH1: 32  CH3: 25  CH4: 14  CH5: 28
+ADC CH0: 49958  CH1: 40  CH3: 17  CH4: 15  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 33  CH3: 29  CH4: 26  CH5: 29
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49894  CH1: 40  CH3: 28  CH4: 15  CH5: 37
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 32  CH3: 25  CH4: 19  CH5: 32
+ADC CH0: 49960  CH1: 33  CH3: 21  CH4: 32  CH5: 29
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 26  CH3: 15  CH4: 15  CH5: 36
+ADC CH0: 49958  CH1: 34  CH3: 17  CH4: 35  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49957  CH1: 27  CH3: 17  CH4: 24  CH5: 16
+[Ammeter] Voltage[0]: 234.10 V (Reg[0x100]=0x436A, Reg[0x101]=0x1B81)
+[Ammeter] Voltage[1]: 234.05 V (Reg[0x102]=0x436A, Reg[0x103]=0x0DE3)
+[Ammeter] Voltage[2]: 234.15 V (Reg[0x104]=0x436A, Reg[0x105]=0x269B)
+ADC CH0: 49958  CH1: 30  CH3: 28  CH4: 11  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49882  CH1: 37  CH3: 8  CH4: 41  CH5: 28
+ADC CH0: 49955  CH1: 26  CH3: 32  CH4: 19  CH5: 33
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49879  CH1: 31  CH3: 40  CH4: 32  CH5: 17
+ADC CH0: 49962  CH1: 32  CH3: 24  CH4: 19  CH5: 5
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49961  CH1: 39  CH3: 23  CH4: 28  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49956  CH1: 15  CH3: 25  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49947  CH1: 42  CH3: 24  CH4: 19  CH5: 29
+ADC CH0: 49962  CH1: 32  CH3: 24  CH4: 24  CH5: 25
+[Ammeter] Voltage[0]: 234.61 V (Reg[0x100]=0x436A, Reg[0x101]=0x9E21)
+[Ammeter] Voltage[1]: 234.56 V (Reg[0x102]=0x436A, Reg[0x103]=0x8FE1)
+[Ammeter] Voltage[2]: 234.65 V (Reg[0x104]=0x436A, Reg[0x105]=0xA7F5)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 35  CH3: 29  CH4: 14  CH5: 25
+ADC CH0: 49964  CH1: 31  CH3: 24  CH4: 14  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 35  CH3: 21  CH4: 15  CH5: 29
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49956  CH1: 40  CH3: 25  CH4: 32  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49974  CH1: 31  CH3: 25  CH4: 15  CH5: 25
+ADC CH0: 49959  CH1: 42  CH3: 15  CH4: 25  CH5: 32
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49951  CH1: 34  CH3: 21  CH4: 15  CH5: 28
+ADC CH0: 49954  CH1: 32  CH3: 21  CH4: 25  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 24  CH3: 28  CH4: 26  CH5: 25
+[Ammeter] Voltage[0]: 234.61 V (Reg[0x100]=0x436A, Reg[0x101]=0x9DD1)
+[Ammeter] Voltage[1]: 234.56 V (Reg[0x102]=0x436A, Reg[0x103]=0x8FED)
+[Ammeter] Voltage[2]: 234.65 V (Reg[0x104]=0x436A, Reg[0x105]=0xA839)
+ADC CH0: 49960  CH1: 28  CH3: 25  CH4: 24  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49957  CH1: 33  CH3: 21  CH4: 27  CH5: 28
+ADC CH0: 49954  CH1: 33  CH3: 32  CH4: 0  CH5: 21
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49954  CH1: 32  CH3: 24  CH4: 15  CH5: 21
+ADC CH0: 49964  CH1: 34  CH3: 24  CH4: 15  CH5: 40
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 19  CH3: 25  CH4: 10  CH5: 25
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49957  CH1: 35  CH3: 32  CH4: 15  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 25  CH3: 24  CH4: 19  CH5: 32
+ADC CH0: 49951  CH1: 26  CH3: 25  CH4: 19  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.40 V (Reg[0x100]=0x436A, Reg[0x101]=0x677C)
+[Ammeter] Voltage[1]: 234.34 V (Reg[0x102]=0x436A, Reg[0x103]=0x5989)
+[Ammeter] Voltage[2]: 234.43 V (Reg[0x104]=0x436A, Reg[0x105]=0x7087)
+ADC CH0: 49947  CH1: 40  CH3: 25  CH4: 11  CH5: 29
+ADC CH0: 49965  CH1: 23  CH3: 17  CH4: 35  CH5: 15
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 40  CH3: 17  CH4: 14  CH5: 29
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49968  CH1: 33  CH3: 13  CH4: 14  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49949  CH1: 42  CH3: 25  CH4: 13  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 32  CH3: 28  CH4: 26  CH5: 25
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49967  CH1: 39  CH3: 29  CH4: 9  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49895  CH1: 35  CH3: 16  CH4: 24  CH5: 28
+ADC CH0: 49959  CH1: 29  CH3: 21  CH4: 24  CH5: 0
+[Ammeter] Voltage[0]: 234.34 V (Reg[0x100]=0x436A, Reg[0x101]=0x58A6)
+[Ammeter] Voltage[1]: 234.28 V (Reg[0x102]=0x436A, Reg[0x103]=0x49FE)
+[Ammeter] Voltage[2]: 234.38 V (Reg[0x104]=0x436A, Reg[0x105]=0x61FD)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 26  CH3: 28  CH4: 8  CH5: 32
+ADC CH0: 49963  CH1: 32  CH3: 24  CH4: 15  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49972  CH1: 43  CH3: 24  CH4: 19  CH5: 33
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49960  CH1: 19  CH3: 25  CH4: 11  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49892  CH1: 33  CH3: 28  CH4: 26  CH5: 37
+ADC CH0: 49966  CH1: 26  CH3: 22  CH4: 26  CH5: 30
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 32  CH3: 29  CH4: 19  CH5: 25
+ADC CH0: 49958  CH1: 31  CH3: 79  CH4: 26  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 30  CH3: 28  CH4: 19  CH5: 33
+[Ammeter] Voltage[0]: 234.31 V (Reg[0x100]=0x436A, Reg[0x101]=0x500A)
+[Ammeter] Voltage[1]: 234.26 V (Reg[0x102]=0x436A, Reg[0x103]=0x4324)
+[Ammeter] Voltage[2]: 234.35 V (Reg[0x104]=0x436A, Reg[0x105]=0x5A6A)
+ADC CH0: 49956  CH1: 16  CH3: 24  CH4: 15  CH5: 49
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 28  CH3: 17  CH4: 10  CH5: 33
+ADC CH0: 49964  CH1: 40  CH3: 28  CH4: 11  CH5: 36
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 50026  CH1: 9  CH3: 25  CH4: 15  CH5: 28
+ADC CH0: 49964  CH1: 30  CH3: 25  CH4: 11  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49903  CH1: 58  CH3: 64  CH4: 47  CH5: 28
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49938  CH1: 1  CH3: 62  CH4: 42  CH5: 41
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49960  CH1: 33  CH3: 15  CH4: 17  CH5: 36
+[Ammeter] Voltage[0]: 234.55 V (Reg[0x100]=0x436A, Reg[0x101]=0x8D60)
+[Ammeter] Voltage[1]: 234.ADC CH0: 49959  CH1: 29  CH3: 9  CH4: 19  CH5: 36
+[Ammeter] Voltage[2]: 234.59 V (Reg[0x104]=0x436A, Reg[0x105]=0x9711)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49908  CH1: 32  CH3: 24  CH4: 15  CH5: 35
+ADC CH0: 49964  CH1: 34  CH3: 25  CH4: 10  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49963  CH1: 42  CH3: 24  CH4: 30  CH5: 30
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49898  CH1: 26  CH3: 33  CH4: 24  CH5: 29
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49954  CH1: 33  CH3: 17  CH4: 15  CH5: 16
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 34  CH3: 25  CH4: 25  CH5: 25
+ADC CH0: 49960  CH1: 25  CH3: 24  CH4: 11  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.51 V (Reg[0x100]=0x436A, Reg[0x101]=0x84C2)
+[Ammeter] Voltage[1]: 234.46 V (Reg[0x102]=0x436A, Reg[0x103]=0x7647)
+[Ammeter] Voltage[2]: 234.55 V (Reg[0x104]=0x436A, Reg[0x105]=0x8E1E)
+ADC CH0: 49953  CH1: 42  CH3: 21  CH4: 19  CH5: 36
+ADC CH0: 49866  CH1: 35  CH3: 28  CH4: 24  CH5: 36
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 34  CH3: 29  CH4: 23  CH5: 24
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49963  CH1: 41  CH3: 25  CH4: 17  CH5: 33
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49959  CH1: 35  CH3: 20  CH4: 27  CH5: 32
+ADC CH0: 49959  CH1: 40  CH3: 25  CH4: 15  CH5: 29
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49962  CH1: 35  CH3: 9  CH4: 19  CH5: 29
+ADC CH0: 49959  CH1: 19  CH3: 25  CH4: 32  CH5: 17
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 28  CH3: 24  CH4: 15  CH5: 30
+[Ammeter] Voltage[0]: 234.75 V (Reg[0x100]=0x436A, Reg[0x101]=0xC26D)
+[Ammeter] Voltage[1]: 234.70 V (Reg[0x102]=0x436A, Reg[0x103]=0xB445)
+ADC CH0: 49890  CH1: 32  CH3: 25  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 27  CH3: 17  CH4: 15  CH5: 28
+ADC CH0: 49975  CH1: 31  CH3: 21  CH4: 25  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49962  CH1: 47  CH3: 33  CH4: 24  CH5: 28
+ADC CH0: 49963  CH1: 30  CH3: 20  CH4: 19  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49956  CH1: 25  CH3: 25  CH4: 11  CH5: 28
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49958  CH1: 40  CH3: 23  CH4: 19  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 32  CH3: 24  CH4: 15  CH5: 32
+ADC CH0: 49915  CH1: 19  CH3: 15  CH4: 25  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Ammeter] Voltage[0]: 234.64 V (Reg[0x100]=0x436A, Reg[0x101]=0xA4F3)
+[Ammeter] Voltage[1]: 234.58 V (Reg[0x102]=0x436A, Reg[0x103]=0x9690)
+[Ammeter] Voltage[2]: 234.68 V (Reg[0x104]=0x436A, Reg[0x105]=0xAE3C)
+ADC CH0: 49955  CH1: 31  CH3: 24  CH4: 9  CH5: 28
+ADC CH0: 49958  CH1: 27  CH3: 28  CH4: 11  CH5: 28
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 34  CH3: 28  CH4: 17  CH5: 21
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49955  CH1: 32  CH3: 33  CH4: 2  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 35  CH3: 25  CH4: 24  CH5: 28
+ADC CH0: 49904  CH1: 19  CH3: 32  CH4: 15  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+ADC CH0: 49955  CH1: 27  CH3: 25  CH4: 26  CH5: 24
+ADC CH0: 49966  CH1: 19  CH3: 23  CH4: 26  CH5: 9
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49960  CH1: 26  CH3: 21  CH4: 15  CH5: 25
+[Ammeter] Voltage[0]: 234.58 V (Reg[0x100]=0x436A, Reg[0x101]=0x956B)
+[Ammeter] Voltage[1]: 234.53 V (Reg[0x102]=0x436A, Reg[0x103]=0x87B9)
+[Ammeter] Voltage[2]: 234.62 V (Reg[0x104]=0x436A, Reg[0x105]=0x9FB2)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49964  CH1: 15  CH3: 25  CH4: 19  CH5: 29
+ADC CH0: 49966  CH1: 32  CH3: 24  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49903  CH1: 15  CH3: 17  CH4: 30  CH5: 29
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+ADC CH0: 49955  CH1: 30  CH3: 24  CH4: 26  CH5: 19
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49891  CH1: 35  CH3: 25  CH4: 26  CH5: 29
+ADC CH0: 49961  CH1: 26  CH3: 15  CH4: 17  CH5: 48
+[Water] Flow: 0.000 m3/h (Reg[1]=0x0000, Reg[2]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49969  CH1: 35  CH3: 33  CH4: 24  CH5: 32
+ADC CH0: 49962  CH1: 18  CH3: 25  CH4: 11  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49956  CH1: 42  CH3: 25  CH4: 26  CH5: 29
+[Ammeter] Voltage[0]: 234.46 V (Reg[0x100]=0x436A, Reg[0x101]=0x76DD)
+[Ammeter] Voltage[1]: 234.40 V (Reg[0x102]=0x436A, Reg[0x103]=0x688E)
+[Ammeter] Voltage[2]: 234.50 V (Reg[0x104]=0x436A, Reg[0x105]=0x815D)
+ADC CH0: 49954  CH1: 25  CH3: 32  CH4: 30  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49946  CH1: 35  CH3: 19  CH4: 30  CH5: 25
+ADC CH0: 49966  CH1: 30  CH3: [I/LoRa] Sent text payload, ppm=0, flow=0.000
+[Ammeter] Current[0]: 0.000 A (Reg[0x10E]=0x0000, Reg[0x10F]=0x0000)
+[Ammeter] Current[1]: 0.000 A (Reg[0x110]=0x0000, Reg[0x111]=0x0000)
+[Ammeter] Current[2]: 0.000 A (Reg[0x112]=0x0000, Reg[0x113]=0x0000)
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 27  CH3: 25  CH4: 28  CH5: 33
+ADC CH0: 49911  CH1: 26  CH3: 29  CH4: 11  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 28  CH3: 20  CH4: 19  CH5: 24
+ADC CH0: 49959  CH1: 34  CH3: 19  CH4: 12  CH5: 5
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 31  CH3: 20  CH4: 18  CH5: 32
+ADC CH0: 49970  CH1: 32  CH3: 24  CH4: 19  CH5: 20
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49958  CH1: 50  CH3: 17  CH4: 22  CH5: 24
+ADC CH0: 49961  CH1: 33  CH3: 0  CH4: 24  CH5: 24
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49955  CH1: 27  CH3: 32  CH4: 27  CH5: 28
+ADC CH0: 49970  CH1: 26  CH3: 21  CH4: 14  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49954  CH1: 40  CH3: 13  CH4: 15  CH5: 30
+ADC CH0: 49955  CH1: 26  CH3: 17  CH4: 31  CH5: 32
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49950  CH1: 32  CH3: 15  CH4: 15  CH5: 56
+ADC CH0: 49951  CH1: 35  CH3: 29  CH4: 15  CH5: 25
+gas:0.0 ppm, levle: 0%, alarm:0xAA
+ADC CH0: 49962  CH1: 33  CH3: 25  CH4: 15  CH5: 24
+ADC CH0: 49966  CH1: 33  CH3: 25  CH4: 11  CH5: 17
+gas:0.0 ppm, levle: 0%, alarm:0xAA
