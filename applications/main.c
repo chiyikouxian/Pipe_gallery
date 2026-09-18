@@ -20,6 +20,7 @@
 #include "o2SensorApp.h"
 #include "ethApp.h"
 #include "displacementSensorApp.h"
+#include "stressSensorApp.h"
 
 #define DBG_LVL DBG_LOG
 

@@ -16,6 +16,8 @@ extern float Methane;           /* methane concentration */
 
 extern rt_uint16_t g_methane_ppm;   /* methane ppm for cloud report */
 extern rt_uint8_t  g_methane_lel;   /* methane LEL% for cloud report */
+extern rt_uint8_t  g_methane_status;/* GM-402B status byte ([13], 0xAA=normal) */
+extern rt_bool_t   g_methane_data_valid; /* at least one valid frame received */
 
 rt_err_t uart2_receive_and_print(rt_int32_t timeout);
 

@@ -21,9 +21,12 @@
 /* Read interval (ms) — same as SHT30 */
 #define O2_READ_INTERVAL_MS         2000
 
-/* Calibration — adjust per sensor unit */
-#define O2_ZERO_OFFSET_MV           0
-#define O2_FULL_SCALE_MV            2410
+/* Calibration — adjust per sensor unit
+ * These are ADC raw values (0-65535), NOT millivolts!
+ * Full scale 2410 means: at 20.9% O2 (air), ADC reads ~2410
+ */
+#define O2_ZERO_OFFSET              0
+#define O2_FULL_SCALE_ADC           2410
 
 /* Air-stabilize zone (×10 values) */
 #define O2_AIR_STABILIZE_LOW        207

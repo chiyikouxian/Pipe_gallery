@@ -34,7 +34,7 @@
 //#define ETH_TX_DUMP
 //#define DRV_DEBUG
 #define DBG_TAG             "drv.emac"
-#define DBG_LVL             DBG_LOG
+#define DBG_LVL             DBG_ERROR
 #include <rtdbg.h>
 
 #define MAX_ADDR_LEN 6

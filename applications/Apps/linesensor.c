@@ -12,6 +12,7 @@
 #include "linesensor.h"
 #include "hal_adc.h"
 #include "huaweiCloudApp.h"  /* global ADC variables for cloud upload */
+#include "NodeApp.h"         /* node[] structure for flame status */
 
 BOOL Flame = 0;
 
@@ -34,6 +35,7 @@ BOOL Flame = 0;
 static void adc_read_thread_entry(void *parameter)
 {
     rt_uint32_t adc_ch0, adc_ch1, adc_ch3, adc_ch4, adc_ch5;
+    rt_uint8_t fire_count;
 
     while (1)
     {
@@ -50,6 +52,25 @@ static void adc_read_thread_entry(void *parameter)
         g_adc_ch3 = adc_ch3;
         g_adc_ch4 = adc_ch4;
         g_adc_ch5 = adc_ch5;
+
+        /* 火焰判断逻辑：4个及以上通道ADC值 > 60000 时判定为有火 */
+        fire_count = 0;
+        if (adc_ch0 > 60000) fire_count++;
+        if (adc_ch1 > 60000) fire_count++;
+        if (adc_ch3 > 60000) fire_count++;
+        if (adc_ch4 > 60000) fire_count++;
+        if (adc_ch5 > 60000) fire_count++;
+
+        if (fire_count >= 4)
+        {
+            Flame = 1;  /* 有火 */
+            node[0].Flame = 1;
+        }
+        else
+        {
+            Flame = 0;  /* 无火 */
+            node[0].Flame = 0;
+        }
 
         /* ��ʱ500ms */
         rt_thread_mdelay(500);

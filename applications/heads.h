@@ -32,5 +32,6 @@
 #include "o2SensorApp.h"
 #include "ethApp.h"
 #include "displacementSensorApp.h"
+#include "stressSensorApp.h"
 
 #endif /* APPLICATIONS_HEADS_H_ */

@@ -3,15 +3,17 @@ import os
 from building import *
 
 cwd = GetCurrentDir()
-src  = Glob('*.c')
-# add cubemx drivers
+# Only include HAL MSP file, NOT the CubeMX main.c (RT-Thread uses applications/main.c)
 src = Split('''
 Src/stm32h7xx_hal_msp.c
-Src/main.c
 ''')
 
 path = [cwd]
 path += [cwd + '/Inc']
+# Use HAL drivers from libraries directory (more complete than cubemx/Drivers)
+path += [cwd + '/../libraries/STM32H7xx_HAL_Driver/Inc']
+path += [cwd + '/../libraries/CMSIS/Device/ST/STM32H7xx/Include']
+path += [cwd + '/../libraries/CMSIS/Include']
 
 group = DefineGroup('cubemx', src, depend = [''], CPPPATH = path)
 

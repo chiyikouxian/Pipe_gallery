@@ -28,17 +28,16 @@ static rt_adc_device_t adc_dev = RT_NULL;
 static rt_err_t o2_read_once(float *o2_percent)
 {
     rt_uint32_t raw;
-    rt_uint32_t mV;
     rt_int32_t  o2_x10;
 
     raw = rt_adc_read(adc_dev, O2_ADC_CHANNEL);
 
-    /* 12-bit ADC, 3.3V Vref: raw → mV */
-    mV = raw * 3300 / 4096;
-
-    /* Linear conversion: O2%(×10) = (mV - zero) * 209 / (full - zero) */
-    o2_x10 = (rt_int32_t)(mV - O2_ZERO_OFFSET_MV) * 209
-             / (rt_int32_t)(O2_FULL_SCALE_MV - O2_ZERO_OFFSET_MV);
+    /* Direct ADC to O2% conversion (reference code uses ADC raw value, not mV!)
+     * Formula: O2%(×10) = (ADC_raw - zero) * 209 / (full - zero)
+     * Where full = 2410 is the ADC raw value at 20.9% O2 (air)
+     */
+    o2_x10 = (rt_int32_t)(raw - O2_ZERO_OFFSET) * 209
+             / (rt_int32_t)(O2_FULL_SCALE_ADC - O2_ZERO_OFFSET);
 
     /* Air-stabilize: near 20.9% → force to 20.9% */
     if (o2_x10 >= O2_AIR_STABILIZE_LOW && o2_x10 <= O2_AIR_STABILIZE_HIGH)
@@ -104,3 +103,4 @@ rt_err_t o2_sensor_init(void)
     LOG_I("O2 sensor initialized on %s ch%d", O2_ADC_DEVICE_NAME, O2_ADC_CHANNEL);
     return RT_EOK;
 }
+

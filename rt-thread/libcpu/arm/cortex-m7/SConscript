@@ -6,7 +6,7 @@ Import('rtconfig')
 
 cwd     = GetCurrentDir()
 src     = Glob('*.c') + Glob('*.cpp')
-CPPPATH = [cwd]
+CPPPATH = [cwd, cwd + '/../../../../drivers', cwd + '/../../../../drivers/include']
 
 if rtconfig.PLATFORM == 'armcc':
     src += Glob('*_rvds.S')

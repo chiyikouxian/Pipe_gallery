@@ -24,7 +24,8 @@ env = Environment(tools = ['mingw'],
     LINK = rtconfig.LINK, LINKFLAGS = rtconfig.LFLAGS)
 env.PrependENVPath('PATH', rtconfig.EXEC_PATH)
 
-env.AppendUnique(CPPDEFINES = [])
+# Add STM32H743xx chip definition and HAL driver flag
+env.AppendUnique(CPPDEFINES = ['STM32H743xx', 'USE_HAL_DRIVER'])
 
 Export('RTT_ROOT')
 Export('rtconfig')

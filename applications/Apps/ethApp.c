@@ -19,7 +19,7 @@
 #include <stdio.h>
 
 #define DBG_TAG "EthApp"
-#define DBG_LVL DBG_LOG
+#define DBG_LVL DBG_ERROR
 #include <rtdbg.h>
 
 static char eth_json_buf[512];

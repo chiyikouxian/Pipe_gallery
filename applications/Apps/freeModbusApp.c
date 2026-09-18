@@ -9,6 +9,7 @@
  */
 
 #include "freeModbusApp.h"
+#include "displacementSensorApp.h"
 
 /* global variables */
 float Voltage[3] = {0};     /* three-phase voltage */
@@ -100,10 +101,12 @@ void send_thread_entry(void *parameter)
             uint16_t raw_value = usMRegHoldBuf[DISPLACEMENT_SLAVE_ADDR - 1][DISPLACEMENT_REG_START + 1];
 
             /* Apply zero offset and convert to mm */
-            int32_t adjusted_raw = (int32_t)raw_value - 74;  /* Zero offset = 74 */
+            int32_t adjusted_raw = (int32_t)raw_value - 298;  /* Zero offset = 298 (adjusted from 74 to compensate 5mm error) */
             if (adjusted_raw < 0) adjusted_raw = 0;
 
             Displacement = adjusted_raw * 0.025f;  /* Scale factor = 0.025 */
+            g_displacement_value = Displacement;
+            g_displacement_sensor_online = RT_TRUE;
 
             /* Update node data */
             node[0].Displacement = Displacement;
@@ -116,6 +119,7 @@ void send_thread_entry(void *parameter)
         }
         else
         {
+            g_displacement_sensor_online = RT_FALSE;
             /* rt_kprintf("[Displacement] Error: %d\n", error_code); */
         }
 

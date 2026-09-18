@@ -189,11 +189,14 @@ static void displacement_test_address(uint8_t test_addr)
         raw_value = usMRegHoldBuf[test_addr - 1][1];
         int32_t adjusted = (int32_t)raw_value - 74;
         if (adjusted < 0) adjusted = 0;
-        float displacement = adjusted * 0.025f;
+        /* 0.025 mm per raw count = 25 thousandths of a millimetre. */
+        int32_t displacement_milli = adjusted * 25;
 
         rt_kprintf("[DISP] ✓ Address %d responds correctly!\n", test_addr);
         rt_kprintf("[DISP]   Raw value: %d\n", raw_value);
-        rt_kprintf("[DISP]   Displacement: %.2f mm\n", displacement);
+        rt_kprintf("[DISP]   Displacement: %d.%03d mm\n",
+                   (int)(displacement_milli / 1000),
+                   (int)(displacement_milli % 1000));
     }
     else
     {
