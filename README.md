@@ -13,7 +13,7 @@
 - 工程方式：`RT-Thread Studio / SCons / Debug make`
 
 项目目标：
-- 采集甲烷、火焰、氧气、温湿度、三相电压/电流、水流量等数据
+- 采集甲烷、火焰、氧气、温湿度、三相电压/电流、水流量、位移和应力等数据
 - 通过多种链路上报或转发数据
 - 当前重点已完成 LAN8720A 有线以太网链路验证
 
@@ -45,7 +45,8 @@
 - 五路火焰传感器 ADC 采集
 - 氧气传感器 ADC 采集
 - SHT30 温湿度采集
-- Modbus 电压/电流/流量采集
+- Modbus 电压/电流/流量/位移采集
+- RDF-TC25/RDD-DH 应力传感器采集（从站地址 `3`，单位 `N`）
 
 ### 3.2 通信与上报功能
 
@@ -79,12 +80,14 @@
 - `temperature`
 - `humidity`
 - `o2`
+- `displacement`
+- `stress`（单位：`N`，保留两位小数）
 - `flame`
 
 典型数据格式示例：
 
 ```json
-{"device_id":"pipe_gallery_node_01","data":{"ch0":3339,"ch1":7680,"ch3":1867,"ch4":3655,"ch5":4607,"methane_ppm":0,"methane_lel":0,"voltage_a":0.00,"voltage_b":0.00,"voltage_c":0.00,"current_a":0.00,"current_b":0.00,"current_c":0.00,"flow":0.00,"temperature":0.00,"humidity":0.00,"o2":33.90,"flame":0}}
+{"device_id":"pipe_gallery_node_01","data":{"ch0":3339,"ch1":7680,"ch3":1867,"ch4":3655,"ch5":4607,"methane_ppm":0,"methane_lel":0,"voltage_a":0.00,"voltage_b":0.00,"voltage_c":0.00,"current_a":0.00,"current_b":0.00,"current_c":0.00,"flow":0.00,"temperature":0.00,"humidity":0.00,"o2":33.90,"displacement":0.00,"stress":0.33,"flame":0}}
 ```
 
 ## 5. 系统线程与运行模块
@@ -109,7 +112,7 @@
 |------|------|------|------|
 | UART1 | `PA9/PA10` | 控制台 | 串口终端 |
 | UART2 | `PD5/PD6` | 甲烷传感器 | 原来为 `PA2/PA3`，已因以太网复用调整 |
-| UART3 | `PB10/PB11` | Modbus RTU | 电流表/水表 |
+| UART3 | `PB10/PB11` | Modbus RTU | 水表/位移传感器/应力传感器/三相电表 |
 | UART4 | `PA12/PA11` | ESP8266 | 华为云 MQTT（TX/RX） |
 | UART5 | `PC12/PD2` | LoRa | ATK-LORA-01 |
 

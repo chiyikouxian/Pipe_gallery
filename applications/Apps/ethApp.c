@@ -12,6 +12,7 @@
 #include "sht30App.h"
 #include "o2SensorApp.h"
 #include "linesensor.h"
+#include "stressSensorApp.h"
 #include <rtthread.h>
 #include <sys/socket.h>
 #include <netdb.h>
@@ -121,6 +122,10 @@ static int build_sensor_json(void)
         sizeof(eth_json_buf) - pos, ",");
     pos += append_float(eth_json_buf + pos,
         sizeof(eth_json_buf) - pos, "displacement", Displacement);
+    pos += rt_snprintf(eth_json_buf + pos,
+        sizeof(eth_json_buf) - pos, ",");
+    pos += append_float(eth_json_buf + pos,
+        sizeof(eth_json_buf) - pos, "stress", g_stress_value_n);
 
     pos += rt_snprintf(eth_json_buf + pos,
         sizeof(eth_json_buf) - pos,

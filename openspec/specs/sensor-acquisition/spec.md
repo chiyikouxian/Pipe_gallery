@@ -38,6 +38,25 @@
 - **THEN** 可直接访问 extern 声明的全局变量
 - **AND** 无需调用函数接口
 
+### Requirement: RDF-TC25 Stress Sensor Acquisition via Modbus RTU
+系统 SHALL 通过 UART3 Modbus RTU 主站轮询地址 `3` 的 RDF-TC25/RDD-DH 应力传感器，并以牛顿为单位提供最新有效力值。
+
+#### Scenario: Valid stress measurement
+- **WHEN** Modbus 主轮询依次成功读取状态寄存器 `0x0008`、单位寄存器 `0x0068` 和力值寄存器 `0x0050-0x0051`
+- **THEN** 根据状态寄存器的小数位解析有符号 32 位原始力值
+- **AND** 根据仪表单位将测量值换算为 N
+- **AND** 更新 `g_stress_value_n` 并将 `g_stress_sensor_online` 和 `g_stress_value_valid` 置为真
+
+#### Scenario: Stress sensor communication failure
+- **WHEN** 任一应力传感器 Modbus 读取失败
+- **THEN** 将 `g_stress_sensor_online` 和 `g_stress_value_valid` 置为假
+- **AND** 保留 `g_stress_value_n` 中最后一次有效力值
+
+#### Scenario: Stress sensor data export
+- **WHEN** 上报模块需要读取应力值
+- **THEN** 可通过 `g_stress_value_n` 获取单位为 N 的最后一次有效测量值
+- **AND** 可通过 `g_stress_sensor_online` 和 `g_stress_value_valid` 判断当前通信和数据状态
+
 ### Requirement: SHT30 Temperature/Humidity Sensor Acquisition via I2C1
 系统 SHALL 通过软件 I2C1 总线 (PB6 SCL / PB7 SDA) 从 SHT30 传感器采集温度和湿度数据，并通过全局变量向其他模块提供最新读数。
 
@@ -100,4 +119,3 @@
 - **WHEN** 任何模块（如上报线程）需要读取氧浓度数据
 - **THEN** 可直接通过 `extern float g_o2_concentration;` 访问最新值
 - **AND** 无需调用额外函数接口
-

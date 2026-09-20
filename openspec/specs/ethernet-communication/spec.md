@@ -52,7 +52,8 @@
 #### Scenario: Periodic data report
 - **WHEN** 以太网链路建立且 TCP 连接到 `192.168.1.100:8080`
 - **THEN** 每 `ETH_REPORT_INTERVAL` (3000ms) 发送一个包含所有传感器数据的 JSON 字符串
-- **AND** JSON 包含: `device_id`, ADC 通道 (ch0-ch5), 甲烷 (ppm, lel), 电压 (a/b/c), 电流 (a/b/c), 流量, 温度, 湿度, 氧气浓度, 火焰状态
+- **AND** JSON 包含: `device_id`, ADC 通道 (ch0-ch5), 甲烷 (ppm, lel), 电压 (a/b/c), 电流 (a/b/c), 流量, 温度, 湿度, 氧气浓度, 位移, 应力和火焰状态
+- **AND** 应力使用字段 `stress`，单位为 N，并以两位小数编码
 
 #### Scenario: TCP connection failure and recovery
 - **WHEN** TCP send 连续失败 3 次
