@@ -23,10 +23,6 @@
  * monitor [sec]    - 实时监控传感器数据（可选刷新间隔秒数）
  * test <sensor>    - 测试单个传感器
  *
- * 应力传感器专用命令（在stressSensorApp.c中定义）：
- * stress_scan_bus           - 扫描Modbus总线设备
- * stress_test_addr <addr>   - 测试指定从站地址
- * stress_set_addr <old> <new> - 修改从站地址
  */
 
 #endif /* APPLICATIONS_APPS_DEBUGCOMMANDS_H_ */

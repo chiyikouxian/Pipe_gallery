@@ -39,9 +39,6 @@ msh> monitor 2        # 每2秒刷新监控（按Ctrl+C退出）
 | `modbus` | 显示Modbus设备状态 | `msh> modbus` |
 | `monitor [sec]` | 实时监控（可选刷新间隔秒数） | `msh> monitor 2` |
 | `test <sensor>` | 测试单个传感器 | `msh> test flame` |
-| `stress_scan_bus` | 扫描Modbus总线（地址1-10） | `msh> stress_scan_bus` |
-| `stress_test_addr <addr>` | 测试应力传感器指定地址 | `msh> stress_test_addr 3` |
-| `stress_set_addr <old> <new>` | 修改应力传感器从站地址 | `msh> stress_set_addr 1 3` |
 | `list_thread` | 显示所有线程 | `msh> list_thread` |
 | `list_device` | 显示所有设备 | `msh> list_device` |
 | `free` | 显示内存使用情况 | `msh> free` |
@@ -145,39 +142,10 @@ msh> modbus
 
 ---
 
-### 第6步：应力传感器（GMY400）⚠️ 波特率问题
+### 第6步：应力传感器（RDF-TC25/RDD-DH）
 
-**⚠️ 重要：传感器波特率为2400/4800，系统当前为9600！**
-
-#### 选项A：修改系统波特率为2400（测试用）
-
-1. 修改 `freeModbusApp.h`:
-```c
-#define MB_MASTER_BAUDRATE  2400  // 改为2400
-```
-
-2. 重新编译烧录
-```bash
-scons -c && scons
-```
-
-3. 测试通信
-```bash
-msh> stress_scan_bus
-# 扫描地址1-10，查找响应的地址
-```
-
-#### 选项B：扫描总线查找设备
-```bash
-# 使用当前9600波特率先尝试
-msh> stress_scan_bus
-
-# 如果找不到，必须修改为2400/4800再试
-```
-
-#### 选项C：修改传感器波特率为9600（生产用）
-
-需要使用手持编程器或专用Modbus工具。
+已按 `9600-8-N-1`、从站地址 `3`、单位 `N` 完成配置。生产固件自动轮询，使用
+`modbus` 查看在线状态和两位小数的力值。
 
 ---
 

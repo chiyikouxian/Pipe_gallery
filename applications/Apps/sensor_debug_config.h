@@ -21,8 +21,7 @@
  * 3. 甲烷气体传感器
  * 4. 氧气传感器
  * 5. 位移传感器
- * 6. 应力传感器（GMY400）
- * 7. 电表（三相）
+ * 6. 电表（三相）
  */
 
 /* ============================================
@@ -43,9 +42,6 @@
 
 /* 阶段5: 位移传感器调试 */
 // #define DEBUG_STAGE_5_DISPLACEMENT
-
-/* 阶段6: 应力传感器调试 */
-// #define DEBUG_STAGE_6_STRESS
 
 /* 阶段7: 电表调试 */
 // #define DEBUG_STAGE_7_AMMETER
@@ -122,19 +118,6 @@
     #define ENABLE_LORA                 0
     #define ENABLE_ETHERNET             0
 
-#elif defined(DEBUG_STAGE_6_STRESS)
-    /* 阶段6：启用所有前置传感器+应力传感器 */
-    #define ENABLE_FLAME_SENSOR         1
-    #define ENABLE_SHT30_SENSOR         1
-    #define ENABLE_METHANE_SENSOR       1
-    #define ENABLE_O2_SENSOR            1
-    #define ENABLE_DISPLACEMENT_SENSOR  1
-    #define ENABLE_STRESS_SENSOR        1
-    #define ENABLE_AMMETER              0
-    #define ENABLE_WIFI_CLOUD           0
-    #define ENABLE_LORA                 0
-    #define ENABLE_ETHERNET             0
-
 #elif defined(DEBUG_STAGE_7_AMMETER)
     /* 阶段7：启用所有传感器+电表 */
     #define ENABLE_FLAME_SENSOR         1
@@ -186,7 +169,6 @@
 #define DEBUG_PRINT_METHANE         0   /* 甲烷传感器调试输出 */
 #define DEBUG_PRINT_O2              0   /* 氧气传感器调试输出 */
 #define DEBUG_PRINT_DISPLACEMENT    0   /* 位移传感器调试输出 */
-#define DEBUG_PRINT_STRESS          1   /* 应力传感器调试输出（默认开启） */
 #define DEBUG_PRINT_AMMETER         0   /* 电表调试输出 */
 #define DEBUG_PRINT_MODBUS          0   /* Modbus通信调试输出 */
 
@@ -205,8 +187,6 @@
     #define DEBUG_STAGE_NAME "Stage 4: O2 Sensor Debug"
 #elif defined(DEBUG_STAGE_5_DISPLACEMENT)
     #define DEBUG_STAGE_NAME "Stage 5: Displacement Sensor Debug"
-#elif defined(DEBUG_STAGE_6_STRESS)
-    #define DEBUG_STAGE_NAME "Stage 6: Stress Sensor GMY400 Debug"
 #elif defined(DEBUG_STAGE_7_AMMETER)
     #define DEBUG_STAGE_NAME "Stage 7: Ammeter Debug"
 #elif defined(DEBUG_STAGE_ALL_SENSORS)
@@ -230,24 +210,7 @@
 #define METHANE_SAMPLE_PERIOD       1000    /* 甲烷传感器采样周期 */
 #define O2_SAMPLE_PERIOD            1000    /* 氧气传感器采样周期 */
 #define DISPLACEMENT_SAMPLE_PERIOD  500     /* 位移传感器采样周期 */
-#define STRESS_SAMPLE_PERIOD        2000    /* 应力传感器采样周期 */
 #define AMMETER_SAMPLE_PERIOD       500     /* 电表采样周期 */
-
-/* ============================================
- * 应力传感器特殊配置（GMY400）
- * ============================================ */
-
-/* 应力传感器波特率选择 */
-#define STRESS_BAUDRATE_2400        0   /* 使用2400波特率 */
-#define STRESS_BAUDRATE_4800        0   /* 使用4800波特率 */
-#define STRESS_BAUDRATE_9600        1   /* 使用9600波特率（系统默认） */
-
-/* 如果启用非9600波特率，需要修改Modbus主站波特率 */
-#if STRESS_BAUDRATE_2400
-    #warning "Stress sensor baudrate set to 2400, ensure MB_MASTER_BAUDRATE is also 2400"
-#elif STRESS_BAUDRATE_4800
-    #warning "Stress sensor baudrate set to 4800, ensure MB_MASTER_BAUDRATE is also 4800"
-#endif
 
 /* ============================================
  * Modbus总线配置
@@ -256,11 +219,9 @@
 /* Modbus设备优先级（值越小优先级越高） */
 #define MODBUS_PRIORITY_DISPLACEMENT  1   /* 位移传感器优先级最高 */
 #define MODBUS_PRIORITY_AMMETER       2   /* 电表次之 */
-#define MODBUS_PRIORITY_STRESS        3   /* 应力传感器最低 */
 
 /* Modbus超时配置（单位：ms） */
 #define MODBUS_TIMEOUT_DISPLACEMENT   1000  /* 位移传感器超时 */
 #define MODBUS_TIMEOUT_AMMETER        1000  /* 电表超时 */
-#define MODBUS_TIMEOUT_STRESS         2000  /* 应力传感器超时（稍长） */
 
 #endif /* APPLICATIONS_APPS_SENSOR_DEBUG_CONFIG_H_ */

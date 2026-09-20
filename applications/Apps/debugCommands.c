@@ -131,17 +131,21 @@ static void show_all_sensors(int argc, char **argv)
     rt_kprintf("\n");
 
     /* 6. 应力传感器 */
-    rt_kprintf("6. Stress Sensor GMY400 (Modbus):\n");
-    if (g_stress_sensor_online)
+    rt_kprintf("6. Stress Sensor RDF-TC25/RDD-DH (Modbus):\n");
+    if (g_stress_sensor_online && g_stress_value_valid)
     {
-        int stress_int = (int)g_stress_value_kn;
-        int stress_dec = (int)((g_stress_value_kn - stress_int) * 100);
+        int stress_int = (int)g_stress_value_n;
+        int stress_dec = (int)((g_stress_value_n - stress_int) * 100);
         if (stress_dec < 0) stress_dec = -stress_dec;
-        rt_kprintf("   Stress: %d.%02d kN  [Online]\n", stress_int, stress_dec);
+        rt_kprintf("   Stress: %d.%02d N  [Online]\n", stress_int, stress_dec);
+    }
+    else if (g_stress_sensor_online)
+    {
+        rt_kprintf("   Stress: invalid unit/status  [Online]\n");
     }
     else
     {
-        rt_kprintf("   Stress: ---.-- kN  [Offline]\n");
+        rt_kprintf("   Stress: ---.-- N  [Offline]\n");
     }
     rt_kprintf("\n");
 
@@ -310,19 +314,26 @@ static void show_modbus(int argc, char **argv)
     rt_kprintf("   Value: %d.%03d mm\n\n", disp_int, disp_dec);
 
     /* 应力传感器 */
-    rt_kprintf("2. Stress Sensor GMY400:\n");
+    rt_kprintf("2. Stress Sensor RDF-TC25/RDD-DH:\n");
     rt_kprintf("   Slave Address: 3\n");
-    if (g_stress_sensor_online)
+    if (g_stress_sensor_online && g_stress_value_valid)
     {
-        int stress_int = (int)g_stress_value_kn;
-        int stress_dec = (int)((g_stress_value_kn - stress_int) * 100);
+        int stress_int = (int)g_stress_value_n;
+        int stress_dec = (int)((g_stress_value_n - stress_int) * 100);
         if (stress_dec < 0) stress_dec = -stress_dec;
-        rt_kprintf("   Value: %d.%02d kN\n", stress_int, stress_dec);
+        rt_kprintf("   Value: %d.%02d N\n", stress_int, stress_dec);
+        rt_kprintf("   Status: Online\n\n");
+    }
+    else if (g_stress_sensor_online)
+    {
+        rt_kprintf("   Value: invalid N conversion\n");
+        rt_kprintf("   Raw: %d, Unit: %u, Status: 0x%04X\n", g_stress_raw_value,
+                   g_stress_unit, g_stress_status);
         rt_kprintf("   Status: Online\n\n");
     }
     else
     {
-        rt_kprintf("   Value: ---.-- kN\n");
+        rt_kprintf("   Value: ---.-- N\n");
         rt_kprintf("   Status: Offline\n\n");
     }
 
@@ -347,7 +358,6 @@ static void show_modbus(int argc, char **argv)
     }
 
     rt_kprintf("\n========================================\n");
-    rt_kprintf("  Use 'stress_scan_bus' to scan devices\n");
     rt_kprintf("========================================\n\n");
 }
 MSH_CMD_EXPORT_ALIAS(show_modbus, modbus, Show Modbus device status);
@@ -410,12 +420,16 @@ static void monitor_sensors(int argc, char **argv)
 
         rt_kprintf("Displacement: %d.%03dmm  ", disp_int, disp_dec);
 
-        if (g_stress_sensor_online)
+        if (g_stress_sensor_online && g_stress_value_valid)
         {
-            int stress_int = (int)g_stress_value_kn;
-            int stress_dec = (int)((g_stress_value_kn - stress_int) * 100);
+            int stress_int = (int)g_stress_value_n;
+            int stress_dec = (int)((g_stress_value_n - stress_int) * 100);
             if (stress_dec < 0) stress_dec = -stress_dec;
-            rt_kprintf("Stress: %d.%02dkN\n", stress_int, stress_dec);
+            rt_kprintf("Stress: %d.%02dN\n", stress_int, stress_dec);
+        }
+        else if (g_stress_sensor_online)
+        {
+            rt_kprintf("Stress: Invalid unit/status\n");
         }
         else
         {
@@ -449,7 +463,6 @@ static void test_sensor(int argc, char **argv)
         rt_kprintf("  methane     - Methane gas sensor\n");
         rt_kprintf("  o2          - Oxygen sensor\n");
         rt_kprintf("  displacement - Displacement sensor\n");
-        rt_kprintf("  stress      - Stress sensor GMY400\n");
         rt_kprintf("  ammeter     - 3-phase ammeter\n");
         rt_kprintf("\nExample: test flame\n\n");
         return;
@@ -497,13 +510,6 @@ static void test_sensor(int argc, char **argv)
         int disp_dec = (int)((Displacement - disp_int) * 1000.0f);
         if (disp_dec < 0) disp_dec = -disp_dec;
         rt_kprintf("\n[Displacement] Value: %d.%03dmm\n\n", disp_int, disp_dec);
-    }
-    else if (rt_strcmp(sensor, "stress") == 0)
-    {
-        if (g_stress_sensor_online)
-            rt_kprintf("\n[Stress] Value: %.2fkN [Online]\n\n", g_stress_value_kn);
-        else
-            rt_kprintf("\n[Stress] Offline\n\n");
     }
     else if (rt_strcmp(sensor, "ammeter") == 0)
     {

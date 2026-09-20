@@ -43,14 +43,7 @@ monitor [sec]    # 实时监控传感器数据
 test <sensor>    # 测试单个传感器
 ```
 
-### 2. 应力传感器专用命令 (stressSensorApp.c)
-```bash
-stress_scan_bus           # 扫描Modbus总线设备
-stress_test_addr <addr>   # 测试指定从站地址
-stress_set_addr <old> <new>  # 修改从站地址
-```
-
-### 3. 调试配置文件 (sensor_debug_config.h)
+### 2. 调试配置文件 (sensor_debug_config.h)
 - 分阶段调试开关
 - 调试输出控制
 - 采样周期配置
@@ -60,55 +53,10 @@ stress_set_addr <old> <new>  # 修改从站地址
 
 ## ⚠️ 关键问题与解决方案
 
-### 问题1: 应力传感器GMY400波特率不匹配
+### 应力传感器状态
 
-**问题描述:**
-- 传感器标称波特率: 2400 或 4800
-- 系统当前波特率: 9600
-- 无法通信
-
-**解决方案:**
-
-**方案A: 修改系统波特率为2400（推荐用于测试）**
-```c
-// 在 freeModbusApp.h 中修改
-#define MB_MASTER_BAUDRATE  2400
-```
-
-**方案B: 扫描并测试不同地址**
-```bash
-msh> stress_scan_bus
-msh> stress_test_addr 1
-msh> stress_test_addr 3
-```
-
-**方案C: 修改传感器波特率为9600（推荐用于生产）**
-- 需要手持编程器或Modbus工具
-- 或使用提供的MSH命令修改
-
-### 问题2: 应力传感器未集成到main.c
-
-**当前状态:**
-- 测试线程已实现但未启用
-- 需要在main.c中添加初始化代码
-
-**解决方案:**
-```c
-// 在 main.c 的 main() 函数中添加
-#if ENABLE_STRESS_SENSOR
-    rt_thread_t stress_thread = rt_thread_create("stress_test",
-                                                 stress_sensor_test_thread_entry,
-                                                 RT_NULL,
-                                                 1024,
-                                                 26,
-                                                 10);
-    if (stress_thread != RT_NULL)
-    {
-        rt_thread_startup(stress_thread);
-        rt_kprintf("[STRESS] GMY400 stress sensor test thread started.\n");
-    }
-#endif
-```
+RDF-TC25/RDD-DH 已集成到 UART3 主轮询，使用 `9600-8-N-1`、地址 `3` 和单位 `N`。
+生产固件不再包含专用测试线程和配置命令。
 
 ### 问题3: 多个Modbus设备共享总线
 
@@ -160,9 +108,9 @@ extern float g_o2_concentration;   // 氧气浓度 (%)
 extern float Displacement;         // 位移值 (mm)
 ```
 
-### 应力传感器 (GMY400)
+### 应力传感器 (RDF-TC25/RDD-DH)
 ```c
-extern float g_stress_value_kn;           // 应力值 (kN)
+extern float g_stress_value_n;            // 力值 (N)
 extern rt_bool_t g_stress_sensor_online;  // 在线状态
 ```
 

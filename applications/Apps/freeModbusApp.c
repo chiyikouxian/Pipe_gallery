@@ -10,6 +10,7 @@
 
 #include "freeModbusApp.h"
 #include "displacementSensorApp.h"
+#include "stressSensorApp.h"
 
 /* global variables */
 float Voltage[3] = {0};     /* three-phase voltage */
@@ -122,6 +123,11 @@ void send_thread_entry(void *parameter)
             g_displacement_sensor_online = RT_FALSE;
             /* rt_kprintf("[Displacement] Error: %d\n", error_code); */
         }
+
+        rt_thread_mdelay(500);
+
+        /* ==================== Read RDF-TC25 stress sensor ==================== */
+        (void)stress_sensor_poll();
 
         rt_thread_mdelay(500);
 

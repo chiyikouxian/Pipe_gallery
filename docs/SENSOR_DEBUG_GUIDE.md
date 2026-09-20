@@ -342,14 +342,10 @@ Displacement(mm) = adjusted_raw * 0.025  // 比例因子
 
 ---
 
-## 6️⃣ 应力传感器（GMY400）⚠️
+## 6️⃣ 应力传感器（RDF-TC25/RDD-DH）
 
-### ⚠️ 重要提示
-
-**波特率不匹配问题：**
-- 传感器标称波特率：**2400 或 4800**
-- 系统当前波特率：**9600**
-- **必须解决波特率匹配问题才能通信！**
+应力传感器已完成调试并集成到 UART3 Modbus 主轮询。生产参数为
+`9600-8-N-1`、从站地址 `3`、单位 `N`、两位小数。
 
 ### 硬件接口
 
@@ -362,8 +358,8 @@ Displacement(mm) = adjusted_raw * 0.025  // 比例因子
 
 - **协议：** Modbus RTU
 - **UART：** UART3 (PB10/PB11) - 共享总线
-- **波特率：** 2400/4800（传感器） vs 9600（系统）⚠️
-- **从站地址：** 建议设为3（避免与水表地址1冲突）
+- **波特率：** 9600
+- **从站地址：** 3
 - **量程：** 0~400kN
 - **精度：** ±4% FS
 - **工作电流：** ≤60mA
@@ -371,96 +367,21 @@ Displacement(mm) = adjusted_raw * 0.025  // 比例因子
 ### 代码文件
 - `applications/Apps/stressSensorApp.c/h`
 
-### 调试步骤
+### 运行方式
 
-#### 步骤1：启用测试线程
-
-在`main.c`的`main()`函数中添加：
-
-```c
-/* Stress sensor test thread (GMY400) */
-rt_thread_t stress_thread = rt_thread_create("stress_test",
-                                             stress_sensor_test_thread_entry,
-                                             RT_NULL,
-                                             1024,
-                                             26,
-                                             10);
-if (stress_thread != RT_NULL)
-{
-    rt_thread_startup(stress_thread);
-    rt_kprintf("[STRESS] GMY400 stress sensor test thread started.\n");
-}
-else
-{
-    rt_kprintf("[STRESS] Failed to create stress sensor test thread!\n");
-}
-```
-
-#### 步骤2：解决波特率不匹配
-
-**方案A：修改系统波特率为2400（推荐用于测试）**
-
-在`freeModbusApp.h`中修改：
-```c
-#define MB_MASTER_BAUDRATE  2400  // 原来是9600
-```
-
-**方案B：修改传感器波特率为9600（推荐用于生产）**
-
-需要手持编程器或Modbus工具修改传感器配置。
-
-#### 步骤3：扫描总线查找传感器地址
-
-```bash
-msh> stress_scan_bus
-```
-
-这会扫描地址1-10，找出哪个地址有响应。
-
-#### 步骤4：测试指定地址
-
-```bash
-msh> stress_test_addr 1    # 测试地址1
-msh> stress_test_addr 3    # 测试地址3
-```
-
-#### 步骤5：修改从站地址（如需要）
-
-```bash
-msh> stress_set_addr 1 3   # 将地址从1改为3
-```
-
-⚠️ **警告：执行此命令时，确保RS485总线上只有应力传感器，断开其他设备！**
-
-### 预期输出
-
-```
-========================================
-  GMY400 Stress Sensor Test Started
-========================================
-  Slave Address: 3
-  Register Start: 0x0000
-  Register Count: 2
-  Baudrate: 9600 (当前系统波特率)
-  注意: 传感器标称波特率为 2400/4800
-       如果通信失败，需要修改系统波特率或传感器波特率
-  Parity: None
-  Range: 0~400 kN
-========================================
-
-[00001] Stress: XX.XX kN (Raw: Reg[0]=0xXXXX=XXXX, Reg[1]=0xXXXX=XXXX, Combined=0xXXXXXXXX=XXXXX) | OK: 1, ERR: 0
-```
+上电后由 `freeModbusApp.c` 自动轮询。使用通用 `modbus` 命令查看在线状态和当前值；
+生产固件不再提供应力传感器专用扫描、改址、改单位或测试线程。
 
 ### 全局变量
-- `g_stress_value_kn`：当前应力值（kN）
+- `g_stress_value_n`：当前力值（N）
 - `g_stress_sensor_online`：传感器在线状态
 
 ### 故障排查
 
 | 问题 | 可能原因 | 解决方案 |
 |-----|---------|---------|
-| 连续5次失败 | 波特率不匹配 | 修改为2400或4800测试 |
-| Modbus超时 | 从站地址错误 | 用stress_scan_bus扫描 |
+| 连续5次失败 | 通信参数或接线错误 | 核对9600-8-N-1及A/B接线 |
+| Modbus超时 | 从站地址错误 | 使用独立Modbus工具确认地址3 |
 | 读数异常 | 数据解析错误 | 检查原始寄存器值，调整转换公式 |
 | 总线冲突 | 多设备共用485 | 逐个连接测试，确认地址不冲突 |
 
@@ -562,10 +483,6 @@ list_thread
 # 查看设备列表
 list_device
 
-# 应力传感器专用命令
-stress_scan_bus           # 扫描Modbus总线
-stress_test_addr <addr>   # 测试指定地址
-stress_set_addr <old> <new>  # 修改从站地址
 ```
 
 ---
@@ -627,4 +544,3 @@ stress_set_addr <old> <new>  # 修改从站地址
 | 日期 | 版本 | 修改内容 | 修改人 |
 |-----|------|---------|--------|
 | 2026-09-18 | v1.0 | 初始版本，完整调试指南 | ideapad15s |
-

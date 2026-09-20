@@ -39,7 +39,7 @@ int main(void)
     /* ============================================================
      * UART assignment:
      * UART2 (PD5/PD6)    - Gas sensor (19200 baud)
-     * UART3 (PB10/PB11)  - MODBUS RTU master (9600 baud, water meter + ammeter)
+     * UART3 (PB10/PB11)  - MODBUS RTU master (9600 baud, water/displacement/stress/ammeter)
      * UART4 (PA12/PA11)  - ESP8266 WiFi module (115200 baud)
      * UART5 (PC12/PD2)   - ATK-LORA-01 LoRa module (115200 baud)
      * ============================================================ */

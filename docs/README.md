@@ -73,11 +73,6 @@ msh> monitor 1        # 实时监控（每秒刷新）
 - `monitor [sec]` - 实时监控
 - `test <sensor>` - 测试单个传感器
 
-### 应力传感器专用命令（stressSensorApp.c）
-- `stress_scan_bus` - 扫描Modbus总线
-- `stress_test_addr <addr>` - 测试指定地址
-- `stress_set_addr <old> <new>` - 修改从站地址
-
 ### 调试配置（sensor_debug_config.h）
 - 分阶段调试开关
 - 调试输出控制
@@ -87,30 +82,10 @@ msh> monitor 1        # 实时监控（每秒刷新）
 
 ## ⚠️ 关键问题
 
-### 应力传感器 GMY400 波特率不匹配
+### 应力传感器 RDF-TC25/RDD-DH
 
-**问题：**
-- 传感器标称：2400/4800 波特率
-- 系统当前：9600 波特率
-- **无法通信**
-
-**解决方案：**
-
-**方案A：修改系统波特率（测试用）**
-```c
-// 在 applications/Apps/freeModbusApp.h 中
-#define MB_MASTER_BAUDRATE  2400  // 改为2400
-```
-
-**方案B：扫描并定位设备**
-```bash
-msh> stress_scan_bus
-msh> stress_test_addr 3
-```
-
-**方案C：修改传感器波特率（生产用）**
-- 使用Modbus工具或手持编程器
-- 或通过MSH命令 `stress_set_addr`
+设备已配置为 `9600-8-N-1`、从站地址 `3`、单位 `N`。生产固件不再提供应力传感器
+专用配置或扫描命令，启动后由 UART3 Modbus 线程自动轮询。
 
 ---
 
