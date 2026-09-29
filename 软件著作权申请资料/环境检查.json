@@ -1,0 +1,29 @@
+{
+  "output_directory": "当前目录/软件著作权申请资料",
+  "capabilities": {
+    "markdown_drafts": true,
+    "application_txt": true,
+    "officecli": false,
+    "officecli_tested_version": false,
+    "docx_create": false,
+    "docx_openxml_validate": false,
+    "docx_preview": false,
+    "native_word_page_count_possible": true
+  },
+  "versions": {
+    "python": "3.12.4",
+    "officecli": "not found",
+    "officecli_required": "1.0.151"
+  },
+  "paths": {
+    "officecli": ""
+  },
+  "officecli_install_state": "restart_required",
+  "final_docx_mode": "unavailable",
+  "recommendation": "正式 DOCX 统一依赖 OfficeCLI v1.0.151，不再使用 python-docx、Pandoc 或内置 .NET 工具包兜底。",
+  "install_prompt": "OfficeCLI 已全局安装；请重启 Codex 后继续。",
+  "requires_user_input": true,
+  "confirmation_stage": "environment",
+  "next_action": "OfficeCLI 已安装到官方全局目录，但当前 Codex 进程尚未获取更新后的 PATH。请重启 Codex，回到此项目后重新运行环境检查；不要在项目目录内复制 OfficeCLI。",
+  "officecli_error": ""
+}

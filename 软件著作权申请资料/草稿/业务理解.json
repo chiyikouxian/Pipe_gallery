@@ -1,0 +1,771 @@
+{
+  "software_name": "管廊监测节点系统软件",
+  "business_understanding_required": true,
+  "source_documents": [
+    {
+      "path": "AGENTS.md",
+      "size": 660
+    },
+    {
+      "path": "CLAUDE.md",
+      "size": 8556
+    },
+    {
+      "path": "Pipe_gallery.md",
+      "size": 7250
+    },
+    {
+      "path": "README.md",
+      "size": 7115
+    },
+    {
+      "path": "filtered_data.txt",
+      "size": 188280
+    },
+    {
+      "path": "docs/QUICK_REFERENCE.md",
+      "size": 6945
+    },
+    {
+      "path": "docs/RDF_TC25_MODBUS_REGISTER_GUIDE.md",
+      "size": 11469
+    },
+    {
+      "path": "docs/README.md",
+      "size": 5086
+    },
+    {
+      "path": "docs/SENSOR_DEBUG_GUIDE.md",
+      "size": 13283
+    },
+    {
+      "path": "docs/SUMMARY.md",
+      "size": 8243
+    },
+    {
+      "path": "openspec/AGENTS.md",
+      "size": 15087
+    },
+    {
+      "path": "openspec/project.md",
+      "size": 3663
+    },
+    {
+      "path": "rt-thread/README.md",
+      "size": 10979
+    },
+    {
+      "path": "rt-thread/README_zh.md",
+      "size": 9300
+    },
+    {
+      "path": "packages/freemodbus-latest/Changelog.txt",
+      "size": 14532
+    },
+    {
+      "path": "packages/freemodbus-latest/README.md",
+      "size": 18330
+    },
+    {
+      "path": "packages/freemodbus-latest/README_ZH.md",
+      "size": 19619
+    },
+    {
+      "path": "packages/freemodbus-latest/bsd.txt",
+      "size": 1491
+    },
+    {
+      "path": "packages/freemodbus-latest/gpl.txt",
+      "size": 18351
+    },
+    {
+      "path": "packages/freemodbus-latest/lgpl.txt",
+      "size": 26936
+    },
+    {
+      "path": "cubemx/Drivers/CMSIS/LICENSE.txt",
+      "size": 11558
+    },
+    {
+      "path": "cubemx/Drivers/STM32H7xx_HAL_Driver/LICENSE.txt",
+      "size": 383
+    },
+    {
+      "path": "openspec/specs/ethernet-communication/spec.md",
+      "size": 3082
+    },
+    {
+      "path": "openspec/specs/sensor-acquisition/spec.md",
+      "size": 6313
+    },
+    {
+      "path": "packages/freemodbus-latest/samples/README.md",
+      "size": 2215
+    },
+    {
+      "path": "rt-thread/components/cplusplus/README.md",
+      "size": 1816
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-29-add-eth-lan8720a-fiber/design.md",
+      "size": 12788
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-29-add-eth-lan8720a-fiber/proposal.md",
+      "size": 2361
+    },
+    {
+      "path": "openspec/changes/archive/2026-07-29-add-eth-lan8720a-fiber/tasks.md",
+      "size": 1933
+    },
+    {
+      "path": "openspec/changes/archive/2026-09-08-add-o2-sensor-adc/design.md",
+      "size": 6086
+    },
+    {
+      "path": "openspec/changes/archive/2026-09-08-add-o2-sensor-adc/proposal.md",
+      "size": 1669
+    },
+    {
+      "path": "openspec/changes/archive/2026-09-08-add-o2-sensor-adc/tasks.md",
+      "size": 2955
+    },
+    {
+      "path": "openspec/changes/archive/2026-09-08-add-sht30-i2c1-acquisition/design.md",
+      "size": 5510
+    },
+    {
+      "path": "openspec/changes/archive/2026-09-08-add-sht30-i2c1-acquisition/proposal.md",
+      "size": 1561
+    },
+    {
+      "path": "openspec/changes/archive/2026-09-08-add-sht30-i2c1-acquisition/tasks.md",
+      "size": 3565
+    },
+    {
+      "path": "rt-thread/components/drivers/can/readme-zh.txt",
+      "size": 5497
+    },
+    {
+      "path": "rt-thread/components/drivers/hwtimer/README_CN.md",
+      "size": 2124
+    },
+    {
+      "path": "rt-thread/components/drivers/rtc/README.md",
+      "size": 3194
+    },
+    {
+      "path": "rt-thread/components/drivers/spi/device_driver_list.txt",
+      "size": 192
+    },
+    {
+      "path": "rt-thread/components/libc/getline/README.md",
+      "size": 860
+    }
+  ],
+  "project_evidence_file": "业务理解证据.md",
+  "product_positioning": "基于STM32嵌入式平台的城市地下管廊环境安全监测系统，集成多传感器数据采集、实时数据处理和多链路通信上报功能",
+  "industry": "工业物联网、城市基础设施安全监测",
+  "target_users": [
+    "城市管廊运维管理单位",
+    "市政基础设施监控中心",
+    "智慧城市平台运营方",
+    "工业安全监测服务商"
+  ],
+  "core_value": "实现地下管廊内甲烷浓度、火焰、氧气、温湿度、三相电流、水流量、应力和位移等多维度环境参数的实时采集和自动上报，保障管廊运行安全，预防气体泄漏、火灾和结构异常等安全隐患。系统采用以太网本地连接监控中心服务器，数据传输在局域网内完成，避免数据外泄风险；同时配置LoRa和ESP8266 WiFi作为备用通信链路，确保主链路故障时数据仍能上报，保障监测数据不丢失",
+  "business_features": [
+    "多传感器实时数据采集",
+    "工业总线设备轮询",
+    "多链路数据上报",
+    "本地串口调试",
+    "设备状态监控"
+  ],
+  "business_feature_details": {
+    "多传感器实时数据采集": "支持甲烷传感器、五路火焰传感器、氧气传感器、温湿度传感器的实时采集，采样周期可配置，数据存储在全局变量供上报模块使用",
+    "工业总线设备轮询": "通过Modbus RTU协议轮询电表（三相电压/电流）、水表（流量）、位移传感器和应力传感器，从站地址可配置，支持多设备共享总线",
+    "多链路数据上报": "支持以太网TCP、LoRa无线、MQTT云平台三种上报方式，JSON格式数据包含设备ID和全部传感器数据，网络故障时自动重连",
+    "本地串口调试": "通过UART1控制台输出实时数据和系统日志，支持MSH命令查看线程状态和设备列表，方便现场调试和故障排查",
+    "设备状态监控": "实时监控PHY链路状态、TCP连接状态、Modbus通信状态和传感器采集状态，异常时记录日志并尝试恢复"
+  },
+  "operation_flow": [
+    "系统上电初始化，启动RT-Thread操作系统",
+    "初始化各传感器和通信接口（ADC、I2C、UART、Ethernet）",
+    "启动传感器采集线程，周期性读取环境参数",
+    "启动Modbus主站线程，轮询电表、水表和应力传感器数据",
+    "启动以太网上报线程，每隔固定周期将采集数据打包为JSON并通过TCP发送到监控中心服务器",
+    "监控中心接收数据后进行存储、分析和告警处理",
+    "运维人员通过串口或网络查看实时数据和设备状态"
+  ],
+  "application_purpose": "用于城市地下管廊的环境安全监测",
+  "main_functions": "本软件运行于STM32H743XI微控制器，基于RT-Thread实时操作系统，通过多种传感器和工业总线设备采集管廊内的环境参数和设备状态数据，并通过以太网、LoRa或MQTT方式上报至监控中心。主要功能包括：甲烷浓度实时采集与分析，通过UART2接口读取传感器19字节数据帧并解析PPM值和LEL百分比；五路火焰传感器ADC采集，支持多点火情检测；氧气浓度ADC采集，线性转换为百分比并支持空气稳定化校准；SHT30温湿度传感器I2C采集，执行CRC8校验确保数据可靠性；Modbus RTU主站轮询，通过RS485总线读取三相电表的电压电流数据、水表流量数据、位移传感器和应力传感器数据，支持多从站设备共享总线；以太网TCP数据上报，使用LAN8720A PHY芯片通过RMII接口实现100Mbps全双工通信，静态IP配置，周期性将JSON格式的完整传感器数据发送至监控中心服务器；LoRa无线上报，通过UART5接口连接ATK-LORA-01模块实现远距离无线传输；MQTT云平台上报，通过ESP8266 WiFi模块连接华为云IoTDA平台；串口控制台调试，支持MSH命令行查看线程状态、设备列表和实时数据；多线程并发处理，各传感器采集线程、Modbus轮询线程和网络上报线程独立运行互不阻塞；异常处理与自动恢复，网络断线时自动重连，Modbus通信失败时保留上次有效值并记录错误日志",
+  "technical_characteristics": "基于RT-Thread v4.0.3实时操作系统，采用多线程并发架构，支持以太网TCP、LoRa和MQTT多链路数据上报",
+  "software_technical_option": "嵌入式软件",
+  "software_category": "嵌入式软件",
+  "manual_sections": [
+    {
+      "title": "相关文档",
+      "intent": "指向总体设计、详细设计、测试案例等配套文档，满足软著审核规范",
+      "paragraphs": [],
+      "include_feature_overview": false,
+      "include_operation_modules": false,
+      "include_operation_flow": false
+    },
+    {
+      "title": "管廊监测节点系统软件说明",
+      "intent": "介绍软件用途、应用场景、目标用户",
+      "paragraphs": [
+        "本软件是面向城市地下管廊环境安全监测的嵌入式系统软件，运行于STM32H743XI微控制器，基于RT-Thread实时操作系统。软件通过集成甲烷传感器、火焰传感器、氧气传感器、温湿度传感器以及Modbus工业总线设备，实现对管廊内环境参数和设备运行状态的实时采集，并通过以太网、LoRa或MQTT方式将数据上报至监控中心，为管廊运维管理提供数据支撑。",
+        "软件主要面向城市管廊运维管理单位、市政基础设施监控中心和智慧城市平台运营方。通过部署在管廊现场的监测节点设备，运维人员能够远程掌握管廊内的气体浓度、温湿度、电力负荷、水流量和结构应力等关键参数，及时发现气体泄漏、火灾隐患和结构异常，降低安全事故风险。"
+      ],
+      "include_feature_overview": false,
+      "include_operation_modules": false,
+      "include_operation_flow": false
+    },
+    {
+      "title": "功能特点",
+      "intent": "概述软件核心功能和技术优势",
+      "paragraphs": [
+        "软件采用多线程并发架构，各传感器采集线程、Modbus主站轮询线程和网络上报线程独立运行，互不阻塞。甲烷传感器采集线程通过UART2接口读取19字节数据帧，解析PPM浓度值和LEL百分比，采样周期可配置。火焰传感器采集线程使用ADC1的五个通道，对应五路火焰探头的模拟输出，原始ADC值范围0至4095，支持多点火情监测。",
+        "氧气传感器采集线程使用ADC1通道18，将模拟电压线性转换为氧气百分比，并内置空气稳定化逻辑，当读数接近空气中氧气含量时自动校准至20.9%。温湿度传感器采集线程通过I2C1总线读取SHT30传感器数据，执行CRC8校验确保数据可靠性，I2C通信失败时保留上次有效值并记录错误。",
+        "Modbus RTU主站轮询线程通过RS485总线周期性读取电表、水表、位移传感器和应力传感器数据。电表从站地址为2或73，读取三相电压和三相电流各6个保持寄存器，解析32位浮点数。水表从站地址为1，读取流量数据。应力传感器从站地址为3，读取RDF-TC25传感器的力值，单位为牛顿，保留两位小数。各从站设备共享同一RS485总线，通过不同从站地址区分。",
+        "以太网数据上报功能使用LAN8720A PHY芯片，通过RMII接口与STM32内置ETH MAC连接，工作在100Mbps全双工模式。软件配置静态IP地址192.168.1.30，网关192.168.1.1，子网掩码255.255.255.0。上报线程周期性将设备ID和全部传感器数据打包为JSON格式，通过TCP连接发送至监控中心服务器192.168.1.100的8080端口。网络断线时自动检测并尝试重新连接。",
+        "LoRa无线上报功能通过UART5接口连接ATK-LORA-01模块，适用于无有线网络覆盖的管廊区段。MQTT云平台上报功能通过UART4接口连接ESP8266 WiFi模块，使用AT指令配置网络连接，接入华为云IoTDA物联网平台，设备ID和主题路径可配置。",
+        "串口控制台功能使用UART1，波特率115200，支持RT-Thread的MSH命令行。运维人员通过串口终端可以查看当前运行的线程列表、设备列表、内存使用情况和实时传感器数据，也可以执行自定义调试命令检查Modbus通信状态或单独测试某个传感器。现场调试和故障排查时，串口输出的日志信息能够帮助快速定位问题。"
+      ],
+      "include_feature_overview": false,
+      "include_operation_modules": false,
+      "include_operation_flow": false
+    },
+    {
+      "title": "系统要求",
+      "intent": "说明软件运行的硬件和软件环境",
+      "paragraphs": [],
+      "include_feature_overview": false,
+      "include_operation_modules": false,
+      "include_operation_flow": false
+    }
+  ],
+  "manual_modules": [
+    {
+      "title": "系统启动与初始化",
+      "evidence": [
+        "applications/main.c",
+        "README.md 第5节 系统线程与运行模块"
+      ],
+      "purpose": "完成硬件初始化和线程启动，使监测节点进入正常工作状态",
+      "usage": "设备上电或复位后自动执行，无需人工干预",
+      "entry": "MCU上电后自动启动RT-Thread操作系统，执行main函数",
+      "visible_elements": [
+        "串口终端输出RT-Thread启动日志",
+        "显示内核版本号和编译日期",
+        "输出各线程创建成功的提示",
+        "输出设备初始化状态"
+      ],
+      "operation_steps": [
+        "MCU上电，运行bootloader并加载固件",
+        "RT-Thread内核启动，初始化时钟和内存",
+        "创建传感器采集线程（甲烷、火焰、氧气、温湿度）",
+        "创建Modbus主站轮询线程和数据发送线程",
+        "初始化以太网接口，配置静态IP",
+        "创建网络上报线程（以太网、LoRa、MQTT）",
+        "各线程进入周期性运行状态"
+      ],
+      "validation_rules": [
+        "硬件必须正确连接传感器和通信模块",
+        "供电电压必须稳定在正常范围",
+        "网络配置必须与监控中心匹配"
+      ],
+      "feedback": [
+        "串口终端输出初始化完成提示",
+        "LED指示灯显示系统运行状态",
+        "网络连接成功后输出TCP连接日志"
+      ],
+      "screenshot": "【截图预留：请在此处插入串口终端显示系统启动日志的截图。】"
+    },
+    {
+      "title": "甲烷浓度监测",
+      "evidence": [
+        "applications/Apps/MethaneSensorApp.c",
+        "applications/Apps/MethaneSensorApp.h",
+        "README.md 第3.1节 采集类功能"
+      ],
+      "purpose": "实时监测管廊内甲烷气体浓度，预防燃气泄漏和爆炸风险",
+      "usage": "系统运行期间自动监测，当管廊内存在燃气管道或有可燃气体泄漏风险时使用",
+      "entry": "系统启动后自动运行甲烷传感器采集线程",
+      "visible_elements": [
+        "串口终端输出甲烷浓度PPM值",
+        "输出LEL百分比（爆炸下限百分比）",
+        "输出告警状态标志",
+        "JSON数据包中包含methane_ppm和methane_lel字段"
+      ],
+      "operation_steps": [
+        "甲烷传感器通过UART2接口周期性发送19字节数据帧",
+        "采集线程接收数据帧并验证帧头（0xAC 0xAC）",
+        "计算并校验数据帧的校验和",
+        "解析PPM浓度值和LEL百分比",
+        "将数据存储到全局变量供上报模块使用",
+        "串口输出当前读数和告警状态"
+      ],
+      "validation_rules": [
+        "数据帧必须以0xAC 0xAC开头",
+        "校验和必须正确，否则丢弃该帧",
+        "PPM值超过预设阈值时产生告警",
+        "LEL百分比超过一定比例视为危险状态"
+      ],
+      "feedback": [
+        "串口实时输出：gas:XXX.X ppm, level: XX%, alarm:0xXX",
+        "数据通过网络上报至监控中心",
+        "监控中心根据阈值判断是否触发告警"
+      ],
+      "screenshot": "【截图预留：请在此处插入串口终端显示甲烷浓度数据的截图。】"
+    },
+    {
+      "title": "火焰传感器监测",
+      "evidence": [
+        "applications/Apps/linesensor.c",
+        "applications/Apps/linesensor.h",
+        "applications/Apps/hal_adc.c",
+        "README.md 第3.1节 采集类功能"
+      ],
+      "purpose": "监测管廊内五个位置的火情，及时发现火灾隐患",
+      "usage": "系统运行期间自动监测，覆盖管廊内关键区域的火焰探测",
+      "entry": "系统启动后自动运行火焰传感器采集线程",
+      "visible_elements": [
+        "串口终端输出五路ADC通道的原始值",
+        "显示CH0、CH1、CH3、CH4、CH5各通道读数",
+        "JSON数据包中包含ch0至ch5字段和flame字段"
+      ],
+      "operation_steps": [
+        "ADC采集线程每500毫秒触发一次采集",
+        "依次读取ADC1的五个通道（对应五路火焰传感器）",
+        "获取12位ADC原始值（范围0至4095）",
+        "将原始值存储到全局变量",
+        "根据阈值判断是否检测到火焰",
+        "更新flame状态标志"
+      ],
+      "validation_rules": [
+        "ADC值范围为0至4095",
+        "无火焰时ADC值通常低于500",
+        "有火焰时ADC值显著升高至2000以上",
+        "多路同时检测到异常时可提高告警等级"
+      ],
+      "feedback": [
+        "串口实时输出：ADC CH0: XXXXX CH1: XXX CH3: XXX CH4: XXX CH5: XXX",
+        "flame字段为1表示检测到火焰，为0表示无火焰",
+        "监控中心收到火焰告警后通知运维人员处理"
+      ],
+      "screenshot": "【截图预留：请在此处插入串口终端显示ADC通道数据的截图。】"
+    },
+    {
+      "title": "氧气浓度监测",
+      "evidence": [
+        "applications/Apps/o2SensorApp.c",
+        "applications/Apps/o2SensorApp.h",
+        "README.md 第3.1节 采集类功能"
+      ],
+      "purpose": "监测管廊内氧气浓度，预防缺氧或富氧风险",
+      "usage": "系统运行期间自动监测，保障人员进入管廊时的安全",
+      "entry": "系统启动后自动运行氧气传感器采集线程",
+      "visible_elements": [
+        "串口终端输出氧气浓度百分比",
+        "JSON数据包中包含o2字段"
+      ],
+      "operation_steps": [
+        "氧气传感器采集线程每2秒读取一次ADC1通道18",
+        "将ADC原始值转换为毫伏（mV）",
+        "根据线性公式将电压转换为氧气百分比",
+        "应用空气稳定化逻辑，读数接近20.9%时自动校准",
+        "将氧气浓度存储到全局变量",
+        "串口输出当前读数"
+      ],
+      "validation_rules": [
+        "正常空气中氧气浓度约为20.9%",
+        "浓度低于19.5%视为缺氧环境",
+        "浓度高于23.5%视为富氧环境",
+        "空气稳定化范围为20.7%至21.1%"
+      ],
+      "feedback": [
+        "串口实时输出氧气浓度，例如：O2: 20.9%",
+        "数据通过网络上报，监控中心根据阈值判断是否告警",
+        "缺氧或富氧时禁止人员进入管廊"
+      ],
+      "screenshot": "【截图预留:请在此处插入串口终端显示氧气浓度数据的截图。】"
+    },
+    {
+      "title": "温湿度监测",
+      "evidence": [
+        "applications/Apps/sht30App.c",
+        "applications/Apps/sht30App.h",
+        "README.md 第3.1节 采集类功能"
+      ],
+      "purpose": "监测管廊内环境温度和湿度，评估环境舒适性和设备运行条件",
+      "usage": "系统运行期间自动监测，为管廊环境评估提供数据",
+      "entry": "系统启动后自动运行温湿度传感器采集线程",
+      "visible_elements": [
+        "串口终端输出温度（摄氏度）和湿度（相对湿度百分比）",
+        "JSON数据包中包含temperature和humidity字段"
+      ],
+      "operation_steps": [
+        "温湿度采集线程通过I2C1总线与SHT30传感器通信",
+        "发送单次测量命令（0x2C 0x06）",
+        "延时等待传感器完成测量（约15毫秒）",
+        "读取6字节响应数据（温度2字节+CRC1字节+湿度2字节+CRC1字节）",
+        "验证CRC8校验码确保数据可靠",
+        "将原始数据转换为摄氏度和相对湿度百分比",
+        "I2C通信失败时保留上次有效值并记录错误"
+      ],
+      "validation_rules": [
+        "I2C设备地址为0x44",
+        "CRC8校验必须通过，否则丢弃该次读数",
+        "温度范围通常为-40℃至125℃",
+        "湿度范围为0%至100%RH"
+      ],
+      "feedback": [
+        "串口实时输出：Temperature: XX.X C, Humidity: XX.X %RH",
+        "I2C通信失败时输出错误日志",
+        "数据通过网络上报至监控中心"
+      ],
+      "screenshot": "【截图预留：请在此处插入串口终端显示温湿度数据的截图。】"
+    },
+    {
+      "title": "电表数据采集",
+      "evidence": [
+        "applications/Apps/freeModbusApp.c",
+        "applications/Apps/freeModbusApp.h",
+        "CLAUDE.md Modbus通信章节"
+      ],
+      "purpose": "通过Modbus协议采集三相电表的电压和电流数据，监控管廊内电力负荷",
+      "usage": "系统运行期间自动轮询，了解管廊内照明、通风等用电设备的运行状态",
+      "entry": "系统启动后自动运行Modbus主站轮询线程",
+      "visible_elements": [
+        "串口终端输出三相电压值（voltage_a、voltage_b、voltage_c）",
+        "输出三相电流值（current_a、current_b、current_c）",
+        "显示Modbus寄存器原始值",
+        "JSON数据包中包含电压和电流字段"
+      ],
+      "operation_steps": [
+        "Modbus主站轮询线程每500毫秒触发一次",
+        "向电表从站（地址2或73）发送读保持寄存器请求",
+        "读取电压寄存器（起始地址0x100，共6个寄存器）",
+        "读取电流寄存器（起始地址0x10E，共6个寄存器）",
+        "每个数值由2个16位寄存器组成32位浮点数（大端序）",
+        "将寄存器数据转换为浮点数并存储到全局变量",
+        "串口输出电压和电流读数"
+      ],
+      "validation_rules": [
+        "Modbus通信参数：波特率9600、无校验、1停止位",
+        "从站地址必须匹配实际电表配置",
+        "寄存器数据为IEEE 754浮点数格式",
+        "通信超时时保留上次有效值"
+      ],
+      "feedback": [
+        "串口实时输出：[Ammeter] Voltage[0]: XXX.XX V, Current[0]: X.XXX A",
+        "Modbus通信成功时显示寄存器原始值",
+        "通信失败时输出错误码",
+        "数据通过网络上报至监控中心"
+      ],
+      "screenshot": "【截图预留：请在此处插入串口终端显示电表数据的截图。】"
+    },
+    {
+      "title": "水表流量采集",
+      "evidence": [
+        "applications/Apps/freeModbusApp.c",
+        "applications/Apps/freeModbusApp.h",
+        "CLAUDE.md Modbus通信章节"
+      ],
+      "purpose": "通过Modbus协议采集水表流量数据，监控管廊内供排水系统运行状态",
+      "usage": "系统运行期间自动轮询，及时发现管道泄漏或异常用水",
+      "entry": "系统启动后自动运行Modbus主站轮询线程",
+      "visible_elements": [
+        "串口终端输出水流量值（单位通常为立方米每小时）",
+        "JSON数据包中包含flow字段"
+      ],
+      "operation_steps": [
+        "Modbus主站轮询线程每500毫秒触发一次",
+        "向水表从站（地址1）发送读保持寄存器请求",
+        "读取流量寄存器（起始地址1，共2个寄存器）",
+        "将2个16位寄存器组成的32位浮点数转换为流量值",
+        "将流量数据存储到全局变量",
+        "串口输出当前流量读数"
+      ],
+      "validation_rules": [
+        "从站地址为1",
+        "寄存器数据为IEEE 754浮点数格式",
+        "流量为0表示无水流",
+        "流量突然增大可能表示管道泄漏"
+      ],
+      "feedback": [
+        "串口实时输出：[Water] Flow: X.XXX",
+        "Modbus通信失败时输出错误日志",
+        "数据通过网络上报，监控中心根据流量变化判断是否异常"
+      ],
+      "screenshot": "【截图预留：请在此处插入串口终端显示水表流量数据的截图。】"
+    },
+    {
+      "title": "应力传感器监测",
+      "evidence": [
+        "applications/Apps/stressSensorApp.c",
+        "applications/Apps/stressSensorApp.h",
+        "docs/RDF_TC25_MODBUS_REGISTER_GUIDE.md",
+        "README.md 第3.1节 采集类功能"
+      ],
+      "purpose": "监测管廊结构的应力变化，预防结构变形和坍塌风险",
+      "usage": "系统运行期间自动轮询，长期监测管廊结构安全",
+      "entry": "系统启动后自动运行Modbus主站轮询线程",
+      "visible_elements": [
+        "串口终端输出应力值（单位：牛顿N，保留两位小数）",
+        "JSON数据包中包含stress字段"
+      ],
+      "operation_steps": [
+        "Modbus主站轮询线程每500毫秒触发一次",
+        "向应力传感器从站（地址3）发送读保持寄存器请求",
+        "读取实时应力寄存器（起始地址8，共2个寄存器）",
+        "将2个16位寄存器组成的32位整数除以100得到实际应力值（保留两位小数）",
+        "将应力数据存储到全局变量",
+        "串口输出当前应力读数"
+      ],
+      "validation_rules": [
+        "从站地址为3",
+        "单位已配置为牛顿（N）",
+        "小数位已配置为2位",
+        "应力值持续增大可能表示结构承载超限"
+      ],
+      "feedback": [
+        "串口实时输出应力值，例如：Stress: X.XX N",
+        "Modbus通信失败时输出错误日志",
+        "数据通过网络上报，监控中心根据应力变化趋势评估结构安全"
+      ],
+      "screenshot": "【截图预留：请在此处插入串口终端显示应力传感器数据的截图。】"
+    },
+    {
+      "title": "以太网数据上报",
+      "evidence": [
+        "applications/Apps/ethApp.c",
+        "applications/Apps/ethApp.h",
+        "drivers/drv_eth.c",
+        "README.md 第3.3节 已验证的以太网行为"
+      ],
+      "purpose": "通过有线以太网将采集数据上报至监控中心服务器",
+      "usage": "系统运行期间自动上报，适用于有网络覆盖的管廊区段",
+      "entry": "系统启动后自动运行以太网上报线程",
+      "visible_elements": [
+        "串口终端输出网络连接状态",
+        "显示TCP连接成功和数据发送日志",
+        "输出JSON数据包内容",
+        "监控中心服务器接收到的JSON数据"
+      ],
+      "operation_steps": [
+        "系统启动时初始化LAN8720A PHY芯片和ETH MAC",
+        "配置静态IP地址192.168.1.30、网关192.168.1.1、子网掩码255.255.255.0",
+        "检测PHY链路状态（link up / 100Mbps / full-duplex）",
+        "以太网上报线程创建TCP socket",
+        "连接监控中心服务器192.168.1.100的8080端口",
+        "周期性（例如每5秒）将设备ID和全部传感器数据打包为JSON格式",
+        "通过TCP连接发送JSON数据包",
+        "接收服务器响应（如有）",
+        "网络断线时自动尝试重新连接"
+      ],
+      "validation_rules": [
+        "PHY必须检测到链路信号",
+        "IP配置必须与监控中心在同一网段",
+        "监控中心服务器必须监听8080端口",
+        "JSON数据包必须包含device_id和data字段"
+      ],
+      "feedback": [
+        "串口输出：connected to 192.168.1.100:8080",
+        "串口输出：Sent N bytes via ETH",
+        "监控中心服务器接收到JSON数据包并解析",
+        "网络连接失败时输出错误日志并重试"
+      ],
+      "screenshot": "【截图预留：请在此处插入串口终端显示以太网上报日志的截图，以及监控中心服务器接收数据的截图。】"
+    },
+    {
+      "title": "串口调试与状态查看",
+      "evidence": [
+        "applications/Apps/debugCommands.c",
+        "applications/Apps/debugCommands.h",
+        "docs/QUICK_REFERENCE.md"
+      ],
+      "purpose": "通过串口终端查看系统运行状态和实时数据，进行现场调试",
+      "usage": "设备安装调试阶段或故障排查时使用",
+      "entry": "通过串口终端软件（如PuTTY、SecureCRT）连接设备的UART1接口",
+      "visible_elements": [
+        "MSH命令提示符（msh >）",
+        "输入命令后的响应文本",
+        "传感器实时数据列表",
+        "线程状态列表",
+        "设备列表"
+      ],
+      "operation_steps": [
+        "使用USB转TTL模块连接设备的UART1引脚",
+        "打开串口终端软件，配置波特率115200、8数据位、无校验、1停止位",
+        "连接成功后按回车键显示MSH提示符",
+        "输入list_thread命令查看所有运行线程及其状态",
+        "输入list_device命令查看已注册的设备列表",
+        "输入free命令查看内存使用情况",
+        "输入sensors命令查看所有传感器数据汇总",
+        "输入flame命令查看火焰传感器详细状态",
+        "输入env命令查看环境传感器（温湿度、氧气、甲烷）数据",
+        "输入modbus命令查看Modbus设备在线状态和数据",
+        "输入monitor命令启动实时监控模式，按Ctrl+C退出"
+      ],
+      "validation_rules": [
+        "串口参数必须正确配置",
+        "设备必须已上电并启动完成",
+        "MSH命令区分大小写"
+      ],
+      "feedback": [
+        "命令执行后立即显示响应文本",
+        "传感器数据实时更新",
+        "线程状态显示运行、挂起或就绪",
+        "Modbus设备在线时显示最新数据，离线时显示错误码"
+      ],
+      "screenshot": "【截图预留：请在此处插入串口终端显示MSH命令行和传感器数据的截图。】"
+    }
+  ],
+  "system_requirements": [
+    {
+      "item": "硬件平台",
+      "minimum": "STM32H743XI微控制器（ARM Cortex-M7内核，主频480MHz，2MB Flash，1MB RAM）",
+      "recommended": "STM32H743XI微控制器，搭配LAN8720A以太网PHY、ESP8266 WiFi模块、ATK-LORA-01 LoRa模块"
+    },
+    {
+      "item": "操作系统",
+      "minimum": "RT-Thread v4.0.3实时操作系统",
+      "recommended": "RT-Thread v4.0.3或更高版本"
+    },
+    {
+      "item": "传感器硬件",
+      "minimum": "甲烷传感器（UART接口）、火焰传感器（模拟输出）、氧气传感器（模拟输出）、SHT30温湿度传感器（I2C接口）",
+      "recommended": "以上传感器及Modbus RTU三相电表、水表、位移传感器、RDF-TC25应力传感器"
+    },
+    {
+      "item": "通信接口",
+      "minimum": "UART控制台、以太网RJ45接口",
+      "recommended": "UART控制台、以太网RJ45接口、LoRa天线、WiFi天线、RS485总线接口"
+    },
+    {
+      "item": "供电",
+      "minimum": "18V直流电源，功率不低于10W",
+      "recommended": "18V直流稳压电源，功率15W以上，带过流保护"
+    },
+    {
+      "item": "调试工具",
+      "minimum": "USB转TTL串口模块、串口终端软件（如PuTTY）",
+      "recommended": "USB转TTL串口模块、串口终端软件、ST-Link调试器、网络抓包工具（如Wireshark）"
+    }
+  ],
+  "faq": [
+    {
+      "question": "设备上电后串口无输出怎么办？",
+      "answer": "首先检查串口线是否正确连接到UART1引脚，确认TX和RX没有接反。然后检查串口终端软件的参数配置，波特率必须设置为115200、8数据位、无校验、1停止位。如果仍无输出，使用万用表测量设备供电电压是否正常，确认固件是否已正确烧录。"
+    },
+    {
+      "question": "以太网无法连接到监控中心服务器怎么办？",
+      "answer": "首先通过串口查看PHY链路状态，确认显示link up和100Mbps full-duplex。然后检查网线连接是否正常，网口指示灯是否亮起。确认设备IP地址192.168.1.30与监控中心IP地址192.168.1.100在同一网段，网关和子网掩码配置正确。在PC上使用ping命令测试是否能ping通设备IP，如果不通则检查网络拓扑和交换机配置。确认监控中心服务器已启动TCP监听服务，监听端口为8080。"
+    },
+    {
+      "question": "Modbus设备读取失败怎么办？",
+      "answer": "首先检查RS485总线的A、B线是否正确连接，确认没有接反或短路。然后通过串口查看Modbus通信日志，确认从站地址、波特率、校验位和停止位配置是否与实际设备匹配。电表从站地址通常为2或73，水表为1，应力传感器为3。波特率通常为9600，无校验，1停止位。如果多个设备共享同一RS485总线，确认各设备从站地址不冲突。检查RS485模块的供电和使能信号是否正常。"
+    },
+    {
+      "question": "某个传感器数据一直为0或异常怎么办？",
+      "answer": "通过串口输入list_thread命令查看对应传感器的采集线程是否正常运行。如果线程挂起或未启动，检查代码中是否有初始化失败。输入list_device命令查看对应设备是否已注册。对于ADC传感器，确认引脚连接正确，传感器供电正常。对于I2C传感器，使用示波器或逻辑分析仪检查SCL和SDA信号波形，确认I2C地址正确。对于UART传感器，确认波特率和数据格式匹配。检查传感器本身是否损坏，必要时更换传感器测试。"
+    },
+    {
+      "question": "如何修改数据上报周期？",
+      "answer": "数据上报周期在源代码的头文件中定义。以太网上报周期在ethApp.h中定义，LoRa上报周期在loraApp.h中定义。修改对应宏定义的数值（单位通常为毫秒），重新编译固件并烧录到设备。修改后通过串口查看上报日志的时间间隔，确认修改生效。不建议将周期设置过短，避免网络拥塞或设备功耗过高。"
+    },
+    {
+      "question": "如何查看设备运行时间和内存使用情况？",
+      "answer": "通过串口连接设备，在MSH命令行中输入free命令可以查看当前内存使用情况，包括总内存、已用内存、剩余内存和内存碎片。输入list_thread命令可以查看各线程的栈使用情况和运行时间统计。如果发现内存不足，可能是某个线程栈溢出或存在内存泄漏，需要检查代码并优化内存分配。"
+    }
+  ],
+  "glossary": [
+    {
+      "term": "管廊",
+      "definition": "城市地下综合管廊，用于集中敷设电力、通信、燃气、供水等市政管线的地下隧道空间"
+    },
+    {
+      "term": "监测节点",
+      "definition": "部署在管廊内的数据采集设备，负责采集环境参数和设备运行数据并上报至监控中心"
+    },
+    {
+      "term": "甲烷浓度",
+      "definition": "空气中甲烷气体的含量，通常用PPM（百万分之一）或LEL（爆炸下限百分比）表示"
+    },
+    {
+      "term": "PPM",
+      "definition": "parts per million的缩写，百万分之一，表示气体浓度的单位"
+    },
+    {
+      "term": "LEL",
+      "definition": "Lower Explosive Limit的缩写，爆炸下限，表示可燃气体在空气中能够引起爆炸的最低浓度百分比"
+    },
+    {
+      "term": "ADC",
+      "definition": "Analog-to-Digital Converter的缩写，模数转换器，将模拟信号转换为数字信号"
+    },
+    {
+      "term": "Modbus RTU",
+      "definition": "一种工业通信协议，采用主从方式，通过RS485总线进行数据传输"
+    },
+    {
+      "term": "从站地址",
+      "definition": "Modbus网络中每个从站设备的唯一标识，主站通过从站地址访问不同设备"
+    },
+    {
+      "term": "保持寄存器",
+      "definition": "Modbus协议中用于存储数据的寄存器类型，支持读写操作"
+    },
+    {
+      "term": "PHY",
+      "definition": "Physical Layer的缩写，物理层芯片，负责以太网信号的物理传输"
+    },
+    {
+      "term": "RMII",
+      "definition": "Reduced Media Independent Interface的缩写，精简媒体独立接口，一种以太网MAC与PHY之间的接口标准"
+    },
+    {
+      "term": "静态IP",
+      "definition": "手动配置且固定不变的IP地址，区别于DHCP自动分配的动态IP"
+    },
+    {
+      "term": "TCP",
+      "definition": "Transmission Control Protocol的缩写，传输控制协议，一种面向连接的可靠传输协议"
+    },
+    {
+      "term": "JSON",
+      "definition": "JavaScript Object Notation的缩写，一种轻量级的数据交换格式，易于人阅读和编写，也易于机器解析和生成"
+    },
+    {
+      "term": "LoRa",
+      "definition": "Long Range的缩写，一种低功耗远距离无线通信技术，适用于物联网应用"
+    },
+    {
+      "term": "MQTT",
+      "definition": "Message Queuing Telemetry Transport的缩写，一种轻量级的物联网消息传输协议"
+    },
+    {
+      "term": "RT-Thread",
+      "definition": "一款开源的实时操作系统，主要用于嵌入式设备，提供线程管理、设备驱动框架等功能"
+    },
+    {
+      "term": "MSH",
+      "definition": "RT-Thread的命令行界面，用户可以通过串口终端输入命令查看系统状态和执行操作"
+    }
+  ],
+  "model_authored": true,
+  "external_research_notes": "",
+  "confirmation_required": true,
+  "user_confirmed": true,
+  "confirmation_stage": "business",
+  "next_action": "请确认 草稿/业务理解.md 中的软件用途、行业、目标用户、核心功能、手册结构和申请口径；确认后运行 confirm_stage.py --stage business。",
+  "review_notes": [
+    "请确认模型判断的行业领域、目标用户和主要功能是否符合实际申报口径。",
+    "请确认操作手册结构是否按真实页面和流程展开，而不是套用抽象功能列表。"
+  ],
+  "confirmation_note": "用户确认：行业和用途准确，目标用户合适，核心功能完整，已补充数据安全和通信可靠性说明（以太网本地连接避免数据外泄，LoRa和ESP8266作为备用通信链路保障数据不丢失），操作手册结构已详细说明",
+  "confirmed_at": "2026-09-29T11:10:20+00:00",
+  "confirmed_content_sha256": "e1cbb3e76b5a661250f5512df6c3c6a5cffbce735d79f4a584438036011510c7"
+}

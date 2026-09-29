@@ -1,0 +1,28 @@
+{
+  "draft_file_sha256": {
+    "草稿/业务理解.json": "4db05cd0b3d015faebf808dd570f35ea0f35516fd3c329416ca7a54f99c16a01",
+    "草稿/业务理解.md": "4afb99b058de36038beb16bdd4d663b425bf9fbd88ec144fe50d4755dbbaae17",
+    "草稿/业务理解模型稿.json": "7512421a736b8a0c689f7f40125677e98cca3ec8a8f2ddbd620fa7bce75a922a",
+    "草稿/业务理解模型稿模板.json": "615cac8b842878ba4ffe19747ad299190903fb95736afbe1e408983c65021a82",
+    "草稿/业务理解证据.json": "fdb67426decaee559e18ffb64ff5e9d7ffeaa854a5f2ce049b61135584c9ffa0",
+    "草稿/业务理解证据.md": "44a40de55d75d708e4a1879e91988bffaa055f880c70ddf12f093983a5fdf695",
+    "草稿/代码-前30页.md": "408573444c3f9f6c6e8b6c97ae2db75f586026fb377af920fc19df59af6e0174",
+    "草稿/代码-后30页.md": "216acdd1d0c4275f7fdb20c24de426fdcb840a9400cf4dae8af8006606f0aaed",
+    "草稿/代码提取清单.json": "b4795b9809cecb907686cc3368c32ae37ed4c0462119a3e87ae14f69d3ffead6",
+    "草稿/代码提取清单.md": "2eb64c1b051285e33df15e9aad501de46d43ec3ed78224da822050ea690abc7d",
+    "草稿/代码文件候选清单.md": "264bf4292545001d366a863ba51cff599f2fb341b69ad30c149f4bd98aafbd8d",
+    "草稿/代码文件选择.json": "6698b9f1166cff73d3676fe7f8be8b7f872c90e359bfcd47280b8f1331651e19",
+    "草稿/代码文件选择说明.md": "66ea74b89248072f7b75c2d1b2086703cf950557e50c7b12a0c4e0886197a13f",
+    "草稿/操作手册.md": "03d9ca865b55e3485ddaeac83dec75f03f1b108dc1012530039cac001325fb36",
+    "草稿/操作手册自检记录.json": "e760c12331aac62522edb975dbdc013fe313c9baa1ea1ea757c6c5e09f6292b8",
+    "草稿/操作手册自检记录.md": "a6052877288bcc807dc894908959acf700d78c4b0341c47ee1cf61384341e1eb",
+    "草稿/申请表信息.md": "76ed13d3d3546154becbfd95486abc5d64291ce3c6a229e40564dd4975eff77c",
+    "草稿/申请表字段确认.json": "c9558c0365c6bb5fa30600ef76f9b6433ce88361485988403993a4b5657e0e91",
+    "草稿/草稿确认清单.md": "47d2736063ee070e6125dc3340e80d77a2b695519c9dbfce00b01c0543741783",
+    "截图方式确认.json": "48494ae089e74e885a4be172130ce453aaaebdd0ed25d4b1c2f36e59e68aeb2d"
+  },
+  "markdown_confirmed": true,
+  "confirmation_note": "调整为每页56行，总69页，前30页1834行",
+  "confirmed_at": "2026-09-29T11:43:06+00:00",
+  "confirmed_content_sha256": "c39f90bec3d4adb7a7066a65a71d1be61956d8a62c09ba945972aec0aa701c06"
+}
