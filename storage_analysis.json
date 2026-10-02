@@ -1,0 +1,175 @@
+{
+  "generated_at": "2026-09-29 21:12:05",
+  "scan_seconds": 143.2,
+  "system": {
+    "os": "Windows 11",
+    "build": "10.0.26200",
+    "arch": "AMD64",
+    "user": "ideapad15s",
+    "home": "C:\\Users\\ideapad15s",
+    "filesystem": "NTFS",
+    "disk_total": "207.0 GB",
+    "disk_used": "187.5 GB",
+    "disk_free": "19.5 GB",
+    "purgeable": "",
+    "disk_name": "C:\\",
+    "disks": [
+      {"name": "C:\\", "total": "207.0 GB", "used": "187.5 GB", "free": "19.5 GB"},
+      {"name": "D:\\", "total": "165.1 GB", "used": "145.8 GB", "free": "19.3 GB"}
+    ]
+  },
+  "top5": [
+    {"rank": 1, "tier": "yellow", "size": "69.3 GB", "type": "应用数据/缓存汇总", "name": "AppData", "path": "C:\\Users\\ideapad15s\\AppData", "note": "包含浏览器、开发工具和应用数据；需要按应用拆分处理。"},
+    {"rank": 2, "tier": "yellow", "size": "6.1 GB", "type": "用户文件", "name": "Documents", "path": "C:\\Users\\ideapad15s\\Documents", "note": "个人文档，清理前请手动确认。"},
+    {"rank": 3, "tier": "yellow", "size": "5.5 GB", "type": "应用本体/运行时", "name": "Programs", "path": "C:\\Users\\ideapad15s\\AppData\\Local\\Programs", "note": "用户级安装程序和运行时，不建议按目录删除。"},
+    {"rank": 4, "tier": "yellow", "size": "5.4 GB", "type": "虚拟机/容器数据", "name": "Docker", "path": "C:\\Users\\ideapad15s\\AppData\\Local\\Docker", "note": "可能包含镜像、容器和卷；应在 Docker Desktop 内清理。"},
+    {"rank": 5, "tier": "yellow", "size": "5.0 GB", "type": "开发工具链", "name": ".espressif", "path": "C:\\Users\\ideapad15s\\.espressif", "note": "ESP-IDF 工具链和缓存，删除可能触发重新下载。"}
+  ],
+  "green": [
+    {
+      "name": "npm 缓存",
+      "path": "C:\\Users\\ideapad15s\\AppData\\Local\\npm-cache",
+      "size_estimate": "1.0 GB",
+      "kill_processes": ["npm", "node"],
+      "trash_paths": ["C:\\Users\\ideapad15s\\AppData\\Local\\npm-cache"],
+      "commands": [{"label": "npm 官方清理入口", "cmd": "npm cache clean --force"}]
+    },
+    {
+      "name": "Playwright 浏览器缓存",
+      "path": "C:\\Users\\ideapad15s\\AppData\\Local\\ms-playwright",
+      "size_estimate": "705.6 MB",
+      "kill_processes": ["node", "playwright"],
+      "trash_paths": ["C:\\Users\\ideapad15s\\AppData\\Local\\ms-playwright"],
+      "commands": [{"label": "按需重新安装浏览器", "cmd": "npx playwright install"}]
+    },
+    {
+      "name": "Maven 本地仓库缓存",
+      "path": "C:\\Users\\ideapad15s\\.m2",
+      "size_estimate": "122.0 MB",
+      "kill_processes": ["java", "mvn"],
+      "trash_paths": ["C:\\Users\\ideapad15s\\.m2"],
+      "commands": [{"label": "重新构建时自动下载依赖", "cmd": "mvn -U verify"}]
+    }
+  ],
+  "yellow": [
+    {
+      "name": "Docker 数据",
+      "path": "C:\\Users\\ideapad15s\\AppData\\Local\\Docker",
+      "size": "5.4 GB",
+      "content_profile": "镜像、容器、构建缓存和卷",
+      "why_manual": "可能包含仍在使用的开发环境和数据库卷。",
+      "disposal": "打开 Docker Desktop，使用 Prune/清理未使用镜像和构建缓存，并逐项检查卷。",
+      "risk": "删除卷可能造成容器内数据库或项目数据丢失。",
+      "open_note": "建议从 Docker Desktop 的存储设置进入，不要在资源管理器中删除目录。"
+    },
+    {
+      "name": "ESP32/ESP-IDF 工具链",
+      "path": "C:\\Users\\ideapad15s\\.espressif",
+      "size": "5.0 GB",
+      "content_profile": "编译工具链、下载缓存和组件",
+      "why_manual": "删除后可能需要重新下载工具链，影响离线编译。",
+      "disposal": "在 ESP-IDF/IDF Tools 中移除不再使用的版本，保留当前项目所需版本。",
+      "risk": "误删当前工具链会导致项目无法构建，恢复需要联网下载。"
+    },
+    {
+      "name": "VS Code 数据和扩展",
+      "path": "C:\\Users\\ideapad15s\\.vscode",
+      "size": "3.8 GB",
+      "content_profile": "扩展、用户设置、扩展缓存",
+      "why_manual": "包含开发环境配置和已安装扩展。",
+      "disposal": "在 VS Code 扩展面板卸载不用的扩展；清理前先备份 settings.json。",
+      "risk": "删除整个目录会丢失扩展、配置和工作区状态。"
+    },
+    {
+      "name": "VS Code Roaming 数据",
+      "path": "C:\\Users\\ideapad15s\\AppData\\Roaming\\Code",
+      "size": "4.0 GB",
+      "content_profile": "扩展数据、工作区状态和缓存",
+      "why_manual": "应用数据与扩展状态混合，无法安全按目录整体删除。",
+      "disposal": "在 VS Code 内停用/卸载不用的扩展，再按需清理缓存目录。",
+      "risk": "可能丢失设置同步状态、扩展数据和工作区信息。"
+    },
+    {
+      "name": "Arduino 工具链和板卡包",
+      "path": "C:\\Users\\ideapad15s\\AppData\\Local\\Arduino15",
+      "size": "3.8 GB",
+      "content_profile": "板卡包、编译器和下载缓存",
+      "why_manual": "不同板卡包可能被现有工程使用。",
+      "disposal": "在 Arduino IDE 的 Boards Manager 中卸载不用的板卡包。",
+      "risk": "删除工具链会导致对应工程重新下载或无法编译。"
+    },
+    {
+      "name": "微信/聊天文件",
+      "path": "C:\\Users\\ideapad15s\\xwechat_files",
+      "size": "3.2 GB",
+      "content_profile": "聊天图片、视频、文件和数据库",
+      "why_manual": "这是用户数据，不属于可再生缓存。",
+      "disposal": "在微信设置的存储空间/聊天文件管理中按时间或会话清理，先导出重要文件。",
+      "risk": "删除后可能无法恢复聊天附件和本地记录。",
+      "open_note": "请从微信设置进入清理，资源管理器只用于查看，不建议直接删除目录。"
+    },
+    {
+      "name": "剪映数据",
+      "path": "C:\\Users\\ideapad15s\\AppData\\Local\\JianyingPro",
+      "size": "3.3 GB",
+      "content_profile": "项目素材、代理文件和媒体缓存",
+      "why_manual": "可能包含未导出的工程和素材。",
+      "disposal": "在剪映的缓存/草稿管理中清理已完成项目，先确认导出文件可用。",
+      "risk": "误删草稿或代理文件会影响项目继续编辑。"
+    },
+    {
+      "name": "npm 全局数据",
+      "path": "C:\\Users\\ideapad15s\\AppData\\Roaming\\npm",
+      "size": "2.8 GB",
+      "content_profile": "全局安装的 Node.js 工具和包",
+      "why_manual": "可能包含正在使用的命令行工具。",
+      "disposal": "用 npm list -g --depth=0 查看后，使用 npm uninstall -g <包名> 移除不用的包。",
+      "risk": "删除会使相关命令不可用，需要重新安装。"
+    },
+    {
+      "name": "应用数据总目录",
+      "path": "C:\\Users\\ideapad15s\\AppData",
+      "size": "69.3 GB",
+      "content_profile": "多个应用的设置、缓存和用户数据",
+      "why_manual": "这是汇总目录，包含大量不可替代的应用数据。",
+      "disposal": "按应用逐项进入设置清理缓存，避免直接删除 AppData。",
+      "risk": "直接删除会导致应用重置、数据丢失或无法启动。"
+    }
+  ],
+  "red": [
+    {
+      "name": "Program Files 应用本体",
+      "path": "C:\\Program Files",
+      "size": "16.0 GB",
+      "why_keep": "包含 Docker、Office、腾讯、WSL、MySQL 等已安装程序。",
+      "indirect_release": "通过 设置 > 应用 > 已安装的应用 正规卸载不再使用的软件。",
+      "auto_reclaim": "系统会在卸载流程中处理注册表、服务和共享组件，不要直接删除目录。",
+      "app_paths": ["C:\\Program Files\\Docker", "C:\\Program Files\\Microsoft Office", "C:\\Program Files\\Tencent", "C:\\Program Files\\WSL"]
+    },
+    {
+      "name": "Program Files (x86) 应用本体",
+      "path": "C:\\Program Files (x86)",
+      "size": "14.0 GB",
+      "why_keep": "包含 Microsoft、Lenovo、Steam、Arm GNU Toolchain 等程序。",
+      "indirect_release": "通过 设置 > 应用 > 已安装的应用 或软件自带卸载器卸载。",
+      "auto_reclaim": "卸载程序后再检查残留，不建议手动删除。",
+      "app_paths": ["C:\\Program Files (x86)\\Steam", "C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi", "C:\\Program Files (x86)\\Lenovo"]
+    }
+  ],
+  "denied": ["C:\\Windows\\WinSxS", "C:\\Windows\\System32\\config", "C:\\$Recycle.Bin"],
+  "summary": {
+    "overview": "C 盘只剩 19.5 GB，最先应处理可再生开发缓存；确认后可先移入回收站约 1.8 GB，Docker、开发工具链和聊天/媒体数据需要在各自应用内判断。",
+    "tier_stats": {"green": "1.8 GB", "yellow": "31.8 GB", "red": "30.0 GB"},
+    "priority": [
+      "先清理 npm、Playwright 和 Maven 缓存，预计释放约 1.8 GB，相关工具会在需要时重新下载。",
+      "若仍不足，打开 Docker Desktop 清理未使用的镜像和构建缓存，逐项确认卷后再处理。",
+      "随后检查 Arduino/ESP-IDF、VS Code 扩展以及剪映和微信的应用内缓存。",
+      "D 盘剩余空间也只有 19.3 GB，下载和项目归档应同时关注。"
+    ],
+    "long_term": [
+      "启用 Windows 设置 > 系统 > 存储 > 存储感知，定期清理临时文件和回收站。",
+      "每月清理 npm、Maven、Playwright 等开发缓存，并为 Docker 设置磁盘上限。",
+      "将大型视频、归档和不活跃项目迁移到 D 盘或外置存储，保持系统盘至少 15% 可用空间。"
+    ]
+  }
+}

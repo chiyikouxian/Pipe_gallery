@@ -13,7 +13,7 @@
 #include <stdio.h>
 
 #define DBG_TAG "HuaweiCloud"
-#define DBG_LVL (-1)
+#define DBG_LVL DBG_LOG          /* DBG_LOG shows all debug messages */
 #include <rtdbg.h>
 
 /*============================================================================
@@ -110,22 +110,24 @@ static int wait_response(const char *expect, rt_uint32_t timeout)
 }
 
 /**
- * @brief Build ADC data report JSON
+ * @brief Build ADC data report JSON (DEPRECATED - use case 7 instead)
  * @note Report 5-channel ADC line sensor data
  */
+#if 0
 static void build_adc_json(void)
 {
     /* Build Huawei Cloud property report JSON format */
     /* {"services":[{"service_id":"STM32H743","properties":{"ch0":xxx,"ch1":xxx,...}}]} */
     rt_snprintf(json_buf, sizeof(json_buf),
         "{\"services\":[{\"service_id\":\"%s\",\"properties\":{\"ch0\":%u,\"ch1\":%u,\"ch3\":%u,\"ch4\":%u,\"ch5\":%u}}]}",
-        SERVICE_ID_ADC,
+        SERVICE_ID_SENSOR,
         (unsigned int)g_adc_ch0,
         (unsigned int)g_adc_ch1,
         (unsigned int)g_adc_ch3,
         (unsigned int)g_adc_ch4,
         (unsigned int)g_adc_ch5);
 }
+#endif
 
 /*============================================================================
  * Other sensor report functions (commented out, uncomment when needed)
@@ -220,6 +222,149 @@ static void report_all_sensors(void)
 */
 
 #endif /* ===== Other sensor report code end ===== */
+
+/*============================================================================
+ * Debug commands
+ *============================================================================*/
+
+#ifdef RT_USING_FINSH
+#include <finsh.h>
+
+/**
+ * @brief Test ESP8266 connection manually
+ */
+static void test_esp8266(void)
+{
+    extern rt_device_t uart4_device;  /* from uartApp.c */
+    char response[128];
+    int len;
+
+    LOG_I("Testing ESP8266...");
+
+    /* Send AT command */
+    uart4_send("AT\r\n");
+    rt_thread_mdelay(500);
+
+    /* Read response */
+    memset(response, 0, sizeof(response));
+    len = rt_device_read(uart4_device, 0, response, sizeof(response) - 1);
+
+    if (len > 0)
+    {
+        LOG_I("ESP8266 Response (%d bytes): %s", len, response);
+    }
+    else
+    {
+        LOG_E("No response from ESP8266");
+    }
+}
+MSH_CMD_EXPORT(test_esp8266, Test ESP8266 AT command);
+
+/**
+ * @brief Change ESP8266 baud rate for testing
+ */
+static void esp8266_baud(int baud)
+{
+    extern rt_device_t uart4_device;  /* from uartApp.c */
+    extern struct serial_configure uart4_config;
+
+    LOG_I("Changing UART4 baud rate to %d...", baud);
+
+    uart4_config.baud_rate = baud;
+    rt_device_control(uart4_device, RT_DEVICE_CTRL_CONFIG, &uart4_config);
+
+    rt_thread_mdelay(100);
+
+    uart4_send("AT\r\n");
+    rt_thread_mdelay(500);
+
+    LOG_I("Test with 'test_esp8266' command");
+}
+MSH_CMD_EXPORT(esp8266_baud, Change ESP8266 baud rate: esp8266_baud 9600);
+
+/**
+ * @brief Manually upload test data to Huawei Cloud
+ */
+static void huawei_upload_test(void)
+{
+    char cmd[256];
+    int ret;
+
+    LOG_I("Manual upload test started...");
+
+    /* Build simple test JSON */
+    rt_snprintf(json_buf, sizeof(json_buf),
+        "{\"services\":[{\"service_id\":\"%s\","
+        "\"properties\":{"
+        "\"ch0\":1234,"
+        "\"ch1\":5678,"
+        "\"methane_ppm\":100,"
+        "\"temperature\":25.5,"
+        "\"humidity\":60.0"
+        "}}]}",
+        SERVICE_ID_SENSOR);
+
+    LOG_I("Test JSON: %s", json_buf);
+
+    /* Build MQTTPUBRAW command */
+    rt_snprintf(cmd, sizeof(cmd),
+        "AT+MQTTPUBRAW=0,\"%s\",%d,0,0\r\n",
+        HW_MQTT_TOPIC_REPORT,
+        strlen(json_buf));
+
+    LOG_I("Sending MQTT publish command...");
+    uart4_send(cmd);
+    rt_thread_mdelay(500);
+
+    LOG_I("Sending JSON payload...");
+    uart4_send(json_buf);
+    rt_thread_mdelay(1000);
+
+    LOG_I("Upload test complete. Check response on serial.");
+}
+MSH_CMD_EXPORT(huawei_upload_test, Manually upload test data to Huawei Cloud);
+
+/**
+ * @brief Upload custom sensor value
+ */
+static void huawei_upload(int ch0, int ch1, int methane, int temp, int humi)
+{
+    char cmd[256];
+
+    LOG_I("Uploading custom data: ch0=%d ch1=%d methane=%d temp=%d humi=%d",
+          ch0, ch1, methane, temp, humi);
+
+    /* Build custom JSON */
+    rt_snprintf(json_buf, sizeof(json_buf),
+        "{\"services\":[{\"service_id\":\"%s\","
+        "\"properties\":{"
+        "\"ch0\":%d,"
+        "\"ch1\":%d,"
+        "\"methane_ppm\":%d,"
+        "\"temperature\":%d,"
+        "\"humidity\":%d"
+        "}}]}",
+        SERVICE_ID_SENSOR,
+        ch0, ch1, methane, temp, humi);
+
+    LOG_I("JSON: %s", json_buf);
+
+    /* Build MQTTPUBRAW command */
+    rt_snprintf(cmd, sizeof(cmd),
+        "AT+MQTTPUBRAW=0,\"%s\",%d,0,0\r\n",
+        HW_MQTT_TOPIC_REPORT,
+        strlen(json_buf));
+
+    uart4_send(cmd);
+    rt_thread_mdelay(500);
+    uart4_send(json_buf);
+    rt_thread_mdelay(1000);
+
+    LOG_I("Upload complete.");
+}
+MSH_CMD_EXPORT(huawei_upload, Upload custom data: huawei_upload ch0 ch1 methane temp humi);
+
+#endif /* RT_USING_FINSH */
 
 /*============================================================================
  * Public functions
@@ -356,16 +501,23 @@ void huawei_cloud_thread_entry(void *parameter)
 
         case 7:  /* Report all sensor data using MQTTPUBRAW */
         {
+            extern float g_temperature_c;      /* from sht30App.c */
+            extern float g_humidity_rh;        /* from sht30App.c */
+            extern float g_o2_concentration;   /* from o2SensorApp.c */
+            extern float Displacement;         /* from freeModbusApp.c */
+            extern float g_stress_value_n;     /* from stressSensorApp.c */
+            extern BOOL Flame;                 /* from linesensor.h - BOOL type */
+
             int json_len;
             int pos;
 
-            /* Step 1: Build plain JSON with all sensor data */
+            /* Step 1: Build plain JSON with all 20 sensor properties */
             pos = rt_snprintf(json_buf, sizeof(json_buf),
                 "{\"services\":[{\"service_id\":\"%s\","
                 "\"properties\":{"
                 "\"ch0\":%u,\"ch1\":%u,\"ch3\":%u,\"ch4\":%u,\"ch5\":%u,"
                 "\"methane_ppm\":%u,\"methane_lel\":%u,",
-                SERVICE_ID_ADC,
+                SERVICE_ID_SENSOR,
                 (unsigned int)g_adc_ch0,
                 (unsigned int)g_adc_ch1,
                 (unsigned int)g_adc_ch3,
@@ -374,20 +526,46 @@ void huawei_cloud_thread_entry(void *parameter)
                 (unsigned int)g_methane_ppm,
                 (unsigned int)g_methane_lel);
 
-            /* Append float fields (voltage, current, flow) */
+            /* Append voltage fields */
             pos += append_float_field(json_buf + pos, sizeof(json_buf) - pos, "voltage_a", Voltage[0]);
             pos += rt_snprintf(json_buf + pos, sizeof(json_buf) - pos, ",");
             pos += append_float_field(json_buf + pos, sizeof(json_buf) - pos, "voltage_b", Voltage[1]);
             pos += rt_snprintf(json_buf + pos, sizeof(json_buf) - pos, ",");
             pos += append_float_field(json_buf + pos, sizeof(json_buf) - pos, "voltage_c", Voltage[2]);
             pos += rt_snprintf(json_buf + pos, sizeof(json_buf) - pos, ",");
+
+            /* Append current fields */
             pos += append_float_field(json_buf + pos, sizeof(json_buf) - pos, "current_a", Current[0]);
             pos += rt_snprintf(json_buf + pos, sizeof(json_buf) - pos, ",");
             pos += append_float_field(json_buf + pos, sizeof(json_buf) - pos, "current_b", Current[1]);
             pos += rt_snprintf(json_buf + pos, sizeof(json_buf) - pos, ",");
             pos += append_float_field(json_buf + pos, sizeof(json_buf) - pos, "current_c", Current[2]);
             pos += rt_snprintf(json_buf + pos, sizeof(json_buf) - pos, ",");
+
+            /* Append flow */
             pos += append_float_field(json_buf + pos, sizeof(json_buf) - pos, "flow", Flow);
+            pos += rt_snprintf(json_buf + pos, sizeof(json_buf) - pos, ",");
+
+            /* Append temperature & humidity */
+            pos += append_float_field(json_buf + pos, sizeof(json_buf) - pos, "temperature", g_temperature_c);
+            pos += rt_snprintf(json_buf + pos, sizeof(json_buf) - pos, ",");
+            pos += append_float_field(json_buf + pos, sizeof(json_buf) - pos, "humidity", g_humidity_rh);
+            pos += rt_snprintf(json_buf + pos, sizeof(json_buf) - pos, ",");
+
+            /* Append O2 concentration */
+            pos += append_float_field(json_buf + pos, sizeof(json_buf) - pos, "o2", g_o2_concentration);
+            pos += rt_snprintf(json_buf + pos, sizeof(json_buf) - pos, ",");
+
+            /* Append displacement */
+            pos += append_float_field(json_buf + pos, sizeof(json_buf) - pos, "displacement", Displacement);
+            pos += rt_snprintf(json_buf + pos, sizeof(json_buf) - pos, ",");
+
+            /* Append stress */
+            pos += append_float_field(json_buf + pos, sizeof(json_buf) - pos, "stress", g_stress_value_n);
+            pos += rt_snprintf(json_buf + pos, sizeof(json_buf) - pos, ",");
+
+            /* Append flame status */
+            pos += rt_snprintf(json_buf + pos, sizeof(json_buf) - pos, "\"flame\":%d", (int)Flame);
 
             /* Close JSON */
             pos += rt_snprintf(json_buf + pos, sizeof(json_buf) - pos, "}}]}");

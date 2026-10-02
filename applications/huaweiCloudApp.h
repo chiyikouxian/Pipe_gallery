@@ -22,25 +22,25 @@
  */
 
 
-/* WiFi config */
-#define HW_WIFI_SSID           "esp826601S"
-#define HW_WIFI_PASSWORD       "wenjie01"
+/* WiFi config - UPDATE WITH YOUR WiFi CREDENTIALS */
+#define HW_WIFI_SSID           "dmail"
+#define HW_WIFI_PASSWORD       "edqn8272"
 
 /* MQTT server config */
-#define HW_MQTT_HOST           "c8496a111b.st1.iotda-device.cn-east-3.myhuaweicloud.com"
-#define HW_MQTT_PORT           "1883"
+#define HW_MQTT_HOST           "2f49ff4f87.st1.iotda-device.cn-east-3.myhuaweicloud.com"
+#define HW_MQTT_PORT           "1883"    /* Use 1883 for non-encrypted MQTT (ESP8266 compatible) */
 
 /* Device auth - from Huawei Cloud console */
-#define HW_MQTT_DEVICE_ID      "6982e30f18855b39c5f690ba_line_sensor_01"
-#define HW_MQTT_CLIENT_ID      "6982e30f18855b39c5f690ba_line_sensor_01_0_0_2026020406"
-#define HW_MQTT_USERNAME       "6982e30f18855b39c5f690ba_line_sensor_01"
-#define HW_MQTT_PASSWORD       "369ca2bb61e28e3f491fc28d6e35f7a473186964c6ee78ef931b5b42688411f2"
+#define HW_MQTT_DEVICE_ID      "6abf5210e094d61592745069_1776006881"
+#define HW_MQTT_CLIENT_ID      "6abf5210e094d61592745069_1776006881_0_0_2026100206"
+#define HW_MQTT_USERNAME       "6abf5210e094d61592745069_1776006881"
+#define HW_MQTT_PASSWORD       "4c5f30d1439aac277d128a2902f20df4df38636004840eb4a1e3e6a792061916"
 
 /* Report topic */
-#define HW_MQTT_TOPIC_REPORT   "$oc/devices/6982e30f18855b39c5f690ba_line_sensor_01/sys/properties/report"
+#define HW_MQTT_TOPIC_REPORT   "$oc/devices/6abf5210e094d61592745069_1776006881/sys/properties/report"
 
 /* Service ID - must match the service ID defined in Huawei Cloud product model */
-#define SERVICE_ID_ADC      "STM32H743"
+#define SERVICE_ID_SENSOR   "Smarthome"    /* All sensor data service ID */
 
 /* Report interval (ms) */
 #define CLOUD_REPORT_INTERVAL   3000    /* report every 3 seconds */
